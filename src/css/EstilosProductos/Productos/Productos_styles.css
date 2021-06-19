@@ -1,0 +1,52 @@
+.ContainerProducts{
+    border: 2px solid red;
+    background-color: #7DAC46;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+
+/*ESTILOS DE FRUTAS*/
+.ImgFruits img{
+    position: relative;
+    width: 490px;
+    height: 475px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.fruits{
+    margin: 10px 15% 1em;
+    position: relative;
+    width: 490px;
+    height: 475px;
+    overflow: hidden;
+    border-radius: 50%;
+    opacity: 50%;
+    background:#EFD5D5;
+}
+
+
+/*ESTILOS DE VEGETALES */
+
+.ImgVegetables img{
+    position: relative;
+    width: 490px;
+    height: 475px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.vegetables{
+    position: relative;
+    width: 490px;
+    height: 475px;
+    overflow: hidden;
+    border-radius: 50%;
+    opacity: 50%;
+    background:#F3FCBE;
+}
