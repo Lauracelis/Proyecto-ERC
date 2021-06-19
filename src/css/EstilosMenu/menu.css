@@ -9,6 +9,8 @@ body,html{
 .MenuNav{
     font-family: 'Playfair Display', serif;
     background: #022f;
+    width: 100%;
+    position: fixed;
 }
 
 #btn-menu{

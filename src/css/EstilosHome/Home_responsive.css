@@ -1,6 +1,8 @@
 
- .ImagenFondo {
-    background-image: url(/utils/images/Home/paisaje.jpg);
-    width: 100%;
+@media (max-width:768px){
 
+    .Logo img{
+        margin-top: 20%;
+        width: 80%;
+    }
 }
