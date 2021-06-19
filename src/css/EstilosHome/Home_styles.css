@@ -1,0 +1,15 @@
+
+
+.ContainerHome{
+    border: 2px solid red;
+}
+
+.ImagenFondo img{
+   background-size: 100vh 100vh;
+   width: 100%;
+   height: 100vh;
+}
+
+.Logo {
+    display: flex;
+}
