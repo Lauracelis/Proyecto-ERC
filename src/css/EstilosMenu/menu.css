@@ -9,6 +9,8 @@ body,html{
 .MenuNav{
     font-family: 'Playfair Display', serif;
     background: #022f;
+    width: 100%;
+    position: fixed;
 }
 
 #btn-menu{
@@ -48,7 +50,7 @@ body,html{
 
 .NavBar .LiMenu a{
     display: block;
-    padding:15px 20px;
+    padding:1px 20px;
     color: #77e762;
     text-decoration:none;
     text-transform: uppercase;
