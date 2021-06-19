@@ -37,6 +37,7 @@ body,html{
 
 .NavBar .List{
     margin: 0;
+    width: 100%;
     list-style: none;
     padding: 0;
     display: flex;
