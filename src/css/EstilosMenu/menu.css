@@ -8,7 +8,7 @@ body,html{
 
 .MenuNav{
     font-family: 'Playfair Display', serif;
-    background: #022f;
+    background: #02250F;
     width: 100%;
     position: fixed;
 }
@@ -63,7 +63,7 @@ body,html{
 
 /* ESTE SON LOS ESTILOS PARA EL Menú*/
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
 
     .MenuNav label{
         display: block;
@@ -71,7 +71,7 @@ body,html{
     
     .NavBar{
         position: absolute;
-        background: #022f;
+        background: #02250F;
         width: 60%;
         margin-left: -80%;
         transition: all 0.5s;

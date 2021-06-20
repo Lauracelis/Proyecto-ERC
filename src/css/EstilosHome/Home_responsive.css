@@ -1,5 +1,16 @@
 
-@media (max-width:768px){
+@media (max-width:410px){
+
+    .Logo img{
+        margin-top: 155%;
+        width: 80%;
+    }
+
+}
+
+
+
+@media (max-width:980px){
 
     .Logo img{
         margin-top: 20%;
@@ -7,13 +18,18 @@
     }
 
     .Scroll{
-        margin: 25px;
+        margin-top: 15%;
        display: flex;
       justify-content: center;
     }
     
 
     .Scroll img{
-        width: 50%;
+        width: 70%;
     }
+
+
+
+
+    
 }
