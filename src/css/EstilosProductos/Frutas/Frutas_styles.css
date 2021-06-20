@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*font-family: 'Playfair Display', serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.ContainerFruits{
+    background: #02250F;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.TitleFruits{
+    border-radius: 5px;
+    color: white;
+    background: #7DAC46;
+    width: 20%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+/*ESTILOS DE LAS OFERTAS*/
+
+
+.TitleOffers{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    border-radius: 5px;
+    color: white;
+    background: #02250f;
+    width: 20%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+/*ESTILOS DE LAS CARTAS*/
+
+.ContainerOffers{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7DAC46;
+    height: auto;
+    width: 100%;
+
+}
+
+
+.card{
+    width: 50%;
+    display: flex;
+}
+
+.card-text{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.CardsOffers{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:768px) {
+    .CardsOffers{
+    display: flex;
+    flex-direction: column;
+    }
+}
