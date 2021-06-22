@@ -1,36 +1,36 @@
 
-@media (max-width:768px) {
+
+
+
+
+
+
+@media (max-width:1075px) {
 
    .ContainerProductos{
        flex-direction: column;
        align-items: center;
+       justify-content: space-around;
    }
 
-   .fruits{
+   .Fruits{
     display: flex;
-    width: 300px;
-    height: 55%;
-    margin: 0 0 10% 0;
+    width: 250px;
+    height: 250px;
    }
 
-   .vegetables{
+   .Vegetables{
+    
     display: flex;
-    width: 300px;
-    height: 55%;
-    margin: 0 0 10% 0;
+    width: 250px;
+    height: 250px;
+    margin: 10% 0 10% 0;
    }
 
-   .buttonVegetable{
-    display: flex;
-    margin:45% 5px 0 16%;
-    align-items: center;
-   }
-
-   .buttonFruit{
-    display: flex;
-    margin:45% 0 0 25%;
-    align-items: center;
-   }
 }
+
+
+
+   
 
 

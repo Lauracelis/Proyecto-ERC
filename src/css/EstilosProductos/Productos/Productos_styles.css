@@ -5,70 +5,50 @@
 
 #Productos{
     background-color: #7DAC46;
-    height: 100vh;
+    background-size: 100% 100%;
+    height: 100%;
     width: 100%;
 }
 
 .ContainerProductos{
-    padding: 5% 0 15% 0;
+    padding: 10% 2% 10% 2%;
     display: flex;
-    height: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
 /*ESTILOS DE FRUTAS*/
-.ImgFruits{
-    background-image: url('/utils/images/Products/Fruits/Botones/Frutas.jpg');
+.Fruits{
+    background-image: url('/utils/images/Products/Fruits/Botones/Frutas.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
     border-radius: 50%;
-}
-
-.fruits{
-    margin: 0 5% 0 10%;
-
-    overflow: hidden;
-    border-radius: 50%;
-    width: 60%;
-    height: 65%;
-    background:#EFD5D5;
-
+    width: 500px;
+    height: 500px;
 }
 
 
 /*ESTILOS DE VEGETALES */
 
-.ImgVegetables{
-    background-image: url('/utils/images/Products/Vegetables/BOTONES/verduras.jpg');
+.Vegetables{
+    background-image: url('/utils/images/Products/Vegetables/BOTONES/verduras.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
     border-radius: 50%;
+    width: 500px;
+    height: 500px;
 }
 
-.vegetables{
-    margin: 0 10% 0 5%;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    opacity: 50%;
-    width: 60%;
-    height: 65%;
-    background:#F3FCBE;
-}
+
 
 /*ESTILOS DE BOTONES*/
 
+
+
 .buttonVegetable{
     display: flex;
-    justify-content: center;
-    margin:45% 0 10% 30%;
+    align-items: center;
+    margin:45% 5% 0 35%;
     padding: 2%;
 	border-radius: 5px;
 	font-size: 30px;
@@ -76,6 +56,7 @@
 	font-family: 'Playfair Display', serif;
     text-transform: uppercase;
 	letter-spacing: 5px;
+    text-decoration: none;
 	border: none;
     outline: none;
 	color:#151614;
@@ -105,11 +86,11 @@
     background: rgba(250, 147, 147) ;
 }
 
-.ImgFruits a{
+.Fruits a{
     text-decoration: none;
 }
 
-.ImgVegetables a{
+.Vegetables a{
     text-decoration: none;
 }
 
