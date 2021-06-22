@@ -1,13 +1,8 @@
 
-
-
-
-
-
-
 @media (max-width:1075px) {
 
    .ContainerProductos{
+       padding: 10% 2% 10% 25%;
        flex-direction: column;
        align-items: center;
        justify-content: space-around;
@@ -27,10 +22,16 @@
     margin: 10% 0 10% 0;
    }
 
+   .buttonVegetable {
+    display: flex;
+    align-items: center;
+    margin: 45% 5% 0px 15%;
+
 }
 
+.buttonFruit{
+    margin: 65% 0 0 35%;
+    padding: 2%;
+}
 
-
-   
-
-
+}

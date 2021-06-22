@@ -5,7 +5,7 @@
     padding: 5% 0 5% 0;
 }
 
-
-
-
-
+.visually-hidden{
+    width: 50px;
+    color: green;
+}

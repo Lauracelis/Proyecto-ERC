@@ -54,4 +54,7 @@
         justify-content: center;
     }
     
+    .cajitafooter .frase {
+        color: rgb(119, 231, 98);
+        font-size: 9px;
 }

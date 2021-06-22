@@ -6,27 +6,26 @@
     padding: 0;
 }
 
-
-.ContainerFruits{
-    background: #02250F;
-    height: 100vh;
-    width: 100%;
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-
-
-.TitleFruits{
-    border-radius: 5px;
-    color: white;
-    background: #7DAC46;
-    width: 20%;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Playfair Display', serif;
-
-}
 
 /*ESTILOS DE LAS OFERTAS*/
+
+.ContainerOfferts{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px 0;
+    background: #7DAC46;
+}
+
 
 
 .TitleOffers{
@@ -49,36 +48,36 @@
 
 /*ESTILOS DE LAS CARTAS*/
 
-.ContainerOffers{
-    flex-direction: column;
+.card img{
+    width: 20%;
+    height: 15%;
+}
+
+.ContainerOfferts .card{
+    position: relative;
+    height: 250px;
+    background: white;
+    display: flex;
+    width: 45%;
+    margin: 30px 0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.ContainerOfferts .card .imgBx{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    background: rgba(243, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    height: calc(100%-20px);
+    width: calc(100%-20px);
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #7DAC46;
-    height: auto;
-    width: 100%;
-
-}
-
-
-.card{
-    width: 50%;
-    display: flex;
-}
-
-.card-text{
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-}
-
-.CardsOffers{
-    display: flex;
-    flex-direction: row;
-}
-
-@media (max-width:768px) {
-    .CardsOffers{
-    display: flex;
-    flex-direction: column;
-    }
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid rgba(238, 137, 137, 0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
 }

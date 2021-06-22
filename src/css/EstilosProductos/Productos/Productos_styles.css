@@ -31,6 +31,7 @@
 /*ESTILOS DE VEGETALES */
 
 .Vegetables{
+    background-color: green;
     background-image: url('/utils/images/Products/Vegetables/BOTONES/verduras.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -60,7 +61,7 @@
 	border: none;
     outline: none;
 	color:#151614;
-    background: linear-gradient(304deg, rgba(76, 245, 127, 0.696) 16%, rgba(22, 218, 87, 0.749) 60%);
+    background: linear-gradient(304deg, rgba(76, 245, 127, 0.696) 90%, rgba(22, 218, 87, 0.749) 100%);
 }
 
 .buttonFruit{
@@ -75,7 +76,7 @@
 	border: none;
     outline: none;
 	color:black;
-    background:linear-gradient(304deg,rgba(250, 147, 147,0.696)  16%, rgba(250, 147, 147,0.696)60%); ;
+    background:linear-gradient(304deg,rgba(250, 147, 147,0.696)  90%, rgba(250, 147, 147,0.696)100%); ;
 }
 
 .buttonVegetable:hover{
@@ -83,7 +84,7 @@
 }
 
 .buttonFruit:hover{
-    background: rgba(250, 147, 147) ;
+    background: rgb(247, 126, 126) ;
 }
 
 .Fruits a{
