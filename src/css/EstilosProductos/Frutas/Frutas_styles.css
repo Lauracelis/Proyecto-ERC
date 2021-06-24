@@ -1,27 +1,141 @@
 /*IMPORTACIÓN DE FUENTES*/
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 /*font-family: 'Playfair Display', serif;*/
 
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display&display=swap');
 /*font-family: 'Alice', serif;*/
 
-*{
-   margin:0;
-   padding:0;
-   box-sizing: border-box;
+
+body,html{
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    display: flex;
+
+#frutas{
     background: #02250F;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.titleFruit{
+    display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-attachment: fixed;
+    margin: 2%;
 }
 
-h3{
+.titleFruit h1{
+    background-color: #7DAC46;
+    padding: 10px 3% 10px 3%;
+    border-radius: 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #02250F;
+}
+
+.contentFruits{
+    border:1px solid red;
+    width: auto;
+}
+
+.contentCards{
+ margin: 30px;
+ padding: 10px;
+ border: 1px solid blue;
+ display: grid;
+ grid-template-columns: 50% 50% ;
+ grid-template-rows: 550px ;
+ align-items: center;
+
+}
+
+.contentCards .card{
+    position: relative;
+    height: 500px;
+    background: #fafafa;
+    display: flex;
+    width: 350px;
+    margin: 30px 0 0 25%;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0, 1);
+}
+
+.contentCards .card .imgBx{
+    background: rgb(211, 203, 224, 0.1);
+    margin-right: 50px;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    backdrop-filter: blur(20px);
+    height: calc(100%-20px);
+    width: calc(100%-20px);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255, 0.2);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease-in-out;
+
+}
+
+.contentCards .card:hover .imgBx{
+    right: 50px;
+    top:200px;
+    height: 200px;
+    width: 150px;
+    left: -100px;
+    top: calc(50%-75px);
+}
+
+.contentCards .card .imgBx img{
+    max-width: 150px;
+    transition: 0.5s ease-in-out;
+}
+
+.contentCards .card:hover .imgBx img{
+    max-width: 95px;
+}
+
+.contentCards .card .content{
+    position: absolute;
+    right: 0;
+    width: calc(100% - 75px);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentCards .card .content h3{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.contentCards .card .content a{
+    font-size: 20px;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    width: 120px;
+}
+
+.content .contentCards h3{
     text-transform: uppercase;
     text-align: center;
     font-family: 'Playfair Display', serif;
@@ -51,155 +165,12 @@ h3{
     color:green;
 }
 
-p, li{
+.content .contentCards p li{
     margin-left: 15%;
     font-size: 20px;
     font-family: 'Alice', serif;
 }
 
-
-/*ESTILOS DEL CONTAINER*/
-.title{
-    width: 1000px;
-    text-align: center;
-    background-color: #7DAC46;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20px;
-    padding: 20px 0;
-    border-radius: 20PX;
-
-}
-
-#titulo{
-    font-family: 'Playfair Display', serif;
-    font-size: 35px;
-    margin-left: 45%;
-}
-
-
-.container{
-    position: relative;
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20px;
-    padding: 20px 0;
-
-}
-
-.container .card{
-    position: relative;
-    height: 650px;
-    background: #fafafa;
-    display: flex;
-    width: 45%;
-    margin: 30px 0;
-    border-radius: 20px;
-    box-shadow: 0 5px 15px rgba(0,0,0, 1);
-}
-
-.container .card .imgBx{
-    background: rgb(211, 203, 224, 0.1);
-    margin-right: 50px;
-    width: 95%;
-    height: 95%;
-    position: absolute;
-    top: 15px;
-    left: 12px;
-    backdrop-filter: blur(20px);
-    height: calc(100%-20px);
-    width: calc(100%-20px);
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    border-radius: 20px;
-    border: 1px solid rgba(255,255,255, 0.2);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-    transition: 0.5s ease-in-out;
-
-}
-
-#CardMora{
-    background: rgb(159, 136, 197, 0.9);
-}
-
-#CardPitahaya{
-    background: rgba(219, 209, 115, 0.9);
-
-}
-
-#CardFresa{
-    background: rgba(236, 152, 152, 0.9);
-}
-
-#CardMandarina{
-    background: rgba(236, 186, 111, 0.9);
-}
-
-#CardBanano{
-    background: rgba(252, 246, 163, 0.9);
-}
-
-#CardGuanabana{
-    background: rgba(116, 238, 157, 0.9);
-}
-
-
-
-.container .card:hover .imgBx{
-    right: 50px;
-    top:200px;
-    height: 200px;
-    width: 150px;
-    left: -75px;
-    top: calc(50%-75px);
-}
-
-.container .card .imgBx img{
-    max-width: 150px;
-    transition: 0.5s ease-in-out;
-}
-
-.container .card:hover .imgBx img{
-    max-width: 95px;
-}
-
-.container .card .content{
-    position: absolute;
-    right: 0;
-    width: calc(100% - 75px);
-    height: 100%;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container .card .content h3{
-    margin-top: 25px;
-    margin-bottom: 5px;
-    font-size: 25px;
-}
-
-.container .card .content a{
-    font-size: 20px;
-    align-items: center;
-    display: inline-block;
-    text-align: center;
-    margin-top: 10px;
-    padding: 8px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    width: 120px;
-}
 
 #BananaA{
     background: #dfdb15;
@@ -224,3 +195,8 @@ p, li{
 #guanabanaA{
     background: #1b7a38;
 }
+
+
+
+
+
