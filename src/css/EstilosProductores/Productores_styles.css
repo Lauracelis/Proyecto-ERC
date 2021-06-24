@@ -12,6 +12,11 @@ body,html{
 
 /* ESTILOS PARA EL CONTENEDOR PRINCIPAL */
 
+.ContainerProductores{
+  background-color: fuchsia;
+  height: 100vh;
+}
+
 .container {
     padding:90px 80px 20px;
     border: 1px solid blue;

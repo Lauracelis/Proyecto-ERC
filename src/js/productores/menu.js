@@ -5,6 +5,8 @@ function inicio(){
 	segundo.style.display="flex";
 	let tercero= document.getElementsByClassName("ContainerProductos")[0];
 	tercero.style.display="flex";
+    let cuarto= document.getElementsByClassName("ContainerProductores")[0];
+	cuarto.style.display="none";
 }
 
 function quienes(){
@@ -25,8 +27,4 @@ function productos(){
 	tercero.style.display="none";
 }
 
-function productores(){
-    let principal= document.getElementsByClassName("containerProductores")[0];
-	principal.style.display="flex";
-}
 
