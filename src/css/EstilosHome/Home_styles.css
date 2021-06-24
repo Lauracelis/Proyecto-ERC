@@ -12,7 +12,7 @@
     width: 100%;
 }
 .ImagenFondo{
-    background-image: url("../../../utils/images/Home/paisaje.jpg");
+    background-image: url("../../utils/images/Home/paisaje.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
