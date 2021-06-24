@@ -1,5 +1,5 @@
 var timelineSwiper = new Swiper ('.timeline .swiper-container', {
-    direction: 'vertical',
+    direction: 'vertical', //Para establecer la dirección del texto
     loop: false,
     speed: 1600,
     pagination: '.swiper-pagination',
