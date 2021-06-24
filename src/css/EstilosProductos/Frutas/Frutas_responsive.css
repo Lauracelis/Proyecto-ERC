@@ -1,12 +1,16 @@
-@media (max-width:992px){
-    .container{
-        position: relative;
-        width: 100%;
-        flex-direction: column;
+@media (max-width:1024px){
+    .contentCards{
+        margin: 50px;
+        padding: 10px;
+        border: 1px solid blue;
+        display: grid;
+        grid-template-columns: 50%;
+        grid-template-rows: 550px ;
         align-items: center;
+       
     }
 
-    .container .card{
+    .contentCards .card{
         width: 300px;
         height: auto;
         flex-direction: column;
@@ -16,28 +20,28 @@
 
     }
 
-    .container .card .imgBx{
+    .contentCards .card .imgBx{
         position: relative;
     }
 
-    .container .card .imgBx, 
-    .container .card:hover .imgBx{
+    .contentCards .card .imgBx, 
+    .contentCards .card:hover .imgBx{
        width:80%;
        height: 200px;
        top: 100px;
        left: 10%;
     }
 
-    .container .card:hover .imgBx{
+    .contentCards .card:hover .imgBx{
         top: 80px;
      }
 
-    .container .card .imgBx img ,
-    .container .card:hover .imgBx img{
+     .card .imgBx img ,
+    .card:hover .imgBx img{
        max-width:100px;
     }
 
-    .container .card .content{
+    .contentCards .card .content{
         position: relative;
         width: 100%;
         background: white;
