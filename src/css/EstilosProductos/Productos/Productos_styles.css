@@ -8,7 +8,7 @@
     height: 91vh;
     width: 100%;
     background-color: #7DAC46;
-    padding: 15% 2% 10% 2%;
+    padding: 10% 2% 10% 2%;
     display: flex;
     justify-content: space-around;
 }
@@ -16,6 +16,7 @@
 
 /*ESTILOS DE FRUTAS*/
 .Fruits{
+    
     background-image: url('/utils/images/Products/Fruits/Botones/Frutas.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;

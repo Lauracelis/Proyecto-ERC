@@ -24,3 +24,9 @@ function productos(){
 	let tercero= document.getElementsByClassName("Quien")[0];
 	tercero.style.display="none";
 }
+
+function productores(){
+    let principal= document.getElementsByClassName("containerProductores")[0];
+	principal.style.display="flex";
+}
+
