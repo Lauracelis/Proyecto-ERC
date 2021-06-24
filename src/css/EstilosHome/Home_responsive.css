@@ -26,6 +26,20 @@
         justify-content: end;
     }
 
+    .cajitafooter img{
+         margin-left: 3%;
+         width: 50px;
+    }
+
+    .RedesSociales img{
+        width: 30px;
+    }
+
+    .cajitafooter .frase{
+        font-size: 15px;
+    }
+    
+
 }
 
 
@@ -58,4 +72,13 @@
         color: rgb(119, 231, 98);
         font-size: 9px;
     }
+
+    .cajitafooter img{
+        margin-left: 3%;
+         width: 50px;
+    }
+    
+        .RedesSociales {
+            margin-left: 300px;
+        }
 }

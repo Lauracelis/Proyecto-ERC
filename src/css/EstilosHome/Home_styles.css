@@ -77,16 +77,21 @@ margin-left: 3%;
 }
 
 .RedesSociales{
-  margin-left: 5%;
+  margin-left: 500px;
   display: flex;
    justify-content: flex-end;
 }
 
 .RedesSociales img{
-    border-radius: 50%; 
-    margin-right: 29px;
-    width: 3%;
-    margin-left: 1%;
+    margin-right: 10px;
+    width: 40px;
     
+}
+
+
+.RedesSociales a{
+    border-radius: none;
+    color: none;
+    text-decoration: none;
 }
 
