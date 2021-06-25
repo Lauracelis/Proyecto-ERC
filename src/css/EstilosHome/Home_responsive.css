@@ -2,7 +2,7 @@
 @media only screen and (max-width:420px){
 
     .ImagenFondo{
-        background-image: url("../../../utils/images/Home/paisajeparacel.png");
+        background-image: url("../../utils/images/Home/paisajeparacel.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;

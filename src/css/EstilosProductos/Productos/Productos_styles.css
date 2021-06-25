@@ -17,8 +17,7 @@
 
 /*ESTILOS DE FRUTAS*/
 .Fruits{
-    
-    background-image: url('/utils/images/Products/Fruits/Botones/Frutas.png');
+    background-image: url('../../../utils/images/Products/Fruits/Botones/frutas.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -31,7 +30,7 @@
 
 .Vegetables{
     background-color: green;
-    background-image: url('/utils/images/Products/Vegetables/BOTONES/verduras.png');
+    background-image: url('../../../utils/images/Products/Vegetables/BOTONES/verduras.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -48,7 +47,7 @@
 .buttonVegetable{
     display: flex;
     align-items: center;
-    margin:45% 5% 0 35%;
+    margin:45% 5% 0 28%;
     padding: 2%;
 	border-radius: 5px;
 	font-size: 30px;

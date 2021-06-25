@@ -16,7 +16,7 @@ body,html{
     background: #02250F;
     padding-top: 50px;
     width: 100%;
-    height: 100%;
+    height: 195vh;
 }
 
 .titleFruit{
@@ -37,14 +37,12 @@ body,html{
 }
 
 .contentFruits{
-    border:1px solid red;
     width: auto;
 }
 
 .contentCards{
  margin: 30px;
  padding: 10px;
- border: 1px solid blue;
  display: grid;
  grid-template-columns: 50% 50% ;
  grid-template-rows: 550px ;
@@ -69,7 +67,7 @@ body,html{
     width: 95%;
     height: 95%;
     position: absolute;
-    top: 15px;
+    top: 10px;
     left: 12px;
     backdrop-filter: blur(20px);
     height: calc(100%-20px);
@@ -116,7 +114,7 @@ body,html{
 }
 
 .contentCards .card .content h3{
-    margin-top: 25px;
+    margin-top: 2px;
     margin-bottom: 5px;
     font-size: 25px;
 }
@@ -200,7 +198,6 @@ body,html{
     .contentCards{
         margin: 50px;
         padding: 10px;
-        border: 1px solid blue;
         display: grid;
         grid-template-columns: 50%;
         grid-template-rows: 550px ;
@@ -213,12 +210,13 @@ body,html{
         height: auto;
         flex-direction: column;
         background: transparent;
-        margin: -20px 0;
         box-shadow: none;
 
     }
 
     .contentCards .card .imgBx{
+        margin-top: 25%;
+        margin-left: 15%;
         position: relative;
     }
 
@@ -259,6 +257,3 @@ body,html{
 
 
 }
-
-
-
