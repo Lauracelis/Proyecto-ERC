@@ -12,7 +12,7 @@
     width: 100%;
 }
 .ImagenFondo{
-    background-image: url("../../../utils/images/Home/paisaje.jpg");
+    background-image: url("../../utils/images/Home/paisaje.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -77,14 +77,15 @@ margin-left: 3%;
 }
 
 .RedesSociales{
-  margin-left: 500px;
+margin-top: 2%;
+width: 47%;
+justify-content: flex-end;
   display: flex;
-   justify-content: flex-end;
 }
 
 .RedesSociales img{
     margin-right: 10px;
-    width: 40px;
+    width: 32px;
     
 }
 
@@ -95,3 +96,6 @@ margin-left: 3%;
     text-decoration: none;
 }
 
+.frase{
+    margin-left: 50%;
+}
