@@ -8,6 +8,8 @@ body,html{
     padding: 0;
 }
 
+/*propiedades para la línea del tiempo*/
+
 .container {
     padding:90px 80px 20px;
     border: 1px solid blue;
@@ -232,13 +234,14 @@ body,html{
   }
 
 
+/* RESPONSIVE*/
+
 
   @media screen and (max-width: 1024px) {
 
     .swiper-slide{
       width: 100%;
     }
-    
     
     .timeline .swiper-slide::after {
       right: -115%;
@@ -250,8 +253,6 @@ body,html{
       border-radius: 100%;
     }
   
-  
-    
     .timeline .swiper-slide-content {
       text-align: center;
       width: 80%;
@@ -262,15 +263,13 @@ body,html{
       transform: translate(50%, 0);
       font-size: 12px;
     }
-
-
+  
     .timeline .swiper-slide .timeline-year {
     
       font-size: 42px;
       margin-bottom: 50px;
       opacity: 0;
     }
-  
   
     .timeline .swiper-slide .timeline-title {
       font-size: 30px;
@@ -281,8 +280,6 @@ body,html{
     .timeline .swiper-pagination {
       display: flex;
     }
-
-
 
     .timeline .swiper-slide .timeline-text {
       line-height: 1.5;
@@ -386,6 +383,171 @@ body,html{
       transform: rotate(180deg) translate(0, 10px);
 
     }
-     
+  }
+
+
+
+  /* ESTILOS PARA LAS CARTAS DE CONTAINER CAMPESINOS*/
+
+
+  .containerCampesinos{
+    border: 1px solid red;
+    background-color: #7DAC4E;
+    padding: 3%;
+ }
+
+ .contentCampesinos{
+   display: grid;
+   grid-template-columns: 2fr 2fr;
+   border: 1px solid blue;
+   padding: 1%;
+   align-items: center;
+ }
+
+.card{
+  width: 598px;
+  height: 251px;
+  top: 37px;
+  display: grid;
+  grid-template-columns: 1.3fr 2fr;
+  grid-template-rows: 251px 251px;
+  margin: 2%;
+  background-color: #02250F;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card .imagePerfil{
+  background-color:  #fff;
+  border-radius: 10px 150px 0 10px;
+}
+
+.card .titleCamp h2{
+  margin-top:6%;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+  font-size: 23px;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card .contentText{
+  margin: 5%;
+  justify-content: center;
+  background-color: white;
+  padding: 3%;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card .contentText p{
+  padding: 3%;
+  text-align: justify;
+  font-family: 'Alice', serif;
+  font-size: 15px;
+}
+
+.containerCampesinos .titleAlgunasHis{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 15px;
+}
+
+.containerCampesinos .titleAlgunasHis h1{
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 200px;
+  
+}
+
+.titleAlgunasHis h1 {-webkit-animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both}
+
+ @-webkit-keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+
+
+
+
+ /*RESPONSIVE*/
+
+
+
+@media screen and (max-width:768px){
+  .contentCampesinos{
+    grid-template-columns: 2fr;
+    row-gap: 10px;
+    column-gap: 30px
+  }
+  .card{
+    width: auto;
+    height: 200px;
+    row-gap: 10px;
+    grid-template-columns: 35% 1fr;
+  grid-template-rows: 200px 200px;
   }
   
+  .card .titleCamp h2{
+    font-size: 15px;
+  }
+
+  .card .contentText {
+    margin-top: 15%;
+    padding: 3%;
+    overflow: hidden;
+}
+
+.containerCampesinos .titleAlgunasHis h1 {
+  font-size: 25px;
+  text-align: center;
+}
+.card .imagePerfil{
+  background-color:  #fff;
+  border-radius: 10px 80% 0 10px;
+}
+.card .contentText p {
+  padding: 3%;
+  font-size: 10px;
+  overflow: hidden;
+}
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+  .contentCampesinos{
+    grid-template-columns: 2fr;
+    row-gap: 10px;
+    column-gap: 30px
+    
+  }
+  .card{
+    width: auto;
+    height: 240px;
+    grid-template-columns: 35% 1fr;
+    grid-template-rows: 240px 240px;
+  }
+  
+  .card .titleCamp h2{
+    font-size: 25px;
+  }
+
+  .card .contentText {
+    margin-top: 5%;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.containerCampesinos .titleAlgunasHis h1 {
+  font-size: 15px;
+  text-align: center;
+}
+.card .imagePerfil{
+  background-color:  #fff;
+  border-radius: 10px 80% 0 10px;
+}
+.card .contentText p {
+  padding: 2%;
+  font-size: 18px;
+  overflow: hidden;
+}
+}
