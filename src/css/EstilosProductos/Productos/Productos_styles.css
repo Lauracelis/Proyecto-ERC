@@ -8,6 +8,7 @@
     height: 91vh;
     width: 100%;
     background-color: #7DAC46;
+    padding: 10% 2% 10% 2%;
     padding: 8% 5% 5% 0px;
     display: flex;
     justify-content: space-around;
@@ -46,7 +47,7 @@
 .buttonVegetable{
     display: flex;
     align-items: center;
-    margin:45% 5% 0 35%;
+    margin:45% 5% 0 28%;
     padding: 2%;
 	border-radius: 5px;
 	font-size: 30px;
