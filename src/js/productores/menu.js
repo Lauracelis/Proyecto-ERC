@@ -5,6 +5,8 @@ function inicio(){
 	segundo.style.display="flex";
 	let tercero= document.getElementsByClassName("ContainerProductos")[0];
 	tercero.style.display="flex";
+    let cuarto= document.getElementsByClassName("ContainerProductores")[0];
+	cuarto.style.display="none";
 }
 
 function quienes(){
@@ -14,6 +16,8 @@ function quienes(){
 	segundo.style.display= "none";     
 	let tercero= document.getElementsByClassName("ContainerProductos")[0];
 	tercero.style.display="none";
+    let cuarto= document.getElementsByClassName("ContainerProductores")[0];
+	cuarto.style.display="none";
 }
 
 function productos(){
@@ -23,4 +27,8 @@ function productos(){
 	segundo.style.display= "none";
 	let tercero= document.getElementsByClassName("Quien")[0];
 	tercero.style.display="none";
+    let cuarto= document.getElementsByClassName("ContainerProductores")[0];
+	cuarto.style.display="none";
 }
+
+
