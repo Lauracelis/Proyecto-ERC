@@ -13,35 +13,164 @@ body,html{
 
 
 #frutas{
-    background: #02250F;
+    align-items: center;
+    background: #041c0d;
     padding-top: 50px;
     width: 100%;
     height: auto;
 }
 
-.titleFruit{
+
+/*ESTILOS DE NUESTROS PRODUCTOS*/
+.containerProductos{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#7DAC46;
+}
+
+
+
+.card{
+    margin-left: 30%;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: bisque;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0,0,0,0.25);
+    transition: 1s;
+}
+
+.card:hover{
+    transform: translateX(50%);
+}
+
+
+.card .imgBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    background: black;
+    transition: 1s;
+    box-shadow: 10px 20px 40px rgba(0,0,0,0.25);
+}
+
+
+.card:hover .imgBox{
+    transform: rotateY(-180deg);
+}
+
+.card .imgBox img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.card .imgBox img:nth-child(2){
+    transform: rotateY(180deg);
+}
+
+
+
+
+.card .details{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2%;
 }
 
-.titleFruit h1{
-    background-color: #7DAC46;
-    padding: 10px 3% 10px 3%;
-    border-radius: 20px;
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #02250F;
+.card .details .content h2{
+    width: 90%;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.card .details .content h2 span{
+    color: red;
+    font-size: 0.8em;
+}
+
+.card .details .content .social-icons{
+    position: relative;
+    display: flex;
+    margin-top:10px;
+}
+
+.card .details .content .social-icons a{
+    width: 35px;
+    height: 35px;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+p{  
+    width: 80%;
+    text-align: justify;
+}
+
+
+.card .details .content .social-icons a:hover{
+    background-color: orange;
+}
+
+@media (max-width:1024px) {
+
+    .containerProductos{
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    
+.card{
+    margin-top: 5%;
+}
+}
+
+.titleFruit{
+    border-bottom: 5px solid rgb(145, 236, 145);
+    height: 100vh;
+}
+
+.titleFruit img{
+    margin-left: 10%;
+    background-size: 100% 100%;
+    width: 80%;
+    height: 100%;
 }
 
 .contentFruits{
+    background: #041c0d;
     width: auto;
 }
 
 .contentCards{
- margin: 30px;
+ margin: 15px;
  padding: 10px;
  display: grid;
  grid-template-columns: 50% 50% ;
