@@ -14,7 +14,6 @@
             height: auto;
             flex-direction: column;
             background: transparent;
-            margin: -20px 0;
             box-shadow: none;
     
         }
@@ -58,7 +57,7 @@
         }
 
         #frutas{
-            background: #02250F;
+            background: #041c0d;
             padding-top: 50px;
             width: 100%;
             height: 100%;
