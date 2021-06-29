@@ -22,6 +22,37 @@ body,html{
 
 
 /*ESTILOS DE NUESTROS PRODUCTOS*/
+.button-whastapp{
+    width: 150px;
+    margin-left: 50%;
+    align-items: center;
+    display: flex;
+    font-family: 'Alice', serif;
+    text-decoration: none; 
+    margin: 1em auto; 
+    color: #fff; 
+    font-size: 1.2em;
+    padding: 1em 2em 1em 3.5em;
+    border-radius: 2em;
+    font-weight: bold;
+    background-color: #25d366;
+    background-size: 1.6em;
+
+}
+
+.botonsito{
+    border-bottom: 3px solid #041c0d;
+    background-color:#7DAC46;
+    display: flex;
+    text-align: center;
+}
+
+.botonsito2{
+    background-color:#7DAC46;
+    display: flex;
+    text-align: center;
+}
+
 .containerProductos{
     margin: 0;
     padding: 0;
@@ -30,18 +61,18 @@ body,html{
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 60vh;
     background-color:#7DAC46;
 }
 
 
 
 .card{
-    margin-left: 30%;
+    margin-left: 35%;
     position: relative;
     width: 300px;
     height: 400px;
-    background-color: bisque;
+    background-color: white;
     transform-style: preserve-3d;
     transform: perspective(1000px);
     box-shadow: 10px 20px 40px rgba(0,0,0,0.25);
@@ -130,24 +161,39 @@ p{
 }
 
 
-@media (max-width:1024px) {
-
-    .containerProductos{
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    
-.card{
-    margin-top: 5%;
-}
-}
-
 /*ESTILOS SUPERIOR*/
 
+.titleFamiliaQuelal{
+    background-size: 100% 100%;
+    background-image: url('/src/utils/images/Products/Fruits/Nuestros.jpg') ;
+    border-bottom: 5px solid  #041c0d;;
+}
+
+.Familia1{
+    opacity: 0.7;
+    background-color: rgb(196, 221, 179);
+}
+
+.text{ 
+    height: 35vh;
+    align-items: center;
+    display: flex;
+}
+
+
+.text p{
+    color:black;
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
+    margin-top: 4%;
+    margin-left: 12%;
+    text-align: center;
+}
+
+/*ESTILOS CONTAINER FRUTAS*/
+
+
 .titleFruit{
-    border-bottom: 5px solid rgb(145, 236, 145);
     height: 100vh;
 }
 
@@ -158,7 +204,9 @@ p{
     height: 100%;
 }
 
-/*ESTILOS CONTAINER FRUTAS*/
+
+
+
 
 .contentFruits{
     background: #041c0d;
