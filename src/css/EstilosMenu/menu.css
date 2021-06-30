@@ -10,7 +10,7 @@ body,html{
     font-family: 'Playfair Display', serif;
     background: #041C0D;
     width: 100%;
-    position: fixed;
+    position: absolute;
 }
 
 #btn-menu{
@@ -26,7 +26,7 @@ body,html{
 
 .MenuNav label i{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .MenuNav label:hover{
@@ -69,15 +69,15 @@ body,html{
 
     .MenuNav label{
         display: block;
-        margin: 2%;
     }
     
     .NavBar{
-        position: fixed;
+        position: absolute;
         background: #041C0D;
         width: 60%;
         margin-left: -80%;
         transition: all 0.5s;
+        z-index: 2;
     }
 
     .NavBar .List{

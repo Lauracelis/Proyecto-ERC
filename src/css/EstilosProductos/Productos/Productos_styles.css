@@ -1,81 +1,85 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 /*font-family: 'Playfair Display', serif;*/
+body,html{
+    margin: 0;
+    padding: 0;
+}
 
 
-
-#Productos{
-    background-color: #7DAC46;
+.inicioFruits{
     background-size: 100% 100%;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    background-image:url("../../../utils/images/Products/fondo2.png");
 }
 
 .ContainerProductos{
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    background-color: #7DAC46;
     padding: 10% 2% 10% 2%;
+    padding: 8% 5% 5% 0px;
     display: flex;
     justify-content: space-around;
 }
 
-
 /*ESTILOS DE FRUTAS*/
 .Fruits{
-    background-image: url('/utils/images/Products/Fruits/Botones/Frutas.png');
+    background-image: url('../../../utils/images/Products/Fruits/Botones/frutas.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 50%;
     width: 500px;
     height: 500px;
 }
-
 
 /*ESTILOS DE VEGETALES */
 
 .Vegetables{
-    background-image: url('/utils/images/Products/Vegetables/BOTONES/verduras.png');
+    background-image: url('../../../utils/images/Products/Vegetables/BOTONES/verduras.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 50%;
     width: 500px;
     height: 500px;
 }
-
 
 
 /*ESTILOS DE BOTONES*/
 
 
-
 .buttonVegetable{
     display: flex;
     align-items: center;
-    margin:45% 5% 0 35%;
+    margin:45% 5% 0 28%;
     padding: 2%;
-	border-radius: 5px;
-	font-size: 30px;
+    border-radius: 5px;
+    font-size: 30px;
     font-weight: bold;
-	font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
     text-transform: uppercase;
-	letter-spacing: 5px;
+    letter-spacing: 5px;
     text-decoration: none;
-	border: none;
+    border: none;
     outline: none;
-	color:#151614;
-    background: linear-gradient(304deg, rgba(76, 245, 127, 0.696) 16%, rgba(22, 218, 87, 0.749) 60%);
+    color:#151614;
+    background: linear-gradient(304deg, rgba(76, 245, 127, 0.696) 90%, rgba(22, 218, 87, 0.749) 100%);
 }
 
 .buttonFruit{
     margin:45% 0 0 35%;
     padding: 2%;
-	border-radius:5px;
-	font-size: 30px;
+    border-radius:5px;
+    font-size: 30px;
     font-weight: bold;
-	font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
     text-transform: uppercase;
-	letter-spacing: 5px;
-	border: none;
+    letter-spacing: 5px;
+    border: none;
     outline: none;
-	color:black;
-    background:linear-gradient(304deg,rgba(250, 147, 147,0.696)  16%, rgba(250, 147, 147,0.696)60%); ;
+    color:black;
+    background:linear-gradient(304deg,rgba(250, 147, 147,0.696)  90%, rgba(250, 147, 147,0.696)100%); ;
 }
 
 .buttonVegetable:hover{
@@ -83,7 +87,7 @@
 }
 
 .buttonFruit:hover{
-    background: rgba(250, 147, 147) ;
+    background: rgb(247, 126, 126) ;
 }
 
 .Fruits a{
@@ -92,5 +96,71 @@
 
 .Vegetables a{
     text-decoration: none;
+}
+
+/* estilos del scroll */
+
+.Scroll{
+
+   display: flex;
+   justify-content: center;
+   transition: all 0.5s;
+ }
+ 
+ .Scroll img{
+     width: 70%;
+ }
+
+/* estilos del footer*/
+
+footer{
+    border-top: 5px solid rgb(145, 236, 145);
+    background-color:#08110b;
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+.cajitafooter{
+    padding: 1%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cajitafooter img{
+margin-left: 3%;
+ width: 7%;
+}
+
+.cajitafooter .frase{
+    color: #77e762;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    margin: 2% 0 0 2%;
+
+}
+
+.RedesSociales{
+margin-top: 2%;
+width: 47%;
+justify-content: flex-end;
+  display: flex;
+}
+
+.RedesSociales img{
+    margin-right: 10px;
+    width: 32px;
+    
+}
+
+.RedesSociales a{
+    border-radius: none;
+    color: none;
+    text-decoration: none;
+}
+
+.frase{
+    margin-left: 50%;
 }
 
