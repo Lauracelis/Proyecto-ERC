@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*font-family: 'Playfair Display', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+/*font-family: 'Alice', serif;*/
+
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedorNoticias{
+    padding-top: 50px;
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    background-color: #7DAC4E;
+}
+
+.noticiasTitle{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+.noticiasTitle h1{
+    background-color: #02250F;
+    padding: 2%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.cardsNoticias{
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    grid-template-rows: repeat(3, 0.5fr);
+    gap: 10px;
+    margin: 15px;
+}
+
+
+.noticia-1, .noticia-2, .noticia-3 , .noticia-4, .noticia-5,
+ .noticia-6{
+     padding: 18px;
+ }
+
+/* ESTILO DEL MODAL*/
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20px; /* Location of the box */
+    padding-bottom: 10px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(3, 31, 12, 0.8); /* Fallback color */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    border-radius: 5px;
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #02250f;
+    width: 80%;
+    padding: 30px 30px;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) ;
+  }
+  
+  /* The Close Button */
+  .close, .close2, .close3, .close4, .close5, .close6{
+    color: #02250f;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .close:hover, .close2:hover, .close2:focus,
+  .close:focus, .close3:hover, .close3:focus,
+  .close4:hover, .close4:focus,
+  .close5:hover, .close5:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-content h1{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+    color:#02250f;
+    text-transform: uppercase;
+  }
+
+  .modal-content p{
+    font-family: 'Alice', serif;
+    font-size: 23px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+/* ESTILOS PARA NOTICIA 1*/
+
+.noticia-1{
+    grid-row: 1/3;
+    background-color: #02250f96;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.titleNoticia-1{
+    margin: 15px 10px 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.titleNoticia-1 h2{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 27px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.masInfo{
+    font-family: 'Alice', serif;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin: 3% 2% 0 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid #77E762;
+}
+
+.abrir-1, .abrir-2, .abrir-3, .abrir-4, .abrir-5, .abrir-6{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#myBtn, #myBtn2, #myBtn3,  #myBtn4,  #myBtn5, #myBtn6 {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid #77E762;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 3%;
+    width:100px;
+    font-family: 'Alice', serif;
+    cursor: pointer;
+}
+
+.textNoticia-1{
+    margin: 15px 7px 7px 0;
+    text-align: justify;
+    font-family: 'Alice', serif;
+    font-size: 20px;
+}
+
+.masInfo a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.abrir-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.imageNotice1{
+    display: flex;
+    justify-content: center;
+}
+.imageNotice1 img{
+    width: 35%;
+}
+.finModal{
+    display: flex;
+    justify-content: center;
+} 
+
+
+
+/* ESTILOS PARA NOTICIA-2*/
+.noticia-2{
+    background-color: white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    grid-column: 2/4;
+}
+
+.titleNoticia-2 h2{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 27px;
+    color: #02250f;
+    text-transform: uppercase;
+}
+
+.imageNotice2{
+    display: flex;
+    justify-content: center;
+}
+.imageNotice2 img{
+    width: 35%;
+}
+
+/* ESTILOS PARA NOTICIA 3*/
+
+.noticia-3{
+    background-color: #02250f96;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    grid-column: 4/6;
+}
+
+.titleNoticia-3 h2{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 27px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.imageNotice3{
+    display: flex;
+    justify-content: center;
+}
+.imageNotice3 img{
+    width: 35%;
+}
+
+/* ESTILOS PARA NOTICIA*/
+
+.noticia-4{
+    background-color: #02250F;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+
+.titleNoticia-4 h2{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 23px;
+    color: #77E762;
+    text-transform: uppercase;
+}
+
+.textNoticia-4{
+    margin: 15px 7px 7px 0;
+    text-align: justify;
+    font-family: 'Alice', serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.textNoticia-4 p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.imageNotice4 {
+    display: flex;
+    justify-content: center;
+}
+
+.imageNotice4 img{
+    width: 35%;
+}
+
+/* NOTICIA 5*/ 
+
+.noticia-5{
+    background-color: #02250F;
+    grid-column:2/3;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.titleNoticia-5 h2{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 23px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.textNoticia-5{
+    margin: 15px 7px 7px 0;
+    text-align: justify;
+    font-family: 'Alice', serif;
+    font-size: 20px;
+    color: #77E762;
+}
+
+
+
+.imageNotice5 {
+    display: flex;
+    justify-content: center;
+}
+
+.imageNotice5 img{
+    width: 35%;
+}
+
+
+/* NOTICIA 6*/
+
+.noticia-6{
+    background-color: #FFF;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    grid-column: 4/6;
+    grid-row: 2/3;
+}
+
+.titleNoticia-6 h2{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: #02250F;
+    text-transform: uppercase;
+}
+
+.textNoticia-6{
+    margin: 15px 7px 7px 0;
+    text-align: justify;
+    font-family: 'Alice', serif;
+    font-size: 20px;
+    color:black;
+}
+
+
+
+.imageNotice6 {
+    display: flex;
+    justify-content: center;
+}
+
+.imageNotice6 img{
+    width: 35%;
+}
+
+/*PARA CELULARES*/
+
+@media only screen and (max-width:420px) {
+    .cardsNoticias{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(700px 500px 700px 700px 700px 700px);
+        gap: 15px;
+        margin: 15px;
+    }
+    
+    /* PARA LOS MODALES*/
+
+    .modal-content h1 {
+        font-size: 25px;
+    }
+
+    .modal-content p {
+        font-size: 15px;
+    }
+
+    /* noticia 1*/
+
+    .noticia-1{
+        grid-row: 1/1;
+        grid-column: 1/3;
+        background-color: #02250f96;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .titleNoticia-1 h2 {
+        font-size: 20px;
+    }
+    .textNoticia-1 {
+        font-size: 18px;
+    }
+
+    /* NOTICIA 2*/
+
+    .noticia-2 {
+        background-color: white;
+        box-shadow: 2px 2px rgb(0 0 0 / 20%);
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .titleNoticia-2 h2 {
+        font-size: 20px;
+    }
+
+    /* NOTICIA 3*/
+
+    .noticia-3 {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .titleNoticia-3 h2 {
+        font-size: 20px;
+    }
+
+    /* NOTICIA 4*/
+
+    .noticia-4 {
+        background-color: #02250F;
+        box-shadow: 2px 2px rgb(0 0 0 / 20%);
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+
+    .titleNoticia-4 h2 {
+        font-size: 20px;
+    }
+    .textNoticia-4 {
+        font-size: 18px;
+    }
+
+    /* NOTICIA 5*/
+
+    .noticia-5 {
+        grid-column: 1/3;
+    }
+
+    .titleNoticia-5 h2 {
+        font-size: 20px;
+    }
+
+    .textNoticia-5 {
+        font-size: 18px;
+    }
+
+    /* noticia 6*/
+
+    .noticia-6 {
+        background-color: #FFF;
+        box-shadow: 2px 2px rgb(0 0 0 / 20%);
+        grid-column: 1/3;
+        grid-row: 6/7;
+    }
+
+    .titleNoticia-6 h2 {
+        font-size: 20px;
+    }
+
+    .textNoticia-6 {
+        font-size: 18px;
+    }
+}
+
+/* PARA TABLET*/
+
+@media only screen and (min-width:421px) and (max-width:768px) {
+    .cardsNoticias{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(800px 500px 800px 800px 800px 800px);
+        gap: 15px;
+        margin: 15px;
+    }
+    
+    /* PARA LOS MODALES*/
+
+    .modal-content h1 {
+        font-size: 30px;
+    }
+
+    .modal-content p {
+        font-size: 25px;
+    }
+
+    /* noticia 1*/
+
+    .noticia-1{
+        grid-row: 1/1;
+        grid-column: 1/3;
+        background-color: #02250f96;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .titleNoticia-1 h2 {
+        font-size: 30px;
+    }
+    .textNoticia-1 {
+        font-size: 25px;
+    }
+
+    /* NOTICIA 2*/
+
+    .noticia-2 {
+        background-color: white;
+        box-shadow: 2px 2px rgb(0 0 0 / 20%);
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .titleNoticia-2 h2 {
+        font-size: 30px;
+    }
+
+    /* NOTICIA 3*/
+
+    .noticia-3 {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .titleNoticia-3 h2 {
+        font-size: 30px;
+    }
+
+    /* NOTICIA 4*/
+
+    .noticia-4 {
+        background-color: #02250F;
+        box-shadow: 2px 2px rgb(0 0 0 / 20%);
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+
+    .titleNoticia-4 h2 {
+        font-size: 30px;
+    }
+    .textNoticia-4 {
+        font-size: 25px;
+    }
+
+    /* NOTICIA 5*/
+
+    .noticia-5 {
+        grid-column: 1/3;
+    }
+
+    .titleNoticia-5 h2 {
+        font-size: 30px;
+    }
+
+    .textNoticia-5 {
+        font-size: 25px;
+    }
+
+    /* noticia 6*/
+
+    .noticia-6 {
+        background-color: #FFF;
+        box-shadow: 2px 2px rgb(0 0 0 / 20%);
+        grid-column: 1/3;
+        grid-row: 6/7;
+    }
+
+    .titleNoticia-6 h2 {
+        font-size: 30px;
+    }
+
+    .textNoticia-6 {
+        font-size: 25px;
+    }
+
+    /* ESTILOS PARA LOS BOTONES*/
+
+    #myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6 {
+        padding: 4%;
+        width: 200px;
+        font-size: 25px;
+    }
+
+}
+
+
+/* PARA PORTATIL*/
+
+/* PARA TABLET*/
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .cardsNoticias{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(800px 500px 800px 800px 800px 800px);
+        gap: 15px;
+        margin: 15px;
+    }
+    
+    /* PARA LOS MODALES*/
+
+    .modal-content h1 {
+        font-size: 35px;
+    }
+
+    .modal-content p {
+        font-size: 28px;
+    }
+
+    /* noticia 1*/
+
+    .noticia-1{
+        grid-row: 1/1;
+        grid-column: 1/3;
+        background-color: #02250f96;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .titleNoticia-1 h2 {
+        font-size: 35px;
+    }
+    .textNoticia-1 {
+        font-size: 28px;
+    }
+
+    /* NOTICIA 2*/
+
+    .noticia-2 {
+        background-color: white;
+        box-shadow: 2px 2px rgb(0 0 0 / 20%);
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .titleNoticia-2 h2 {
+        font-size: 35px;
+    }
+
+    /* NOTICIA 3*/
+
+    .noticia-3 {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .titleNoticia-3 h2 {
+        font-size: 35px;
+    }
+
+    /* NOTICIA 4*/
+
+    .noticia-4 {
+        background-color: #02250F;
+        box-shadow: 2px 2px rgb(0 0 0 / 20%);
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+
+    .titleNoticia-4 h2 {
+        font-size: 35px;
+    }
+    .textNoticia-4 {
+        font-size: 28px;
+    }
+
+    /* NOTICIA 5*/
+
+    .noticia-5 {
+        grid-column: 1/3;
+    }
+
+    .titleNoticia-5 h2 {
+        font-size: 35px;
+    }
+
+    .textNoticia-5 {
+        font-size: 28px;
+    }
+
+    /* noticia 6*/
+
+    .noticia-6 {
+        background-color: #FFF;
+        box-shadow: 2px 2px rgb(0 0 0 / 20%);
+        grid-column: 1/3;
+        grid-row: 6/7;
+    }
+
+    .titleNoticia-6 h2 {
+        font-size: 35px;
+    }
+
+    .textNoticia-6 {
+        font-size: 28px;
+    }
+
+    /* ESTILOS PARA LOS BOTONES*/
+
+    #myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6 {
+        padding: 4%;
+        width: 200px;
+        font-size: 25px;
+    }
+
+}

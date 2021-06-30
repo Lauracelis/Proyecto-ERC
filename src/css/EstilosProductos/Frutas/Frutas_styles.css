@@ -17,7 +17,7 @@ body,html{
     background: #041c0d;
     padding-top: 50px;
     width: 100%;
-    height: auto;
+    height: 100;
 }
 
 
@@ -169,7 +169,7 @@ p{
 }
 
 .text{ 
-    height: 35vh;
+    height: 500px;
     align-items: center;
     display: flex;
 }
@@ -193,9 +193,9 @@ p{
 /*ESTILOS CONTAINER FRUTAS*/
 
 
-.titleFruit{
+/*.titleFruit{
     height: 100vh;
-}
+}*/
 
 .titleFruit img{
     margin-left: 10%;
@@ -211,8 +211,7 @@ p{
 }
 
 .contentCards{
-margin-top: 0;
- margin-left: 7%;
+ margin-top: 0;
  padding: 10px;
  display: grid;
  grid-template-columns: 50% 50% ;

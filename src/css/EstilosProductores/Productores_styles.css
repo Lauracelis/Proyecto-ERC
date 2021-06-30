@@ -408,36 +408,84 @@ body,html{
  }
 
 .card{
-  width: 598px;
-  height: 251px;
-  top: 37px;
+  width: 630px;
+  height: 390px;
   display: grid;
   grid-template-columns: 1.3fr 2fr;
   grid-template-rows: 251px 251px;
-  margin: 2%;
+  margin: 5%;
   background-color: #02250F;
   border-radius: 10px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.card .imagePerfil{
-  background-color:  #fff;
-  border-radius: 10px 150px 0 10px;
+.imagePerfil1{
+  width: 250px;
+  height: 250px;
+  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  justify-content: center;
+  margin: 45px 5px 15px 10px;
+  align-items: center;
+  display: flex;
+
+}
+
+.imagePerfil2{
+  width: 250px;
+  height: 250px;
+  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/2.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 45px 5px 15px 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+ .imagePerfil3{
+  width: 250px;
+  height: 250px;
+  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/3.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 45px 5px 15px 10px;
+  display: flex;
+  align-items: center;
+  
+}
+ .imagePerfil4{
+  width: 220px;
+  height: 220px;
+  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/4.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 45px 5px 15px 10px;
+  justify-content: center;
+  display: flex;
+  
 }
 
 .card .titleCamp h2{
-  margin-top:6%;
+  margin:6% 7px 0 3%;
   color: #fff;
   font-family: 'Playfair Display', serif;
   letter-spacing: 2px;
-  font-size: 23px;
+  font-size: 20px;
   justify-content: center;
   text-transform: uppercase;
   text-align: center;
 }
 
 .card .contentText{
+  align-items: center;
   margin: 5%;
+  display: flex;
   justify-content: center;
   background-color: white;
   padding: 3%;
@@ -446,10 +494,9 @@ body,html{
 }
 
 .card .contentText p{
-  padding: 3%;
   text-align: justify;
   font-family: 'Alice', serif;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .containerCampesinos .titleAlgunasHis{
@@ -477,7 +524,7 @@ body,html{
 
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:420px){
   .contentCampesinos{
     grid-template-columns: 2fr;
     row-gap: 10px;
@@ -492,46 +539,29 @@ body,html{
   }
   
   .card .titleCamp h2{
-    font-size: 15px;
+    font-size: 12px;
   }
 
-  .card .contentText {
-    margin-top: 15%;
-    padding: 3%;
-    overflow: hidden;
-}
-
-.containerCampesinos .titleAlgunasHis h1 {
-  font-size: 25px;
-  text-align: center;
-}
-.card .imagePerfil{
-  background-color:  #fff;
-  border-radius: 10px 80% 0 10px;
-}
-.card .contentText p {
-  padding: 3%;
-  font-size: 10px;
-  overflow: hidden;
-}
-}
-
-@media screen and (min-width:769px) and (max-width:1300px){
-  .contentCampesinos{
-    grid-template-columns: 2fr;
-    row-gap: 10px;
-    column-gap: 30px
-    
-  }
-  .card{
-    width: auto;
-    height: 240px;
-    grid-template-columns: 35% 1fr;
-    grid-template-rows: 240px 240px;
+  .imagePerfil1{
+    width: 100px;
+    height: 100px;
+  
   }
   
-  .card .titleCamp h2{
-    font-size: 25px;
+  .imagePerfil2{
+    width: 100px;
+    height: 100px;
+  }
+  
+   .imagePerfil3{
+    width: 100px;
+    height: 100px;
+    
+  }
+   .imagePerfil4{
+    width: 100px;
+    height: 100px;
+    
   }
 
   .card .contentText {
@@ -541,19 +571,185 @@ body,html{
 }
 
 .containerCampesinos .titleAlgunasHis h1 {
-  font-size: 15px;
+  font-size: 25px;
   text-align: center;
 }
-.card .imagePerfil{
-  background-color:  #fff;
-  border-radius: 10px 80% 0 10px;
-}
+
 .card .contentText p {
-  padding: 2%;
-  font-size: 18px;
+  padding: 1%;
+  font-size: 10px;
   overflow: hidden;
 }
 }
+
+
+
+@media screen and (min-width:421px) and (max-width:768px){
+  .contentCampesinos{
+    grid-template-columns: 2fr;
+    row-gap: 10px;
+    column-gap: 30px
+  }
+  .card{
+    width: auto;
+    height: 200px;
+    row-gap: 10px;
+    grid-template-columns: 35% 1fr;
+  grid-template-rows: 200px 200px;
+  }
+  
+  .card .titleCamp h2{
+    font-size: 13px;
+  }
+
+  .imagePerfil1{
+    width: 120px;
+    height: 120px;
+  
+  }
+  
+  .imagePerfil2{
+    width: 120px;
+    height: 120px;
+  }
+  
+   .imagePerfil3{
+    width: 120px;
+    height: 120px;
+    
+  }
+   .imagePerfil4{
+    width: 120px;
+    height: 120px;
+    
+  }
+
+  .card .contentText {
+    margin-top: 5%;
+    padding: 1%;
+    overflow: hidden;
+}
+
+
+.card .contentText p {
+  padding: 1%;
+  font-size: 12px;
+  overflow: hidden;
+}
+}
+
+@media screen and (max-width:420px){
+  .contentCampesinos{
+    grid-template-columns: 2fr;
+    row-gap: 10px;
+    column-gap: 30px
+  }
+  .card{
+    width: auto;
+    height: 200px;
+    row-gap: 10px;
+    grid-template-columns: 35% 1fr;
+  grid-template-rows: 200px 200px;
+  }
+  
+  .card .titleCamp h2{
+    font-size: 12px;
+  }
+
+  .imagePerfil1{
+    width: 100px;
+    height: 100px;
+  
+  }
+  
+  .imagePerfil2{
+    width: 100px;
+    height: 100px;
+  }
+  
+   .imagePerfil3{
+    width: 100px;
+    height: 100px;
+    
+  }
+   .imagePerfil4{
+    width: 100px;
+    height: 100px;
+    
+  }
+
+  .card .contentText {
+    margin-top: 5%;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.containerCampesinos .titleAlgunasHis h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.card .contentText p {
+  padding: 1%;
+  font-size: 10px;
+  overflow: hidden;
+}
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:1300px){
+  .contentCampesinos{
+    grid-template-columns: 2fr;
+    row-gap: 10px;
+    column-gap: 30px
+  }
+  .card{
+    width: auto;
+    height: 250px;
+    row-gap: 10px;
+    grid-template-columns: 35% 1fr;
+  grid-template-rows: 200px 200px;
+  }
+  
+  .card .titleCamp h2{
+    font-size: 20px;
+  }
+
+  .imagePerfil1{
+    width: 150px;
+    height: 150px;
+  
+  }
+  
+  .imagePerfil2{
+    width: 150px;
+    height: 150px;
+  }
+  
+   .imagePerfil3{
+    width: 150px;
+    height: 150px;
+    
+  }
+   .imagePerfil4{
+    width: 150px;
+    height: 150px;
+    
+  }
+  .card .contentText {
+    margin-top: 5%;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.card .contentText p {
+  padding: 1%;
+  font-size: 15px;
+  overflow: hidden;
+}
+}
+
 
 /* estilos del footer*/
 

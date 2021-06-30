@@ -5,28 +5,242 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../../utils/images/Home/logosinfondo.png">
-    <link rel="stylesheet" href="/src/css/EstilosMenu/menu.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
+    <link rel="stylesheet" href="/src/css/EstilosMenu/menu.css">
+    <link rel="stylesheet" href="/src/css/EstilosNoticias/noticiasStyles.css">
     <title>Noticias</title>
 </head>
 <body>
-    <!--ESTE ES EL MENÚ-->
-    <header class="MenuNav">
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
-        <link rel="stylesheet" href="/src/css/EstilosMenu/menu.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-         <nav class="NavBar">
-             <ul class="List">
-                 <li class="LiMenu"><a href="/index.html">Inicio</a></li>
-                 <li class="LiMenu"><a href="/src/pages/Productos/Productos.html">Productos</a></li>
-                 <li class="LiMenu"><a href="/src/pages/Productores/Productores.html">Productores</a></li>
-                 <li class="LiMenu"><a href="/src/pages/Estudio/Estudio.html">Estudios</a></li>
-                 <li class="LiMenu"><a href="/src/pages/Colaboradoras/colaboradoras.html">Colaboradoras</a></li>
-             </ul>
-         </nav>
-     </header>
-     <!--ESTE ES EL FIN DEL  MENÚ-->
-     eSTA ES NOTICIAS
+<!--ESTE ES EL MENÚ-------------------------------------------------------------------------------------------------->
+<header class="MenuNav">
+    <input type="checkbox" id="btn-menu">
+    <label for="btn-menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
+     <nav class="NavBar">
+         <ul class="List">
+           <li class="LiMenu"><a href='/index.html'>Inicio</a></li>
+           <li class="LiMenu"><a href='/src/pages/Productos/productos.html'>Productos</a></li>
+             <li class="LiMenu"><a href='/src/pages/Productores/Productores.html'>Productores</a></li>
+             <li class="LiMenu"><a href="/src/pages/Noticias/Noticias.html">Noticias</a></li>
+             <li class="LiMenu"><a href="/src/pages/Estudio/Estudio.html">Estudios</a></li>
+             <li class="LiMenu"><a href="/src/pages/Colaboradoras/colaboradoras.html">Colaboradoras</a></li>
+         </ul>
+     </nav>
+ </header>
+ <!--ESTE ES EL FIN DEL  MENÚ---------------------------------------------------------------------------------------->
+ <!--ESTE ES EL CONTENEDOR DE NOTICIAS-------------------------------->
+ <div class="contenedorNoticias">
+    <div class="boxNoticias"> <!--ESTE ES EL CONTENEDOR DE Box Noticias-------------------------------->
+       <div class="noticiasTitle">
+           <h1>NOTICIAS </h1>
+       </div>
+       <div class="cardsNoticias">
+           <div class="noticia-1">
+                <div class="titleNoticia-1">
+                    <h2>La cosecha cafetera para 2021 cerraría en $10 billones.</h2>
+                </div>
+                <p class="textNoticia-1">En Colombia hay sembradas 844.744 hectáres de café y 546.382 
+                    familias cafetereras ubicadas en 23 departamentos y 604 municipios, su productividad
+                    está cercana a los 19,4 sacos por hectárea.
+                </p>
+                <p class="textNoticia-1">
+                    El ministro de Agricultura y Desarrollo Rural, Rodolfo Zea Navarro, destacó las buenas cifras que reporta la producción de café colombiano a pesar de los efectos negativos en la economía del país generados por la pandemia y los bloqueos producto de las movilizaciones sociales
+                </p>
+                <div class="abrir-1">
+                    <button id="myBtn">Ver más</button>
+                </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h1>La cosecha cafetera para 2021 cerraría en $10 billones.</h1>
+                        <p>
+                            Un billón de pesos más en ingresos es lo que la cosecha cafetera del año podría aportar de acuerdo con el ministro de Agricultura y Desarrollo Rural, Rodolfo Zea Navarro.
+                            En el marco de ‘Día Nacional del Café’, que se celebra el 27 de Junio, Zea expuso que el precio de la carga interna está en promedio, en lo corrido del 2021, por encima de $1,2 millones lo que haría que la cosecha del año cierre en $10 billones con un billón más en ingresos comparando con el 2020.
+                            Además del buen precio de la carga interna de café (en promedio $1.210.000 en lo corrido de 2021), el valor de la libra de café colombiano en la Bolsa de Nueva York ha reportado cifras significativas de hasta US$1,5.
+                        </p>
+                        <div class="imageNotice1">
+                            <img src="../../utils/images/Noticias/noticia1.png" alt="">
+                        </div>
+                        <div class="finModal">
+                            <button class="masInfo">
+                                <a href="https://www.portafolio.co/negocios/empresas/cafe-colombiano-la-cosecha-cafetera-para-2021-cerraria-en-10-billones-553370
+                                " target="_blank" >Mas información</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <div class="noticia-2">
+            <div class="titleNoticia-2">
+            <h2>Campesinos de Boyacá aseguran que la crisis de la papa se ha empeorado.</h2>
+        </div>
+        <p class="textNoticia-1">Los campesinos de papa aseguran que estan viviendo ahora uno de sus peores momentos
+            debido a prestamos que les hicieron entidades bancarias para sacar adelante sus producciones y que estan 
+            empezando a pagar este año.
+            
+        </p>
+        <div class="abrir-2">
+            <button id="myBtn2">Ver más</button>
+        </div>
+        <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <span class="close2">&times;</span>
+                <h1>Campesinos de Boyacá aseguran que la crisis de la papa se ha empeorado</h1>
+                <p>
+                    Varias asociaciones de campesinos cultivadores de papa, que se encuentran ubicados en el departamento de Boyacá, han asegurado reiteradamente que “la crisis de la papa no ha terminado y está peor que antes”. Por otro lado, informaron que hasta ahora algunos comenzaron a pagar sus 
+                    deudas a bancos que les permitieron préstamos para ayudar al vacío del año pasado.
+                </p>
+                <p>
+                    De acuerdo con información del periódico El Tiempo, medio que estuvo en diálogos con Flor Alba Rodríguez Zamora, representante de dos asociaciones de cultivadores de papa en Samacá, Boyacá, 
+                    actualmente hay cuatro principales problemas que atraviesan los paperos.
+                </p>
+                <div class="imageNotice2">
+                    <img src="../../utils/images/Noticias/noticia2.png" alt="">
+                </div>
+                <div class="finModal">
+                    <button class="masInfo">
+                        <a href="https://www.eltiempo.com/colombia/otras-ciudades/campesinos-de-boyaca-aseguran-que-la-crisis-de-la-papa-se-ha-empeorado-580192
+                        " target="_blank" >Mas información</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+       </div>
+           <div class="noticia-3">
+            <div class="titleNoticia-3">
+                <h2>Alerta heladas”: fuerte descenso de las temperaturas para el fin de semana</h2>
+            </div>
+            <p class="textNoticia-1">
+                Se espera un marcado descenso de las marcas térmicas en la región central. Más heladas para el trigo.
+                Las heladas y las temperaturas medias más frías son un buen factor para los trigales que van reuniendo las horas de fríos necesarias para “vernalizar” y favorables para la floración.
+            </p>
+            <div class="abrir-3">
+                <button id="myBtn3">Ver más</button>
+            </div>
+            <div id="myModal3" class="modal">
+                <div class="modal-content">
+                    <span class="close3">&times;</span>
+                    <h1>Alerta heladas”: fuerte descenso de las temperaturas para el fin de semana</h1>
+                    <p>
+                        La humedad en las capas bajas de la atmósfera será muy importante en el inicio de la semana. Luego, con la llegada del aire frío y seco, se espera una significativa disminución en toda la región GEA.
+                        Luego del fin de semana, lentamente, las marcas térmicas se irán recomponiendo con un progresivo aumento, gracias al cambio en la dirección del viento.
+                    </p>
+                    <div class="imageNotice3">
+                        <img src="../../utils/images/Noticias/noticia3.png" alt="">
+                    </div>
+                    <div class="finModal">
+                        <button class="masInfo">
+                            <a href="https://www.infocampo.com.ar/alerta-heladas-fuerte-descenso-de-las-temperaturas-para-el-fin-de-semana/
+                            " target="_blank" >Mas información</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+           </div>
+           <div class="noticia-4">
+            <div class="titleNoticia-4">
+                <h2>La tecnología: una aliada del agro colombiano</h2>
+            </div>
+            <p class="textNoticia-4">
+                La tecnología y la ciencia juegan un papel fundamental para lograr estos objetivos. Colombia cuenta con 40 millones de hectáreas cultivables, de las cuales son 6 millones se encuentran en uso. En medio de la pandemia, el sector que impulsó la economía en el primer semestre de 2020 fue el agro. Según el Ministerio de Agricultura, su aporte al Producto Interno Bruto (PIB) creció 6,8 por ciento. 
+            </p>
+            <div class="abrir-4">
+                <button id="myBtn4">Ver más</button>
+            </div>
+            <div id="myModal4" class="modal">
+                <div class="modal-content">
+                    <span class="close4">&times;</span>
+                    <h1>La tecnología: una aliada del agro colombiano</h1>
+                    <p>
+                        Cubrir las necesidades alimenticias de la población es uno de los grandes retos que enfrenta la humanidad. En ese sentido, la preservación y el desarrollo de nuevas semillas es determinante. En Noruega, por ejemplo, funciona el mayor banco de semillas del mundo, el de Svalbard, que resguarda más de un millón de semillas y tiene capacidad para almacenar más de 4 millones.En nuestro país, la Corporación Colombiana de Investigación Agropecuaria (Agrosavia) trabaja en el desarrollo de nuevas semillas que se adapten a las necesidades del campo colombiano. El pasado 30 de octubre, la organización anunció el desarrollo de un frijol resistente al calor, enfocado en la región Caribe, para atacar la inseguridad alimentaria en esa zona del país.
+                    </p>
+                    <div class="imageNotice4">
+                        <img src="../../utils/images/Noticias/noticia4.png" alt="">
+                    </div>
+                    <div class="finModal">
+                        <button class="masInfo">
+                            <a href="https://semanarural.com/web/articulo/la-tecnologia-una-aliada-del-agro-colombiano/1662
+                            " target="_blank" >Mas información</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+           </div>
+           <div class="noticia-5">
+            <div class="titleNoticia-5">
+                <h2>La juventud del campo colombiano, cultivando y cosechando sueños</h2>
+            </div>
+            <p class="textNoticia-5">
+                Hace 56 años en Colombia se celebra el Día del Campesino, fue en 1965 cuando se estableció que, el primer domingo del mes de junio sería la fecha para dar un reconocimiento a campesinos y campesinas en el desarrollo económico.
+
+            </p>
+            <div class="abrir-5">
+                <button id="myBtn5">Ver más</button>
+            </div>
+            <div id="myModal5" class="modal">
+                <div class="modal-content">
+                    <span class="close5">&times;</span>
+                    <h1>La juventud del campo colombiano, cultivando y cosechando sueños</h1>
+                    <p>
+                        Aunque las brechas, el distanciamiento, garantías, seguridad, oportunidades y empatía, siguen siendo casi que una deuda con nuestro campo, en Encuentros, programa de Radio Nacional de Colombia, conversamos con algunos jóvenes que viven, caminan, cultivan y defienden ese extenso territorio de nuestro país.
+                        La Red Nacional de Jóvenes Rurales es un movimiento que brinda capacitaciones a las juventudes, para formalizar iniciativas productivas que logren ser la primera opción de permanencia en el campo y no deban salir del territorio para obtener oportunidades. “Generamos confianza para transformar comunidades, por eso nuestra red tiene una comunicación horizontal, así tomamos decisiones entre todos”, explica.
+                        Entre los logros de la Red está la capacitación de 1.000 jóvenes en el campo en diversas habilidades. Por otra parte, se han logrado financiar 60 emprendimientos gracias a los proyectos propios.
+
+                    </p>
+                    <div class="imageNotice5">
+                        <img src="../../utils/images/Noticias/noticia5.png" alt="">
+                    </div>
+                    <div class="finModal">
+                        <button class="masInfo">
+                            <a href="https://www.radionacional.co/actualidad/personajes/campo-colombiano-jovenes-empredimientos
+                            " target="_blank" >Mas información</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+           </div>
+           <div class="noticia-6">
+            <div class="titleNoticia-6">
+                <h2>El campo crece, pero la rentabilidad no se nota</h2>
+            </div>
+            <p class="textNoticia-6">
+                A pesar de garantizar el abastecimiento, los productores de alimentos piden un mayor dinamismo de la demanda por los consumidores nacionales.
+            </p>
+            <p class="textNoticia-6">
+                En un año marcado por la pandemia de la covid-19, las actividades asociadas a agricultura, ganadería, caza, silvicultura y pesca observaron en Colombia un desempeño positivo, pues según el Departamento Administrativo Nacional de Estadística (Dane), mientras entre enero y septiembre la economía se contrajo 8,1 %, este sector productivo tuvo un comportamiento positivo y creció 2,8 %.
+            </p>
+            <p class="textNoticia-6">
+                Desde la dirección de esa entidad, Juan Daniel Oviedo explicó que el único renglón con desempeño negativo entre las actividades agropecuarias fue el relativo a la caficultura, en el que se apreció una menor producción del grano y una diminución las tareas de renovación de cultivos.
+            </p>
+            <div class="abrir-6">
+                <button id="myBtn6">Ver más</button>
+            </div>
+            <div id="myModal6" class="modal">
+                <div class="modal-content">
+                    <span class="close6">&times;</span>
+                    <h1>El campo crece, pero la rentabilidad no se nota</h1>
+                    <p>
+                        El gerente de la Federación Nacional de Cafeteros, Roberto Vélez, atribuyó la caída de un 10,3 % reportada en la caficultura a la reducción de la cosecha, pues mientras entre enero y septiembre de 2019 se recolectaron 10,19 millones de sacos de 60 kilos cada uno, en los mismos meses de este año se contabilizaron 9,54 millones, es decir un 6,3 % menos.
+                        En cuanto a la renovación de cafetales, el dirigente gremial mencionó que el problema este año ha sido la imposibilidad de verificar las áreas sometidas a estos procesos toda vez que el Servicio de Extensión de la Federación estuvo confinado durante algunos meses por la pandemia.
+                        Para los analistas de Bancolombia el bajo desempeño de la caficultura puede estar asociado a una menor inversión en la fertilización del cultivo en 2019, por la menor rentabilidad, y dificultades por falta de mano de obra.
+                    </p>
+                    <div class="imageNotice6">
+                        <img src="../../utils/images/Noticias/noticia6.png" alt="">
+                    </div>
+                    <div class="finModal">
+                        <button class="masInfo">
+                            <a href="https://www.elcolombiano.com/negocios/el-campo-colombiano-crece-pero-la-rentabilidad-no-se-nota-BG14128595
+                            " target="_blank" >Mas información</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+           </div>
+   
+       </div>
+    </div> <!--ESTE ES EL FIN DE CONTENEDOR DE box noticias-------------------------------->
+    </div>  <!--ESTE ES EL FIN DE CONTENEDOR DE NOTICIAS-------------------------------->
+ <script src="../../js/noticias/app.js"></script>
 </body>
 </html>
