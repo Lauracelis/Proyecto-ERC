@@ -25,6 +25,7 @@ body,html{
 .button-whastapp{
     width: 150px;
     margin-left: 50%;
+    padding-left:5% ;
     align-items: center;
     display: flex;
     font-family: 'Alice', serif;
@@ -32,7 +33,7 @@ body,html{
     margin: 1em auto; 
     color: #fff; 
     font-size: 1.2em;
-    padding: 1em 2em 1em 3.5em;
+    padding: 1em 2em 1em 1.9em;
     border-radius: 2em;
     font-weight: bold;
     background-color: #25d366;
@@ -41,19 +42,29 @@ body,html{
 }
 
 .botonsito{
-    border-bottom: 3px solid #041c0d;
-    background-color:#7DAC46;
+    border-bottom: 5px solid rgb(145, 236, 145);
+    background-color: #dee9e2;
     display: flex;
     text-align: center;
 }
 
+.botonsito img{
+    width: 35%;
+}
+
+.botonsito2 img{
+    width: 38%;
+}
+
+
 .botonsito2{
-    background-color:#7DAC46;
+    background-color: #dee9e2;
     display: flex;
     text-align: center;
 }
 
 .containerProductos{
+    padding-left: 70%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -62,7 +73,7 @@ body,html{
     justify-content: center;
     align-items: center;
     min-height: 60vh;
-    background-color:#7DAC46;
+    background-color: #dee9e2;
 }
 
 
@@ -132,30 +143,16 @@ body,html{
     text-align: center;
     font-weight: 700;
     line-height: 1em;
+    font-size: 30px;
 }
 
 .card .details .content h2 span{
-    color: red;
+    color:#34df72;
     font-size: 0.8em;
 }
 
-.card .details .content .social-icons{
-    position: relative;
-    display: flex;
-    margin-top:10px;
-}
-
-.card .details .content .social-icons a{
-    width: 35px;
-    height: 35px;
-    color: black;
-    text-decoration: none;
-    margin: 5px;
-    font-size: 18px;
-    transition: 0.2s;
-}
-
 p{  
+    font-size: 20px;
     width: 80%;
     text-align: justify;
 }
@@ -164,14 +161,11 @@ p{
 /*ESTILOS SUPERIOR*/
 
 .titleFamiliaQuelal{
-    background-size: 100% 100%;
-    background-image: url('/src/utils/images/Products/Fruits/Nuestros.jpg') ;
-    border-bottom: 5px solid  #041c0d;;
+    border-bottom: 5px solid #1a4d2d;;
 }
 
 .Familia1{
-    opacity: 0.7;
-    background-color: rgb(196, 221, 179);
+   background-color: #dee9e2;
 }
 
 .text{ 
@@ -180,13 +174,19 @@ p{
     display: flex;
 }
 
+.imagen{
+    border-radius: 50%;
+    background-color: #1a4d2d;
+    margin-right: 12%;
+}
+
+
 
 .text p{
     color:black;
     font-family: 'Playfair Display', serif;
     font-size: 75px;
     margin-top: 4%;
-    margin-left: 12%;
     text-align: center;
 }
 
@@ -205,21 +205,20 @@ p{
 }
 
 
-
-
-
 .contentFruits{
     background: #041c0d;
     width: auto;
 }
 
 .contentCards{
- margin: 15px;
+margin-top: 0;
+ margin-left: 7%;
  padding: 10px;
  display: grid;
  grid-template-columns: 50% 50% ;
  grid-template-rows: 550px ;
  align-items: center;
+ margin-bottom: 8%;
 
 }
 
@@ -238,9 +237,9 @@ p{
     background: rgb(211, 203, 224, 0.1);
     margin-right: 50px;
     width: 95%;
-    height: 95%;
+    height: 98%;
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 12px;
     backdrop-filter: blur(20px);
     height: calc(100%-20px);

@@ -1,0 +1,150 @@
+@media (max-width:1024px){
+
+
+    .Logo img {
+        margin-top: 30%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .containerProductos{
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+    margin-top: 5%;}
+
+    .Familia1 p{
+        font-family: 'Playfair Display', serif;
+        font-size: 65px;
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    .contentCards{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 0;
+         margin-left: 0%;
+    }
+
+    
+
+    .contentCards .card{
+        width: 300px;
+        height: auto;
+        flex-direction: column;
+        background: transparent;
+        box-shadow: none;
+
+    }
+
+    .contentCards .card .imgBx{
+        left: 65px;
+        margin-top: 25%;
+        position: relative;
+    }
+
+    .contentCards .card .imgBx, 
+    .contentCards .card:hover .imgBx{
+       width:80%;
+       height: 200px;
+       top: 100px;
+    }
+
+    .contentCards .card:hover .imgBx{
+        top: 80px;
+     }
+
+     .card .imgBx img ,
+    .card:hover .imgBx img{
+       max-width:100px;
+    }
+
+    .contentCards .card .content{
+        position: relative;
+        width: 100%;
+        background: white;
+        box-shadow: none;
+        border-radius: 20px;
+        padding: 20px 50px 40px;
+        border-top: 100px solid white;
+    }
+
+    .title{
+        width: 55%;
+        padding-right: 15%;
+    
+    }
+
+
+    .Familia1{
+        background-color: #dee9e2;
+    }
+
+    .text{ 
+        height: 550px;
+        align-items: center;
+        display: flex;
+    }
+    
+    .imagen{
+        border-radius: 50%;
+        background-color: #1a4d2d;;
+        margin-right: 12%;
+        width: 50%;
+    }
+
+    .containerProductos{
+        padding-left: 10%;
+    }
+    .button-whastapp{
+        margin-left: 45%;
+    
+    }
+
+
+        /*FOOTER*/
+        .cajitafooter .frase {
+            color: rgb(119, 231, 98);
+            font-size: 11pX;
+        }
+
+        .cajitafooter{
+            width: 50%;
+        }
+
+        .cajitafooter img{
+            margin-left: 3%;
+            width: 50px;
+        }
+
+        .RedesSociales{
+        margin-top: 2%;
+        width: 47%;
+        justify-content: flex-end;
+        display: flex;
+            }
+
+        .RedesSociales img{
+            margin-right: 10px;
+            width: 19px;
+            
+        }
+
+
+        .card{
+        width: 300px;
+        height: 400px;
+        margin-left: 35%;
+        margin-bottom: 15%;
+        }
+
+            
+            
+            }
+
