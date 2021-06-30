@@ -21,10 +21,6 @@ body,html{
 
 /*ESTILOS DE LA PARTE SUPERIOR*/
 
-.titleVegetable{
-    height: 100vh;
-}
-
 .titleVegetable img{
     margin-left: 10%;
     background-size: 100% 100%;
@@ -179,7 +175,7 @@ p{
 }
 
 .text{ 
-    height: 35vh;
+    height: 500px;
     align-items: center;
     display: flex;
 }
