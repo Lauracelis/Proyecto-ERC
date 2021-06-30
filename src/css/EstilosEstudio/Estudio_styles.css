@@ -10,19 +10,14 @@
 html {
   font-family: 'Playfair display', serif;
 }
-section {
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #055209;
+
+
+.contenedorNoticias{
+  padding-top: 30px;
 }
 /*Estilos contenedor*/
 .container_formulario {
-  width: 90%;
-  max-width: 1000px;
-  margin: 50px auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center; 

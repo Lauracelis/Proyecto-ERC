@@ -196,7 +196,7 @@ body,html{
   }
   .timeline .swiper-button-prev {
     left: 12%;
-    background-image: url("/src/utils/images/Productores/izquierdo.png");
+    background-image: url("../../utils/images/Productores/izquierdo.png");
   }
   .timeline .swiper-button-prev{
     -webkit-transform: translateX(-3px);
@@ -204,7 +204,7 @@ body,html{
   }
   .timeline .swiper-button-next {
     right: 8%;
-    background-image: url("/src/utils/images/Productores/derecho.png");
+    background-image: url("../../utils/images/Productores/derecho.png");
   }
   .timeline .swiper-button-next {
     -webkit-transform: translateX(3px);
@@ -375,14 +375,14 @@ body,html{
     }
     .timeline .swiper-button-prev {
       left: 12%;
-      background-image: url("/src/utils/images/Productores/derecho.png");
+      background-image: url("../../utils/images/Productores/derecho.png");
       transform: rotate(180deg) translate(0, 10px);
     }
    
     .timeline .swiper-button-next {
     
       right: 8%;
-      background-image: url("/src/utils/images/Productores/izquierdo.png");
+      background-image: url("../../utils/images/Productores/izquierdo.png");
       transform: rotate(180deg) translate(0, 10px);
 
     }
@@ -394,7 +394,6 @@ body,html{
 
 
   .containerCampesinos{
-    border: 1px solid red;
     background-color: #7DAC4E;
     padding: 3%;
  }
@@ -402,7 +401,6 @@ body,html{
  .contentCampesinos{
    display: grid;
    grid-template-columns: 2fr 2fr;
-   border: 1px solid blue;
    padding: 1%;
    align-items: center;
  }
@@ -422,7 +420,7 @@ body,html{
 .imagePerfil1{
   width: 250px;
   height: 250px;
-  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/1.png);
+  background-image: url(../../utils/images/Productores/Nuestroscampesinos/1.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -436,7 +434,7 @@ body,html{
 .imagePerfil2{
   width: 250px;
   height: 250px;
-  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/2.png);
+  background-image: url(../../utils/images/Productores/Nuestroscampesinos/2.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -449,7 +447,7 @@ body,html{
  .imagePerfil3{
   width: 250px;
   height: 250px;
-  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/3.png);
+  background-image: url(../../utils/images/Productores/Nuestroscampesinos/3.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -461,7 +459,7 @@ body,html{
  .imagePerfil4{
   width: 220px;
   height: 220px;
-  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/4.png);
+  background-image: url(../../utils/images/Productores/Nuestroscampesinos/4.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 50%;
