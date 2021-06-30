@@ -1,5 +1,20 @@
-@media (max-width:1024px){
 
+@media (max-width:420px){
+
+    #frutas{
+        align-items: center;
+        background: #041c0d;
+        padding-top: 50px;
+        width: 100%;
+        height: 100;
+    }
+
+    .titleFruit img {
+        margin-left: 10%;
+        background-size: 100% 100%;
+        width: 80%;
+        height: 70%;
+    }
 
     .Logo img {
         margin-top: 30%;
@@ -8,6 +23,17 @@
         justify-content: center;
     }
 
+    .contentCards {
+        margin-top: 0;
+        margin: 0;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 550px);
+        row-gap: 120px;
+        align-items: center;
+        margin-bottom: 8%;
+    }
 
     .containerProductos{
         height: auto;
@@ -28,19 +54,16 @@
     .contentCards{
         display: grid;
         grid-template-columns: 1fr;
-        margin-top: 0;
+        margin-top: 50px;
          margin-left: 0%;
     }
 
-    
-
     .contentCards .card{
-        width: 300px;
         height: auto;
         flex-direction: column;
         background: transparent;
         box-shadow: none;
-
+        margin: 10%;
     }
 
     .contentCards .card .imgBx{
@@ -49,11 +72,16 @@
         position: relative;
     }
 
+    .contentCards .card .imgBx img {
+        max-width: 100px;
+        transition: 0.5s ease-in-out;
+    } 
+
     .contentCards .card .imgBx, 
     .contentCards .card:hover .imgBx{
-       width:80%;
-       height: 200px;
-       top: 100px;
+       width:180px;
+       height: 120px;
+       top: 80px;
     }
 
     .contentCards .card:hover .imgBx{
@@ -62,32 +90,49 @@
 
      .card .imgBx img ,
     .card:hover .imgBx img{
-       max-width:100px;
+       max-width:80px;
     }
 
     .contentCards .card .content{
         position: relative;
-        width: 100%;
-        background: white;
+        width: 230px;
+        background: #ffff;
         box-shadow: none;
         border-radius: 20px;
-        padding: 20px 50px 40px;
+        padding: 20px 20px 40px;
         border-top: 100px solid white;
+    }
+
+
+    p{
+        font-size: 15px;
+    width: 80%;
+    text-align: justify
     }
 
     .title{
         width: 55%;
         padding-right: 15%;
-    
     }
+/* SEGUNDA PARTE*/
 
+    .Familia1 p {
+    font-size: 25px;
+    margin-top: 4%;
+    margin-left: 5px;
+
+    }
+    .titleFamiliaQuelal{
+        margin-top: 200px;
+        background-color: #dee9e2;  
+    }
 
     .Familia1{
         background-color: #dee9e2;
     }
 
     .text{ 
-        height: 550px;
+        height: 250px;
         align-items: center;
         display: flex;
     }
@@ -95,13 +140,15 @@
     .imagen{
         border-radius: 50%;
         background-color: #1a4d2d;;
-        margin-right: 12%;
-        width: 50%;
+        margin-left:  12%;
+        width: 180px;
     }
 
-    .containerProductos{
-        padding-left: 10%;
+    .imagen img{
+        width: 200px;
     }
+
+    
     .button-whastapp{
         margin-left: 45%;
     
@@ -128,23 +175,405 @@
         width: 47%;
         justify-content: flex-end;
         display: flex;
-            }
+        }
 
         .RedesSociales img{
             margin-right: 10px;
             width: 19px;
             
         }
-
-
         .card{
         width: 300px;
         height: 400px;
         margin-left: 35%;
         margin-bottom: 15%;
+        }          
+}
+
+
+
+
+@media only screen and (min-width:421px) and (max-width:768px) {
+
+    #frutas{
+        align-items: center;
+        background: #041c0d;
+        padding-top: 50px;
+        width: 100%;
+        height: 100;
+    }
+
+    .titleFruit img {
+        margin-left: 10%;
+        background-size: 100% 100%;
+        width: 80%;
+        height: 70%;
+    }
+
+    .Logo img {
+        margin-top: 30%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contentCards {
+        margin-top: 0;
+        margin: 0;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 550px);
+        row-gap: 120px;
+        align-items: center;
+        margin-bottom: 8%;
+    }
+
+    .containerProductos{
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+    margin-top: 5%;}
+
+    .Familia1 p{
+        font-family: 'Playfair Display', serif;
+        font-size: 65px;
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    .contentCards{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+         margin-left: 0%;
+    }
+
+    .contentCards .card{
+        height: auto;
+        flex-direction: column;
+        background: transparent;
+        box-shadow: none;
+        margin: 10%;
+    }
+
+    .contentCards .card .imgBx{
+        left: 65px;
+        margin-top: 25%;
+        position: relative;
+    }
+
+    .contentCards .card .imgBx img {
+        max-width: 100px;
+        transition: 0.5s ease-in-out;
+    } 
+
+    .contentCards .card .imgBx, 
+    .contentCards .card:hover .imgBx{
+       width:180px;
+       height: 120px;
+       top: 80px;
+    }
+
+    .contentCards .card:hover .imgBx{
+        top: 80px;
+     }
+
+     .card .imgBx img ,
+    .card:hover .imgBx img{
+       max-width:80px;
+    }
+
+    .contentCards .card .content{
+        position: relative;
+        width: 300px;
+        background: #ffff;
+        box-shadow: none;
+        border-radius: 20px;
+        padding: 20px 20px 40px;
+        border-top: 100px solid white;
+    }
+
+
+    p{
+        font-size: 15px;
+    width: 80%;
+    text-align: justify
+    }
+
+    .title{
+        width: 55%;
+        padding-right: 15%;
+    }
+/* SEGUNDA PARTE*/
+
+    .Familia1 p {
+    font-size: 55px;
+    margin-top: 4%;
+    margin-left: 5px;
+
+    }
+    .titleFamiliaQuelal{
+        margin-top: 200px;
+        background-color: #dee9e2;  
+    }
+
+    .Familia1{
+        background-color: #dee9e2;
+    }
+
+    .text{ 
+        height: 250px;
+        align-items: center;
+        display: flex;
+    }
+    
+    .imagen{
+        border-radius: 50%;
+        background-color: #1a4d2d;;
+        margin-left:  12%;
+        width: 180px;
+    }
+
+    .imagen img{
+        width: 200px;
+    }
+
+    
+    .button-whastapp{
+        margin-left: 45%;
+    
+    }
+
+
+        /*FOOTER*/
+        .cajitafooter .frase {
+            color: rgb(119, 231, 98);
+            font-size: 11pX;
         }
 
-            
-            
-            }
+        .cajitafooter{
+            width: 50%;
+        }
 
+        .cajitafooter img{
+            margin-left: 3%;
+            width: 50px;
+        }
+
+        .RedesSociales{
+        margin-top: 2%;
+        width: 47%;
+        justify-content: flex-end;
+        display: flex;
+        }
+
+        .RedesSociales img{
+            margin-right: 10px;
+            width: 19px;
+            
+        }
+        .card{
+        width: 300px;
+        height: 400px;
+        margin-left: 35%;
+        margin-bottom: 15%;
+        }        
+     }
+
+
+
+
+
+@Media only screen and (min-width: 769px)and (max-width:1024px){
+    #frutas{
+        align-items: center;
+        background: #041c0d;
+        padding-top: 50px;
+        width: 100%;
+        height: 100;
+    }
+
+    .titleFruit img {
+        margin-left: 10%;
+        background-size: 100% 100%;
+        width: 80%;
+        height: 70%;
+    }
+
+    .Logo img {
+        margin-top: 30%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contentCards {
+        margin-top: 0;
+        margin: 0;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: repeat(6, 550px);
+        row-gap: 120px;
+        align-items: center;
+        margin-bottom: 8%;
+    }
+
+    .containerProductos{
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+    margin-top: 5%;}
+
+    .Familia1 p{
+        font-family: 'Playfair Display', serif;
+        font-size: 65px;
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    .contentCards{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+         margin-left: 0%;
+    }
+
+    .contentCards .card{
+        height: auto;
+        flex-direction: column;
+        background: transparent;
+        box-shadow: none;
+        margin: 10%;
+    }
+
+    .contentCards .card .imgBx{
+        left: 65px;
+        margin-top: 25%;
+        position: relative;
+    }
+
+    .contentCards .card .imgBx img {
+        max-width: 100px;
+        transition: 0.5s ease-in-out;
+    } 
+
+    .contentCards .card .imgBx, 
+    .contentCards .card:hover .imgBx{
+       width:180px;
+       height: 120px;
+       top: 80px;
+    }
+
+    .contentCards .card:hover .imgBx{
+        top: 80px;
+     }
+
+     .card .imgBx img ,
+    .card:hover .imgBx img{
+       max-width:80px;
+    }
+
+    .contentCards .card .content{
+        position: relative;
+        width: 300px;
+        background: #ffff;
+        box-shadow: none;
+        border-radius: 20px;
+        padding: 20px 20px 40px;
+        border-top: 100px solid white;
+    }
+
+
+    p{
+        font-size: 15px;
+    width: 80%;
+    text-align: justify
+    }
+
+    .title{
+        width: 55%;
+        padding-right: 15%;
+    }
+/* SEGUNDA PARTE*/
+
+    .Familia1 p {
+    font-size: 55px;
+    margin-top: 4%;
+    margin-left: 5px;
+
+    }
+    .titleFamiliaQuelal{
+        margin-top: 200px;
+        background-color: #dee9e2;  
+    }
+
+    .Familia1{
+        background-color: #dee9e2;
+    }
+
+    .text{ 
+        height: 250px;
+        align-items: center;
+        display: flex;
+    }
+    
+    .imagen{
+        border-radius: 50%;
+        background-color: #1a4d2d;;
+        margin-left:  12%;
+        width: 180px;
+    }
+
+    .imagen img{
+        width: 200px;
+    }
+
+    
+    .button-whastapp{
+        margin-left: 45%;
+    
+    }
+
+
+        /*FOOTER*/
+        .cajitafooter .frase {
+            color: rgb(119, 231, 98);
+            font-size: 11pX;
+        }
+
+        .cajitafooter{
+            width: 50%;
+        }
+
+        .cajitafooter img{
+            margin-left: 3%;
+            width: 50px;
+        }
+
+        .RedesSociales{
+        margin-top: 2%;
+        width: 47%;
+        justify-content: flex-end;
+        display: flex;
+        }
+
+        .RedesSociales img{
+            margin-right: 10px;
+            width: 19px;
+            
+        }
+        .card{
+        width: 300px;
+        height: 400px;
+        margin-left: 35%;
+        margin-bottom: 15%;
+        }        
+     }

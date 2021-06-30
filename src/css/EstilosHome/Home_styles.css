@@ -137,6 +137,7 @@ justify-content: flex-end;
     margin: 5% 5% 0 0;
     height: auto;
     right: 67px;
+    left: 15px;
     border-radius: 20px;
 }
 
@@ -182,61 +183,4 @@ justify-content: flex-end;
 
 
 
-@media only screen and (min-width:360px) and (max-width:768px){
-    
-    .boxFotos{
-        grid-template-rows: 1fr 1fr ;
-        grid-template-columns: 1fr 1fr;
-        width: 100%;
-    }
 
-    .boxFotos img{
-        width: 100%;
-    }
-
-
-    .titleBox{
-        width: 55%;
-        height: 60%;
-        left: 25;
-        justify-content: center;
-        border-radius: 20px;
-    }
-
-
-    .titleLleg{
-        font-family: 'Playfair Display', serif;
-        font-size: 20px;
-        margin:01% 2% 0 5%;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-weight: 500;
-    }
-
-    .textLleg{
-        font-family: 'Alice', serif;
-        font-size: 20px;
-        margin: 2% 4% 0 4%;
-        letter-spacing: 1px;
-    }
-     
-
-    .botonLle{
-        display: flex;
-        justify-content: center;
-    }
-
-   
-    
-    .botonLle button{
-        margin-top: 5%;
-        color: white;
-        letter-spacing: 2px;
-        font-family: 'Playfair Display', serif;
-        padding: 2%;
-        width: 100px;
-        font-size: 15px;
-        background-color: rgba(0, 0, 0, 0.582);
-        border: 2px solid #77E762;
-    }
-}
