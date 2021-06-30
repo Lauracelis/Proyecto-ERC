@@ -148,13 +148,47 @@
         width: 200px;
     }
 
-    
-    .button-whastapp{
-        margin-left: 45%;
-    
+     /*ESTILOS DE LOS PRODUCTOS*/
+     .containerProductos{
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
+    .card{
+        width: 150px;
+        height: 200px;
+        background-color: white;
+    }
 
+    .card .details .content h2{
+        width: 80%;
+        text-align: center;
+        font-weight: 700;
+        line-height: 1em;
+        font-size: 15px;
+    }
+    
+    .card .details .content h2 span{
+        color:#34df72;
+        font-size: 0.8em;
+    }
+    
+    p{  
+        font-size: 9px;
+        width: 80%;
+        text-align: justify;
+    }
+
+    /*ESTILOS DE BOTONES*/
+    .button-whastapp{
+    width: 75px;
+    height: 35px;
+    margin-left: 35%;
+    color: #fff; 
+    font-size: 0.9em;
+
+}
         /*FOOTER*/
         .cajitafooter .frase {
             color: rgb(119, 231, 98);
@@ -181,13 +215,7 @@
             margin-right: 10px;
             width: 19px;
             
-        }
-        .card{
-        width: 300px;
-        height: 400px;
-        margin-left: 35%;
-        margin-bottom: 15%;
-        }          
+        }        
 }
 
 
