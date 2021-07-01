@@ -7,6 +7,10 @@ body,html{
     margin: 0;
     padding: 0;
 }
+.ContainerProductores{
+  width: 100%;
+  height: 100%;
+}
 
 /*propiedades para la línea del tiempo*/
 
@@ -192,17 +196,17 @@ body,html{
   }
   .timeline .swiper-button-prev {
     left: 12%;
-    background-image: url("./Productores/izquierdo.png");
+    background-image: url("/src/utils/images/Productores/izquierdo.png");
   }
-  .timeline .swiper-button-prev:hover {
+  .timeline .swiper-button-prev{
     -webkit-transform: translateX(-3px);
             transform: translateX(-3px);
   }
   .timeline .swiper-button-next {
     right: 8%;
-    background-image: url("./Productores/derecho.png");
+    background-image: url("/src/utils/images/Productores/derecho.png");
   }
-  .timeline .swiper-button-next:hover {
+  .timeline .swiper-button-next {
     -webkit-transform: translateX(3px);
             transform: translateX(3px);
   }
@@ -217,7 +221,7 @@ body,html{
     -webkit-transform: rotate(90deg) translate(0, 10px);
             transform: rotate(90deg) translate(0, 10px);
   }
-  .timeline .swiper-button-prev:hover {
+  .timeline .swiper-button-prev {
     -webkit-transform: rotate(90deg) translate(-3px, 10px);
             transform: rotate(90deg) translate(-3px, 10px);
   }
@@ -228,11 +232,10 @@ body,html{
     -webkit-transform: rotate(90deg) translate(0, 10px);
             transform: rotate(90deg) translate(0, 10px);
   }
-  .timeline .swiper-button-next:hover {
+  .timeline .swiper-button-next {
     -webkit-transform: rotate(90deg) translate(3px, 10px);
             transform: rotate(90deg) translate(3px, 10px);
   }
-
 
 /* RESPONSIVE*/
 
@@ -372,14 +375,14 @@ body,html{
     }
     .timeline .swiper-button-prev {
       left: 12%;
-      background-image: url("./Productores/izquierdo.png");
-      transform: rotate(0deg) translate(0, 10px);
+      background-image: url("/src/utils/images/Productores/derecho.png");
+      transform: rotate(180deg) translate(0, 10px);
     }
    
     .timeline .swiper-button-next {
     
       right: 8%;
-      background-image: url("./Productores/izquierdo.png");
+      background-image: url("/src/utils/images/Productores/izquierdo.png");
       transform: rotate(180deg) translate(0, 10px);
 
     }
@@ -513,7 +516,7 @@ body,html{
 }
 }
 
-@media screen and (min-width:769px) and (max-width:1024px){
+@media screen and (min-width:769px) and (max-width:1300px){
   .contentCampesinos{
     grid-template-columns: 2fr;
     row-gap: 10px;
@@ -550,4 +553,56 @@ body,html{
   font-size: 18px;
   overflow: hidden;
 }
+}
+
+
+footer{
+  border-top: 5px solid rgb(145, 236, 145);
+  background-color:#08110b;
+  width: 100%;
+  display: flex;
+}
+
+.cajitafooter{
+  padding: 1%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cajitafooter img{
+margin-left: 3%;
+width: 7%;
+}
+
+.cajitafooter .frase{
+  color: #77e762;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  margin: 2% 0 0 2%;
+
+}
+
+.RedesSociales{
+margin-top: 2%;
+width: 65%;
+justify-content: flex-end;
+display: flex;
+}
+
+.RedesSociales img{
+  margin-right: 10px;
+  width: 32px;
+  
+}
+
+
+.RedesSociales a{
+  border-radius: none;
+  color: none;
+  text-decoration: none;
+}
+
+.frase{
+  margin-left: 50%;
 }
