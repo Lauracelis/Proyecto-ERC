@@ -12,7 +12,6 @@ body,html{
 
 .contenedorNoticias{
     padding-top: 50px;
-    border: 1px solid red;
     width: 100%;
     height: 100%;
     background-color: #7DAC4E;
@@ -39,7 +38,7 @@ body,html{
 .cardsNoticias{
     display: grid;
     grid-template-columns: repeat(5, 0.5fr);
-    grid-template-rows: repeat(3, 0.5fr);
+    grid-template-rows: repeat(2, 0.5fr);
     gap: 10px;
     margin: 15px;
 }
@@ -66,7 +65,7 @@ body,html{
   }
   
   /* Modal Content */
-  .modal-content {
+  .modal-content, .modal-contentC {
     border-radius: 5px;
     background-color: #fefefe;
     margin: auto;
@@ -78,11 +77,14 @@ body,html{
   }
   
   /* The Close Button */
-  .close, .close2, .close3, .close4, .close5, .close6{
+  .close, .close2, .close3, .close4, .close5, .close6, 
+  .closeC1, .closeC2, .closeC3, .closeC4, .closeC5,.closeC6, .closeC7, .closeC8, .closeC9, .closeC10, .closeC11, .closeC12
+{
     color: #02250f;
     float: right;
     font-size: 30px;
     font-weight: bold;
+    cursor: pointer;
   }
   
   .close:hover, .close2:hover, .close2:focus,
@@ -100,6 +102,18 @@ body,html{
     font-size: 35px;
     color:#02250f;
     text-transform: uppercase;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .modal-contentC h1{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+    text-align: center;
+    color:#02250f;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
   }
 
   .modal-content p{
@@ -108,6 +122,13 @@ body,html{
     margin-top: 20px;
     text-align: justify;
   }
+  .modal-contentC p{
+    font-family: 'Alice', serif;
+    font-size: 23px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+
 
 /* ESTILOS PARA NOTICIA 1*/
 
@@ -183,6 +204,7 @@ body,html{
 }
 .imageNotice1 img{
     width: 35%;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.2);
 }
 .finModal{
     display: flex;
@@ -302,8 +324,6 @@ body,html{
     color: #77E762;
 }
 
-
-
 .imageNotice5 {
     display: flex;
     justify-content: center;
@@ -339,8 +359,6 @@ body,html{
     color:black;
 }
 
-
-
 .imageNotice6 {
     display: flex;
     justify-content: center;
@@ -349,6 +367,124 @@ body,html{
 .imageNotice6 img{
     width: 35%;
 }
+
+/* ESTILOS PARA LAS COSECHAS*/
+
+.contenedorCosechas{
+    background-color: #02250F;
+    width: 100%;
+    height: 100%;
+}
+
+.cosechasTitle {
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+.cosechasTitle h1 {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 10px;
+    color: #02250F;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contCosechas{
+    background-image: url(../../utils/images/Noticias/Cosechas/fondoCosechas.png);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: auto;
+    margin: 20px;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+
+.productosCosecha1, .productosCosecha2, .productosCosecha3, .productosCosecha4, .productosCosecha5, .productosCosecha6,
+.productosCosecha7, .productosCosecha8, .productosCosecha9, .productosCosecha10, .productosCosecha11, .productosCosecha12,
+.productosCosecha {
+    background-color: black;
+    width: 150px;
+    display: flex;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px 75px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#myBtnC1, #myBtnC2, #myBtnC3, #myBtnC4, #myBtnC5, #myBtnC6, #myBtnC7, 
+#myBtnC8, #myBtnC9, #myBtnC10, #myBtnC11, #myBtnC12{
+    background: none;
+    border: none;
+}
+
+.productosCosecha1{
+    background-image: url(../../utils/images/Noticias/Cosechas/cebolla.jpg);
+}
+
+.productosCosecha2{
+    background-image: url(../../utils/images/Noticias/Cosechas/fresas.jpg);
+}
+
+.productosCosecha3{
+    background-image: url(../../utils/images/Noticias/Cosechas/zanahoria.jpg);
+}
+
+.productosCosecha4{
+    background-image: url(../../utils/images/Noticias/Cosechas/limons.jpg);
+
+}
+.productosCosecha5{
+    background-image: url(../../utils/images/Noticias/Cosechas/tomates.jpg);
+}
+
+.productosCosecha6{
+    background-image: url(../../utils/images/Noticias/Cosechas/Lulo.jpg);
+}
+
+.productosCosecha7{
+    background-image: url(../../utils/images/Noticias/Cosechas/naranja.jpg);
+}
+
+.productosCosecha8{
+    background-image: url(../../utils/images/Noticias/Cosechas/yuca.jfif);
+}
+
+.productosCosecha9{
+    background-image: url(../../utils/images/Noticias/Cosechas/mora.jpg);
+}
+
+.productosCosecha10{
+    background-image: url(../../utils/images/Noticias/Cosechas/papa.jpg);
+}
+.productosCosecha11{
+    background-image: url(../../utils/images/Noticias/Cosechas/mango.jpg);
+}
+
+.productosCosecha12{
+    background-image: url(../../utils/images/Noticias/Cosechas/mazorca.jpg);
+}
+
+.imageNoticeC{
+    display: flex;
+    justify-content: center;
+}
+
+.imageNoticeC img{
+    width: 35%;
+    border-radius: 15px;
+}
+
+
 
 /*PARA CELULARES*/
 
@@ -361,31 +497,33 @@ body,html{
     }
     
     /* PARA LOS MODALES*/
-
     .modal-content h1 {
         font-size: 25px;
     }
 
+    .modal-contentC h1{
+        font-size: 25px;
+    }
     .modal-content p {
+        font-size: 15px;
+    }
+    .modal-contentC p {
         font-size: 15px;
     }
 
     /* noticia 1*/
-
     .noticia-1{
         grid-row: 1/1;
         grid-column: 1/3;
         background-color: #02250f96;
         box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
     }
-
     .titleNoticia-1 h2 {
         font-size: 20px;
     }
     .textNoticia-1 {
         font-size: 18px;
     }
-
     /* NOTICIA 2*/
 
     .noticia-2 {
@@ -456,6 +594,33 @@ body,html{
     .textNoticia-6 {
         font-size: 18px;
     }
+
+    .contCosechas{
+        background-image: url(../../utils/images/Noticias/Cosechas/fondocosechascel.jpg);
+        background-size: 100% 100%;
+        height: 100vh;
+        width: auto;
+        margin: 20px;
+        display: grid;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(6, 1fr);
+        
+    }
+
+    .productosCosecha1, .productosCosecha2, .productosCosecha3, .productosCosecha4, .productosCosecha5, .productosCosecha6,
+.productosCosecha7, .productosCosecha8, .productosCosecha9, .productosCosecha10, .productosCosecha11, .productosCosecha12,
+.productosCosecha {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin: 10px 35px;
+
+}
+
+
 }
 
 /* PARA TABLET*/
@@ -478,6 +643,13 @@ body,html{
         font-size: 25px;
     }
 
+    .modal-contentC h1 {
+        font-size: 30px;
+    }
+
+    .modal-contentC p {
+        font-size: 25px;
+    }
     /* noticia 1*/
 
     .noticia-1{
@@ -573,6 +745,37 @@ body,html{
         font-size: 25px;
     }
 
+
+    .contCosechas{
+        background-image: url(../../utils/images/Noticias/Cosechas/fondocosechascel.jpg);
+        background-size: 100% 100%;
+        height: 100vh;
+        width: auto;
+        margin: 20px;
+        display: grid;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(4, 1fr);
+        
+    }
+
+   .productosCosecha2,  .productosCosecha4, .productosCosecha6,
+   .productosCosecha8, .productosCosecha10, .productosCosecha12,
+.productosCosecha {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: 10px 35px 0 55px;
+}
+
+.productosCosecha1, .productosCosecha3, .productosCosecha5, .productosCosecha7, .productosCosecha9, .productosCosecha11{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: 10px 0 0 55px;
+}
 }
 
 
@@ -593,8 +796,13 @@ body,html{
     .modal-content h1 {
         font-size: 35px;
     }
-
+    .modal-contentC h1 {
+        font-size: 35px;
+    }
     .modal-content p {
+        font-size: 28px;
+    }
+    .modal-contentC p {
         font-size: 28px;
     }
 
@@ -691,6 +899,29 @@ body,html{
         padding: 4%;
         width: 200px;
         font-size: 25px;
+        
     }
+
+    .contCosechas{
+        grid-template-columns: repeat(3, 270px);
+        grid-template-rows: repeat(4, 1fr);
+        
+    }
+
+.productosCosecha2, .productosCosecha3,  .productosCosecha5, .productosCosecha6,
+ .productosCosecha8, .productosCosecha9, .productosCosecha10, .productosCosecha11, .productosCosecha12,
+.productosCosecha {
+    width: 100px;
+    height: 100px;
+    margin: 10px 35px;
+    justify-content: center;
+
+}
+
+.productosCosecha1, .productosCosecha4, .productosCosecha7, .productosCosecha10 {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0 0 80px;
+}
 
 }
