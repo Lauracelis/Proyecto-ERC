@@ -374,6 +374,7 @@ body,html{
     background-color: #02250F;
     width: 100%;
     height: 100%;
+    border-bottom: 15px solid #02250F;
 }
 
 .cosechasTitle {
@@ -484,7 +485,73 @@ body,html{
     border-radius: 15px;
 }
 
+/* ESTILOS PARA EL CONTENEDOR DE LAS RECOMENDACIONES*/
 
+.contenedorRecomendaciones{
+    width: 100%;
+    height: 100%;
+    background-color: #7DAC4E;
+    padding: 40px 80px;
+    
+}
+
+
+/*ESTILOS DEL FOOTERr*/
+
+footer{
+    border-top: 5px solid rgb(145, 236, 145);
+    background-color:#08110b;
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+.cajitafooter{
+    padding: 1%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cajitafooter img{
+margin-left: 3%;
+ width: 7%;
+}
+
+.cajitafooter .frase{
+    color: #77e762;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    margin: 2% 0 0 2%;
+
+}
+
+.RedesSociales{
+margin-top: 2%;
+width: 47%;
+justify-content: flex-end;
+  display: flex;
+}
+
+.RedesSociales img{
+    margin-right: 10px;
+    width: 32px;
+    
+}
+
+
+.RedesSociales a{
+    border-radius: none;
+    color: none;
+    text-decoration: none;
+}
+
+.frase{
+    margin-left: 50%;
+}
+
+
+/* --------------------------------------------RESPONSIVE-------------------------------------------------------------------------*/
 
 /*PARA CELULARES*/
 
@@ -618,6 +685,21 @@ body,html{
     padding: 5px;
     margin: 10px 35px;
 
+}
+
+/* FOOTER*/
+
+.cajitafooter img{
+    margin-left: 3%;
+    width: 50px;
+}
+
+.RedesSociales img{
+   width: 30px;
+}
+
+.cajitafooter .frase{
+   font-size: 15px;
 }
 
 
@@ -784,6 +866,31 @@ body,html{
 /* PARA TABLET*/
 
 @media only screen and (min-width:769px) and (max-width:1024px) {
+
+
+    .cajitafooter .frase {
+        color: rgb(119, 231, 98);
+        font-size: 9px;
+    }
+
+    .cajitafooter img{
+        margin-left: 3%;
+         width: 50px;
+    }
+
+    .RedesSociales{
+    margin-top: 2%;
+    width: 95%;
+    justify-content: flex-end;
+    display: flex;
+        }
+    
+    .RedesSociales img{
+        margin-right: 10px;
+        width: 15%;
+        
+    }
+
     .cardsNoticias{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(800px 500px 800px 800px 800px 800px);
