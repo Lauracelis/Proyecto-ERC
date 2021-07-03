@@ -63,7 +63,7 @@
         flex-direction: column;
         background: transparent;
         box-shadow: none;
-        margin: 10%;
+        margin: 18%;
     }
 
     .contentCards .card .imgBx{
@@ -362,7 +362,7 @@
     }
 
     .text{ 
-        height: 250px;
+        height: 100px;
         align-items: center;
         display: flex;
     }

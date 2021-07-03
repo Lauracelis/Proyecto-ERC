@@ -102,6 +102,7 @@
     .containerProductos{
         padding-left: 10%;
     }
+
     .button-whastapp{
         margin-left: 45%;
     
@@ -113,6 +114,7 @@
 
       /*ESTILOS DE LOS PRODUCTOS*/
     .containerProductos{
+        border: 1px solid fuchsia;
         height: auto;
         display: grid;
         grid-template-columns: 1fr;
@@ -403,6 +405,7 @@
     }
 
     .contentCards {
+        border: 1px solid red;
         margin-top: 0;
         margin: 0;
         padding: 10px;
@@ -421,7 +424,8 @@
     }
 
     .card{
-    margin-top: 5%;}
+    margin-top: 5%
+    }
 
     .Familia1 p{
         font-family: 'Playfair Display', serif;
@@ -431,10 +435,9 @@
     }
 
     .contentCards{
+        margin-left: 25%;
         display: grid;
         grid-template-columns: 1fr;
-        margin-top: 50px;
-         margin-left: 0%;
     }
 
     .contentCards .card{
@@ -446,9 +449,23 @@
     }
 
     .contentCards .card .imgBx{
+        margin-left: 9%;
         left: 65px;
         margin-top: 25%;
         position: relative;
+    }
+    .contentCards .card .content h3{
+        margin-left: 38%;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+
+    .text p{
+        color:black;
+        font-family: 'Playfair Display', serif;
+        font-size: 78px;
+        text-align: center;
     }
 
     .contentCards .card .imgBx img {
@@ -483,8 +500,8 @@
     }
 
 
-    p{
-        font-size: 15px;
+    .social-icons p{
+    font-size: 25px;
     width: 80%;
     text-align: justify
     }
@@ -493,6 +510,7 @@
         width: 55%;
         padding-right: 15%;
     }
+
 /* SEGUNDA PARTE*/
 
     .Familia1 p {
@@ -560,11 +578,5 @@
             margin-right: 10px;
             width: 19px;
             
-        }
-        .card{
-        width: 300px;
-        height: 400px;
-        margin-left: 35%;
-        margin-bottom: 15%;
-        }        
+        }       
      }
