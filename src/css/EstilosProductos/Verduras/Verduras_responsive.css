@@ -312,13 +312,9 @@ width: 19px;
 
     .contentCards .card .imgBx, 
     .contentCards .card:hover .imgBx{
-       width:250px;
+       width:225px;
        top: 100px;
     }
-
-    .contentCards .card:hover .imgBx{
-        top: 80px;
-     }
 
      .card .imgBx img ,
     .card:hover .imgBx img{
@@ -339,7 +335,7 @@ width: 19px;
         box-shadow: none;
         border-radius: 20px;
         padding: 20px 20px 40px;
-        border-top: 100px solid white;
+        border-top: 40px solid white;
     }
 
 
