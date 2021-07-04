@@ -98,19 +98,6 @@ body,html{
     text-decoration: none;
 }
 
-/* estilos del scroll */
-
-.Scroll{
-
-   display: flex;
-   justify-content: center;
-   transition: all 0.5s;
- }
- 
- .Scroll img{
-     width: 70%;
- }
-
 /* estilos del footer*/
 
 footer{
