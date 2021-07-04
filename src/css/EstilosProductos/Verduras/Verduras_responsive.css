@@ -12,6 +12,7 @@
     }
 
     .contentCards{
+        border: 1px solid red;
         display: grid;
         grid-template-columns: 1fr;
         margin-top: 0;
@@ -19,7 +20,7 @@
     }
 
     .contentCards .card{
-        width: 300px;
+        width: 250px;
         height: auto;
         flex-direction: column;
         background: transparent;
@@ -28,7 +29,7 @@
     }
 
     .contentCards .card .imgBx{
-        left: 65px;
+        left: 85px;
         margin-top: 25%;
         position: relative;
     }
@@ -42,6 +43,7 @@
 
     .contentCards .card:hover .imgBx{
         top: 80px;
+        left: 15%;
      }
 
      .card .imgBx img ,
@@ -50,6 +52,8 @@
     }
 
     .contentCards .card .content{
+        height: auto;
+        left: 15%;
         position: relative;
         background: white;
         box-shadow: none;
@@ -58,6 +62,22 @@
         border-top: 100px solid white;
     }
 
+    .content li{
+        font-size: 10px;
+    }
+
+    .contentCards .card .content h3{
+        margin-left: 38%;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+
+    .contentCards .card .content a{
+        margin-top: 2px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
     
 
     .title{
@@ -78,7 +98,7 @@
     }
 
     .text p{
-        color: black;
+    color: black;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     margin-top: 4%;
@@ -155,31 +175,45 @@
 
 }
 
- /*FOOTER*/
-        .cajitafooter .frase {
-            color: rgb(119, 231, 98);
-            font-size: 11pX;
+.imgBx{
+    left: 15%;
+    max-width: 150px;
+    max-height: 125px;
+}
+
+
+.contentCards .card .imgBx img{
+    max-width: 80px;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+/*FOOTER*/
+.cajitafooter .frase {
+color: rgb(119, 231, 98);
+font-size: 11pX;
         }
 
-        .cajitafooter{
-            width: 50%;
+.cajitafooter{
+width: 50%;
         }
 
-        .cajitafooter img{
-            margin-left: 3%;
-            width: 50px;
+.cajitafooter img{
+margin-left: 3%;
+width: 50px;
         }
 
-        .RedesSociales{
-        margin-top: 2%;
-        width: 47%;
-        justify-content: flex-end;
-        display: flex;
+.RedesSociales{
+margin-top: 2%;
+width: 47%;
+justify-content: flex-end;
+display: flex;
             }
 
-        .RedesSociales img{
-            margin-right: 10px;
-            width: 19px;
+.RedesSociales img{
+margin-right: 10px;
+width: 19px;
             
         }
 
@@ -211,8 +245,9 @@
     }
 
     .contentCards {
+        border: 1px solid red;
         margin-top: 0;
-        margin: 0;
+        margin: 15px;
         padding: 10px;
         display: grid;
         grid-template-columns: 1fr;
@@ -221,6 +256,18 @@
         align-items: center;
         margin-bottom: 8%;
     }
+
+    .contentCards .card .content h3{
+        margin-left: 38%;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+
+    .content li{
+        font-size: 18px;
+    }
+
 
     .containerProductos{
         height: auto;
@@ -241,8 +288,7 @@
     .contentCards{
         display: grid;
         grid-template-columns: 1fr;
-        margin-top: 50px;
-         margin-left: 0%;
+        margin-left: 20%;
     }
 
     .contentCards .card{
@@ -254,21 +300,20 @@
     }
 
     .contentCards .card .imgBx{
-        left: 65px;
+        left: 60px;
         margin-top: 25%;
         position: relative;
     }
 
     .contentCards .card .imgBx img {
-        max-width: 100px;
+        max-width: 150px;
         transition: 0.5s ease-in-out;
     } 
 
     .contentCards .card .imgBx, 
     .contentCards .card:hover .imgBx{
-       width:180px;
-       height: 120px;
-       top: 80px;
+       width:250px;
+       top: 100px;
     }
 
     .contentCards .card:hover .imgBx{
@@ -279,6 +324,13 @@
     .card:hover .imgBx img{
        max-width:80px;
     }
+
+    .card{
+        width: 280px;
+        height: 400px;
+        margin-left: 40%;
+        margin-bottom: 15%;
+        }     
 
     .contentCards .card .content{
         position: relative;
@@ -292,8 +344,7 @@
 
 
     p{
-        font-size: 15px;
-    width: 80%;
+    width: 85%;
     text-align: justify
     }
 
@@ -340,6 +391,9 @@
         margin-left: 45%;
     
     }
+    .social-icons p{
+        font-size: 18px;
+    }
 
 
         /*FOOTER*/
@@ -368,13 +422,7 @@
             margin-right: 10px;
             width: 19px;
             
-        }
-        .card{
-        width: 300px;
-        height: 400px;
-        margin-left: 35%;
-        margin-bottom: 15%;
-        }        
+        }   
      }
 
 
