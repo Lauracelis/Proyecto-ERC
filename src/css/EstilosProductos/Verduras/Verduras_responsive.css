@@ -78,13 +78,15 @@
         margin-bottom: 5px;
         font-size: 12px;
     }
-    
 
+ 
     .title{
         width: 55%;
         padding-right: 15%;
     
     }
+
+       /*SEGUNDA PARTE*/
 
 
     .Familia1{
@@ -116,9 +118,8 @@
         width: 200px;
 
     }
-
-
-
+    
+    /*ESTILOS DE LOS PRODUCTOS*/
     .containerProductos{
         padding-left: 10%;
     }
@@ -141,6 +142,7 @@
     }
 
     .card{
+        margin-left: 40%;
         width: 150px;
         height: 200px;
         background-color: white;
@@ -256,6 +258,7 @@ width: 19px;
         align-items: center;
         margin-bottom: 8%;
     }
+    
 
     .contentCards .card .content h3{
         margin-left: 38%;
@@ -300,7 +303,7 @@ width: 19px;
     }
 
     .contentCards .card .imgBx{
-        left: 60px;
+        left: 65px;
         margin-top: 25%;
         position: relative;
     }
@@ -545,7 +548,7 @@ width: 19px;
 
 
     .social-icons p{
-    font-size: 25px;
+    font-size: 18px;
     width: 80%;
     text-align: justify
     }
