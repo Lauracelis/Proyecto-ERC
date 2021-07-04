@@ -1,5 +1,5 @@
 
-@media (max-width:1075px) {
+@media  only screen and (max-width:1075px) {
 
    .ContainerProductos{
        flex-direction: column;
@@ -34,28 +34,6 @@
     padding: 2%;
 }
 
-.ImagenFondo{
-    display: block;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.Logo img {
-    margin-top: 160px;
-    width: 60%;
-    justify-content: center;
-}
-
-.Scroll{
-    margin-top: 100px;
-   display: flex;
-    justify-content: center;
-}
-
-.Scroll img{
-    display: flex;
-    justify-content: center;
-}
-
 
 /*FOOTER*/
 .cajitafooter .frase {
@@ -84,8 +62,6 @@ display: flex;
     width: 19px;
     
 }
-
-
 
 
 }
