@@ -205,6 +205,11 @@ p{
     width: auto;
 }
 
+.card{
+    margin-left: 45%;
+    margin-top: 5%
+    } 
+
 .contentCards{
  margin-top: 0;
  padding: 10px;
