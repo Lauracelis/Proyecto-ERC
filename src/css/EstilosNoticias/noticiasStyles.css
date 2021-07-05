@@ -9,7 +9,6 @@ body,html{
     box-sizing: border-box;
 }
 
-
 .contenedorNoticias{
     padding-top: 50px;
     width: 100%;
@@ -34,7 +33,6 @@ body,html{
     letter-spacing: 2px;
 }
 
-
 .cardsNoticias{
     display: grid;
     grid-template-columns: repeat(5, 0.5fr);
@@ -43,11 +41,10 @@ body,html{
     margin: 15px;
 }
 
-
 .noticia-1, .noticia-2, .noticia-3 , .noticia-4, .noticia-5,
  .noticia-6{
      padding: 18px;
- }
+}
 
 /* ESTILO DEL MODAL*/
  .modal {
@@ -211,8 +208,6 @@ body,html{
     justify-content: center;
 } 
 
-
-
 /* ESTILOS PARA NOTICIA-2*/
 .noticia-2{
     background-color: white;
@@ -268,7 +263,6 @@ body,html{
     grid-column: 3/4;
     grid-row: 2/3;
 }
-
 
 .titleNoticia-4 h2{
     font-family: 'Playfair Display', serif;
@@ -332,7 +326,6 @@ body,html{
 .imageNotice5 img{
     width: 35%;
 }
-
 
 /* NOTICIA 6*/
 
@@ -405,7 +398,6 @@ body,html{
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    
 }
 
 .productosCosecha1, .productosCosecha2, .productosCosecha3, .productosCosecha4, .productosCosecha5, .productosCosecha6,
@@ -491,10 +483,8 @@ body,html{
     width: 100%;
     height: 100%;
     background-color: #7DAC4E;
-    padding: 40px 80px;
-    
+    padding: 40px 80px;  
 }
-
 
 /*ESTILOS DEL FOOTERr*/
 
@@ -523,7 +513,6 @@ margin-left: 3%;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     margin: 2% 0 0 2%;
-
 }
 
 .RedesSociales{
@@ -536,7 +525,6 @@ justify-content: flex-end;
 .RedesSociales img{
     margin-right: 10px;
     width: 32px;
-    
 }
 
 
@@ -550,9 +538,39 @@ justify-content: flex-end;
     margin-left: 50%;
 }
 
-
 /* --------------------------------------------RESPONSIVE-------------------------------------------------------------------------*/
 
+@media  only screen and (max-width:1075px) {
+
+    /*FOOTER*/
+    .cajitafooter .frase {
+       color: rgb(119, 231, 98);
+       font-size: 11pX;
+    }
+    
+    .cajitafooter{
+       width: 50%;
+    }
+    
+    .cajitafooter img{
+       margin-left: 3%;
+        width: 50px;
+    }
+    
+    .RedesSociales{
+    margin-top: 2%;
+    width: 47%;
+    justify-content: flex-end;
+    display: flex;
+       }
+    
+    .RedesSociales img{
+       margin-right: 10px;
+       width: 19px;
+       
+    }
+    
+    }
 /*PARA CELULARES*/
 
 @media only screen and (max-width:420px) {
@@ -684,25 +702,7 @@ justify-content: flex-end;
     height: 60px;
     padding: 5px;
     margin: 10px 35px;
-
 }
-
-/* FOOTER*/
-
-.cajitafooter img{
-    margin-left: 3%;
-    width: 50px;
-}
-
-.RedesSociales img{
-   width: 30px;
-}
-
-.cajitafooter .frase{
-   font-size: 15px;
-}
-
-
 }
 
 /* PARA TABLET*/
@@ -821,7 +821,7 @@ justify-content: flex-end;
 
     /* ESTILOS PARA LOS BOTONES*/
 
-    #myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6 {
+    #myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6{
         padding: 4%;
         width: 200px;
         font-size: 25px;
@@ -860,36 +860,11 @@ justify-content: flex-end;
 }
 }
 
-
 /* PARA PORTATIL*/
 
 /* PARA TABLET*/
 
 @media only screen and (min-width:769px) and (max-width:1024px) {
-
-
-    .cajitafooter .frase {
-        color: rgb(119, 231, 98);
-        font-size: 9px;
-    }
-
-    .cajitafooter img{
-        margin-left: 3%;
-         width: 50px;
-    }
-
-    .RedesSociales{
-    margin-top: 2%;
-    width: 95%;
-    justify-content: flex-end;
-    display: flex;
-        }
-    
-    .RedesSociales img{
-        margin-right: 10px;
-        width: 15%;
-        
-    }
 
     .cardsNoticias{
         grid-template-columns: repeat(1, 1fr);
@@ -1030,5 +1005,4 @@ justify-content: flex-end;
     height: 100px;
     margin: 10px 0 0 80px;
 }
-
 }

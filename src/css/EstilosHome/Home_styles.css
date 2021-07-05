@@ -2,9 +2,10 @@
 /*font-family: 'Playfair Display', serif;*/
 
 
-*{
+body,html{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* ESTILOS DEL HOME*/
 
@@ -48,8 +49,6 @@
 
 /* estilos del footer*/
 
-/*ESTILOS DEL FOOTERr*/
-
 footer{
     border-top: 5px solid rgb(145, 236, 145);
     background-color:#08110b;
@@ -88,9 +87,7 @@ justify-content: flex-end;
 .RedesSociales img{
     margin-right: 10px;
     width: 32px;
-    
 }
-
 
 .RedesSociales a{
     border-radius: none;
@@ -102,7 +99,6 @@ justify-content: flex-end;
     margin-left: 50%;
 }
   
-
   /* ESTILOS DE LOS PRODUCTOS*/
 
 .contenidoProductos{
@@ -192,10 +188,7 @@ justify-content: flex-end;
     color: green;
 }
 
-
 /*----------------------------- RESPONSIVE------------------------------------------------*/
-
-
 
 @media only screen and (max-width:420px){
 
@@ -211,7 +204,6 @@ justify-content: flex-end;
         margin-top: 85px;
         width: 310px;
         justify-content: center;
-
     }
 
     .Scroll{
@@ -257,7 +249,6 @@ justify-content: flex-end;
         letter-spacing: 1px;
     }
      
-
     .botonLle{
         display: flex;
         justify-content: center;
@@ -265,20 +256,6 @@ justify-content: flex-end;
 
     .botonLle button{
         font-size: 15px;
-    }
-    
-
-    .cajitafooter img{
-        margin-left: 3%;
-        width: 50px;
-    }
-    
-    .RedesSociales img{
-       width: 30px;
-    }
-    
-    .cajitafooter .frase{
-       font-size: 15px;
     }
 }
 
@@ -314,7 +291,6 @@ justify-content: flex-end;
         justify-content: center;
     }
     
-
     .titleLleg{
         font-family: 'Playfair Display', serif;
         font-size: 22px;
@@ -333,20 +309,6 @@ justify-content: flex-end;
 
     .botonLle button{
         font-size: 20px;
-    }
-
-    
-    .cajitafooter img{
-        margin-left: 3%;
-        width: 50px;
-    }
-    
-    .RedesSociales img{
-       width: 30px;
-    }
-    
-    .cajitafooter .frase{
-       font-size: 15px;
     }
 }
      /* de 421 a 768*/
@@ -394,28 +356,38 @@ justify-content: flex-end;
         font-size: 30px;
         margin: 2% 4% 0 4%;
         letter-spacing: 1px;
-    }
-
-
-    .cajitafooter img{
-        margin-left: 3%;
-        width: 50px;
-    }
-    
-    .RedesSociales img{
-       width: 30px;
-    }
-    
-    .cajitafooter .frase{
-       font-size: 15px;
-    }
-    
-    .RedesSociales {
-        margin-top: 2%;
-        width: 47%;
-        margin-left: 107px;
-        justify-content: flex-end;
-        display: flex;
-    }
+    }  
 }
 
+/*FOOTER*/
+
+@media  only screen and (max-width:1075px) {
+  
+ /*FOOTER*/
+ .cajitafooter .frase {
+     color: rgb(119, 231, 98);
+     font-size: 11pX;
+ }
+ 
+ .cajitafooter{
+     width: 50%;
+ }
+ 
+ .cajitafooter img{
+     margin-left: 3%;
+      width: 50px;
+ }
+ 
+ .RedesSociales{
+ margin-top: 2%;
+ width: 47%;
+ justify-content: flex-end;
+ display: flex;
+     }
+ 
+ .RedesSociales img{
+     margin-right: 10px;
+     width: 19px;  
+ }
+ 
+}

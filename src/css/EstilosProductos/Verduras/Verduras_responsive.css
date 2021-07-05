@@ -12,7 +12,6 @@
     }
 
     .contentCards{
-        border: 1px solid red;
         display: grid;
         grid-template-columns: 1fr;
         margin-top: 0;
@@ -135,7 +134,6 @@
 
       /*ESTILOS DE LOS PRODUCTOS*/
     .containerProductos{
-        border: 1px solid fuchsia;
         height: auto;
         display: grid;
         grid-template-columns: 1fr;
@@ -423,10 +421,6 @@ width: 19px;
         }   
      }
 
-
-
-
-
 @Media only screen and (min-width: 769px)and (max-width:1024px){
     #verduras{
         align-items: center;
@@ -597,31 +591,31 @@ width: 19px;
     }
 
 
-        /*FOOTER*/
-        .cajitafooter .frase {
-            color: rgb(119, 231, 98);
-            font-size: 11pX;
-        }
+/*FOOTER*/
+.cajitafooter .frase {
+    color: rgb(119, 231, 98);
+     font-size: 11pX;
+}
 
-        .cajitafooter{
-            width: 50%;
-        }
+.cajitafooter{
+    width: 50%;
+}
 
-        .cajitafooter img{
-            margin-left: 3%;
-            width: 50px;
-        }
+.cajitafooter img{
+    margin-left: 3%;
+    width: 50px;
+}
 
-        .RedesSociales{
-        margin-top: 2%;
-        width: 47%;
-        justify-content: flex-end;
-        display: flex;
-        }
+.RedesSociales{
+    margin-top: 2%;
+    width: 47%;
+    justify-content: flex-end;
+    display: flex;
+}
 
-        .RedesSociales img{
-            margin-right: 10px;
-            width: 19px;
-            
-        }       
-     }
+.RedesSociales img{
+    margin-right: 10px;
+    width: 19px;     
+}     
+
+}
