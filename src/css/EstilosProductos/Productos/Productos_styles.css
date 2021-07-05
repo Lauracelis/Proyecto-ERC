@@ -101,6 +101,7 @@ body,html{
 /* estilos del footer*/
 
 footer{
+    display: grid;
     border-top: 5px solid rgb(145, 236, 145);
     background-color:#08110b;
     height: 20%;

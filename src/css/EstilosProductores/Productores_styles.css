@@ -748,13 +748,10 @@ body,html{
 }
 }
 
-
-/* estilos del footer*/
-
 footer{
   border-top: 5px solid rgb(145, 236, 145);
   background-color:#08110b;
-  height: 12%;
+  height: 20%;
   width: 100%;
   display: flex;
 }
@@ -767,7 +764,7 @@ footer{
 
 .cajitafooter img{
 margin-left: 3%;
-width: 4%;
+width: 7%;
 }
 
 .cajitafooter .frase{
@@ -775,14 +772,13 @@ width: 4%;
   font-size: 18px;
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
-  margin: 1.5% 0 0 2%;
-  width: 50%;
+  margin: 2% 0 0 2%;
 
 }
 
 .RedesSociales{
-margin-top: 1%;
-width: 40%;
+margin-top: 2%;
+width: 47%;
 justify-content: flex-end;
 display: flex;
 }
@@ -793,6 +789,7 @@ display: flex;
   
 }
 
+
 .RedesSociales a{
   border-radius: none;
   color: none;
@@ -802,4 +799,5 @@ display: flex;
 .frase{
   margin-left: 50%;
 }
+
 
