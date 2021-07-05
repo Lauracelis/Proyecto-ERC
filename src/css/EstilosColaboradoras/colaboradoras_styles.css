@@ -9,15 +9,36 @@
     
 }
 
-.container{
 
-    min-height: 100vh;
-    padding: 10rem ;
-    background: rgb(255,255,255);
-    display: flex;
+.colaboradorasTitle{
+
+    height: 5%;
+    display: grid;
+    grid-template-rows: 1fr;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    padding-top: 5rem;
+    margin: 3%;
+}
+
+.colaboradorasTitle h1{
+    background-color: #02250F;
+    padding: 2%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.container{
+    padding-left: 5rem;
+    padding-top: 15rem;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
 }
 
 .card{
@@ -101,7 +122,7 @@
     font-size: 1rem;
     color: white;
     font-weight: 300;
-    border-bottom: 2px solid  #77e762;;
+    border-bottom: 2px solid  #77e762;
 
 }
 
@@ -145,16 +166,85 @@
     padding-bottom: 1rem;
 }
 
+
+/*ESTILOS DE LA IMAGÉN GRANDE*/
+
 .imagenGrande {
-    display: flex;
-    padding: 10rem;
-    width: 70%;
+    padding: 10em;
+    border-left: 5px solid rgb(36, 75, 36);
+    background: #9DDF6C;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.imagenGrande p{
+    word-spacing: 10px;
+    font-size: 30px;
+    font-family: 'Alice', serif;
+    text-align: justify;
+    color: rgb(12, 9, 9);
     
 }
 
 .todas{
-    justify-content: center center;
-    width: 580px;
-    
-    
+    width: 550px;
 }
+
+.father{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer{
+    display: grid;
+    border-top: 5px solid rgb(145, 236, 145);
+    background-color:#08110b;
+    height: 12%;
+    width: 100%;
+  }
+  
+  .cajitafooter{
+    padding: 1%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .cajitafooter img{
+  margin-left: 3%;
+  width: 4%;
+  }
+  
+  .cajitafooter .frase{
+    color: #77e762;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    margin: 1.5% 0 0 2%;
+    width: 50%;
+  
+  }
+  
+  .RedesSociales{
+  margin-top: 1%;
+  width: 40%;
+  justify-content: flex-end;
+  display: flex;
+  }
+  
+  .RedesSociales img{
+    margin-right: 10px;
+    width: 32px;
+    
+  }
+  
+  .RedesSociales a{
+    border-radius: none;
+    color: none;
+    text-decoration: none;
+  }
+  
+  .frase{
+    margin-left: 50%;
+  }
+  
+  
