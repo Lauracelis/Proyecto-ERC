@@ -72,7 +72,7 @@ body,html{
 
 .contenedorNoticias{
   background-color: #7DAC4E;
-  border: 3px solid red;
+  border: 3px solid black;
   width: 100%;
   height: 100%;
 }
@@ -81,21 +81,23 @@ body,html{
 .container_formulario {
   background-color: #7DAC4E;
   margin-top: 3%;
-  border: 3px solid green;
   width: 100%;
-  height: 75vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center; 
+  margin-bottom: 3%;
 }
 
 /*ESTILOS DE LA IMAGEN*/
 .left {
-  width: 50%;
-  height: 600px;
+  margin-top: 5%;
+  width: 35%;
+  height: 100%;
   background: url('../../utils/images/Estudio/fondo.jpg')
   no-repeat center / cover;
   border-radius: 9px;
+  margin-bottom: 5%;
 }
 /*ESTILOS DE EL CONTENEDOR DERECHO*/
 .right {
@@ -178,7 +180,6 @@ body,html{
 }
 
 .porcentaje{
-  border: 2px solid fuchsia;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -312,11 +313,10 @@ svg circle:nth-child(2){
 
 
 .card-father{
+  padding-left: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: #7DAC4E;
-  border:#f1c534 solid 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .flip-card {
@@ -377,6 +377,7 @@ svg circle:nth-child(2){
 }
 
 .flip-card-back p{
+  margin-top: 3%;
   width: 80%;
   margin-left: 9%;
 }
@@ -394,11 +395,9 @@ svg circle:nth-child(2){
 
 .estadisticas{ 
   display: flex;
-  border: 2px solid red;
 }
 
 .Información{
-  border: 1px solid red;
   width: 50%;
   display: flex;
   flex-direction: column;
