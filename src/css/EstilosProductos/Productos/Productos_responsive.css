@@ -1,5 +1,13 @@
 
-@media (max-width:1075px) {
+
+@media screen and (max-width:420px) {
+    .inicioFruits{
+        background-size: 100% 100%;
+        height: 80vh;
+    }
+}
+
+@media  only screen and (max-width:1075px) {
 
    .ContainerProductos{
        flex-direction: column;
@@ -26,34 +34,11 @@
     display: flex;
     align-items: center;
     margin: 45% 5% 0px 15%;
-
 }
 
 .buttonFruit{
     margin: 65% 0 0 35%;
     padding: 2%;
-}
-
-.ImagenFondo{
-    display: block;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.Logo img {
-    margin-top: 160px;
-    width: 60%;
-    justify-content: center;
-}
-
-.Scroll{
-    margin-top: 100px;
-   display: flex;
-    justify-content: center;
-}
-
-.Scroll img{
-    display: flex;
-    justify-content: center;
 }
 
 
@@ -84,8 +69,5 @@ display: flex;
     width: 19px;
     
 }
-
-
-
 
 }

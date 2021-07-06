@@ -1,0 +1,208 @@
+
+
+@media only screen and (max-width: 1024px) {
+
+
+  .MenuNav label{
+    display: block;
+}
+
+.NavBar{
+    position: absolute;
+    background: #041C0D;
+    width: 60%;
+    margin-left: -80%;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+.NavBar .List{
+    flex-direction: column;
+}
+
+.NavBar .LiMenu{
+    margin: 0;
+    padding: 15px;
+    border: 1px solid #77e762;
+}
+
+#btn-menu:checked ~ .NavBar{
+    margin: 0;
+}
+
+  .container{
+    width: 50%;
+    display: grid;
+    flex-direction: row;
+    margin-top: 20px;
+    padding-bottom: 15%;
+}
+
+.porcentaje{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background: rgb(3, 88, 21);
+}
+
+.card-father{
+  padding-left: 5%;
+  background-color: #7DAC4E;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.estudioTitle{
+  height: 5%;
+  text-align: justify;
+  justify-content: center;
+  padding-left: 0rem;
+  margin: 3%;
+}
+
+
+.estudioTitle h1{
+  margin-top: 5%;
+  text-align: center;
+  background-color: #02250F;
+  padding: 2%;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.estudioTitle p{
+  display: flex;
+  text-align: justify;
+  font-family: 'Alice', serif;
+  font-size: 20px;
+  justify-content: center;
+}
+
+
+.left {
+  width: 50%;
+  height: 530px;
+  background: url('../../utils/images/Estudio/fondo.jpg')
+  no-repeat center / cover;
+  border-radius: 9px;
+}
+
+.right {
+  width: 50%;
+  min-height: 200px;
+  background-color: #055209;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 35px;
+  color: white;
+  margin-left: -150px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+  font-family: 'Playfair Display', serif;
+}
+
+
+.right h1 {
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.right p {
+  font-family: 'Alice', serif;
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.right a {
+  margin-left: 15%;
+  padding: 20px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  
+}
+
+.flip-card-front {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(138, 228, 135);
+  color: black;
+}
+
+.flip-card-front img{
+  width: 300px;
+  height: 300px;
+}
+
+.flip-card-back {
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Alice', serif;
+  background-color: rgb(0, 133, 77);
+  color: white;
+  transform: rotateY(180deg);
+  text-align: justify;
+}
+
+
+.flip-card-back p{
+  margin-top: 3%;
+  width: 80%;
+  margin-left: 9%;
+}
+
+}
+
+@media  only screen and (max-width:1075px) {
+  
+  /*FOOTER*/
+  .cajitafooter .frase {
+      color: rgb(119, 231, 98);
+      font-size: 11pX;
+  }
+  
+  .cajitafooter{
+      width: 50%;
+  }
+  
+  .cajitafooter img{
+      margin-left: 3%;
+       width: 50px;
+  }
+  
+  .RedesSociales{
+  margin-top: 2%;
+  width: 47%;
+  justify-content: flex-end;
+  display: flex;
+      }
+  
+  .RedesSociales img{
+      margin-right: 10px;
+      width: 19px;  
+  }
+  
+ }

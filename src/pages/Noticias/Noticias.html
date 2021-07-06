@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../../utils/images/Home/logosinfondo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
-    <link rel="stylesheet" href="/src/css/EstilosMenu/menu.css">
-    <link rel="stylesheet" href="/src/css/EstilosNoticias/noticiasStyles.css">
+    <link rel="stylesheet" href="../../css/EstilosMenu/menu.css">
+    <link rel="stylesheet" href="../../css/EstilosNoticias/noticiasStyles.css">
     <title>Noticias</title>
 </head>
 <body>
@@ -19,12 +20,12 @@
     <label for="btn-menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
      <nav class="NavBar">
          <ul class="List">
-           <li class="LiMenu"><a href='/index.html'>Inicio</a></li>
-           <li class="LiMenu"><a href='/src/pages/Productos/productos.html'>Productos</a></li>
-             <li class="LiMenu"><a href='/src/pages/Productores/Productores.html'>Productores</a></li>
-             <li class="LiMenu"><a href="/src/pages/Noticias/Noticias.html">Noticias</a></li>
-             <li class="LiMenu"><a href="/src/pages/Estudio/Estudio.html">Estudios</a></li>
-             <li class="LiMenu"><a href="/src/pages/Colaboradoras/colaboradoras.html">Colaboradoras</a></li>
+           <li class="LiMenu"><a href='../../../index.html'>Inicio</a></li>
+           <li class="LiMenu"><a href='../Productos/productos.html'>Productos</a></li>
+             <li class="LiMenu"><a href='../Productores/Productores.html'>Productores</a></li>
+             <li class="LiMenu"><a href="./Noticias.html">Noticias</a></li>
+             <li class="LiMenu"><a href="../Estudio/PagEstudio.html">Estudios</a></li>
+             <li class="LiMenu"><a href="../Colaboradoras/colaboradoras.html">Colaboradoras</a></li>
          </ul>
      </nav>
  </header>
@@ -237,10 +238,317 @@
                 </div>
             </div>
            </div>
-   
-       </div>
+    </div>
     </div> <!--ESTE ES EL FIN DE CONTENEDOR DE box noticias-------------------------------->
+    <!--ESTE ES EL CONTENEDOR DE COSECHAS-------------------------------->
+    <div class="contenedorCosechas">
+        <div class="cosechasTitle">
+            <h1>Cosechas</h1>
+        </div>
+        <class class="contCosechas">
+            <div class="cosecha1">
+                <div class="abrirC-1">
+                    <button id="myBtnC1"><div class="productosCosecha1"></div></button>
+                </div>
+                <div id="myModalC1" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC1">&times;</span>
+                        <h1>Cebolla</h1>
+                        <p>
+                            Aprovecha este mes de Julio que la cebolla se encuentra en cosecha y los precios bajan.
+                        </p>
+                        <p>
+                            La cebolla contiene azúcar natural, vitaminas A, B6, C y E. También minerales como el sodio, potasio, hierro y fibra alimentaria. Además son un buena fuente de ácido fólico. 100 gramos de cebolla contienen 44 calorías y 1,4 gramos de fibra
+                        </p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/cebolla.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+            <div class="cosecha2">
+                <div class="abrirC-2">
+                    <button id="myBtnC2"><div class="productosCosecha2"></div></button>
+                </div>
+                <div id="myModalC2" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC2">&times;</span>
+                        <h1>Fresa</h1>
+                        <p>
+                            Aprovecha este mes de Julio que las fresas se encuentran  en cosecha y los precios bajan.
+                        </p>
+                        <p>Las fresas son ricas en fibra, antioxidantes, vitaminas y minerales, lo que ayuda a mantener un intestino saludable. Los antioxidantes ayudan en la absorción de nutrientes clave, además de las proteínas y el hierro. La fibra juega un papel fundamental para ayudar a hacer la digestión y regularla.</p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/fresa.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+            <div class="cosecha3">
+                <div class="abrirC-3">
+                    <button id="myBtnC3"><div class="productosCosecha3"></div></button>
+                </div>
+                <div id="myModalC3" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC3">&times;</span>
+                        <h1>Zanahoria</h1>
+                        <p>
+                            Aprovecha este mes de Julio que la Zanahoria se encuentra en cosecha y los precios bajan.  
+                        </p>
+                        <p>
+                            Ricas en potasio y fósforo, las zanahorias son un remedio para mentes cansadas y nervios desatados. Los betacarotenos son unos poderosos protectores que evitan el envejecimiento prematuro. Protegen nuestra retina y evitan la aparición de cataratas.
+                        </p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/zanahoria.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+            <div class="cosecha4">
+                <div class="abrirC-4">
+                    <button id="myBtnC4"><div class="productosCosecha4"></div></button>
+                </div>
+                <div id="myModalC4" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC4">&times;</span>
+                        <h1>Limón</h1>
+                        <p>
+                            Aprovecha este mes de Julio que el Limón se encuentra en cosecha y los precios bajan.  
+                        </p>
+                        <p>
+                            Los limones contienen vitamina C, un poderoso antioxidante, y son una fuente de compuestos vegetales llamados flavonoides, que tienen efectos antioxidantes y antiinflamatorios. Los antioxidantes son compuestos que ayudan a proteger las células del cuerpo del daño.
+                        </p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/limon.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+            <div class="cosecha5">
+                <div class="abrirC-5">
+                    <button id="myBtnC5"><div class="productosCosecha5"></div></button>
+                </div>
+                <div id="myModalC5" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC5">&times;</span>
+                        <h1>Tomate</h1>
+                        <p>
+                            Aprovecha este mes de Julio que el tomate se encuentra en cosecha y los precios bajan.
+                        </p>
+                        <p>
+                            el tomate es rico en vitaminas A, B, C, PP y K; en minerales como fósforo, calcio, cinc, magnesio, potasio, sodio y manganeso; en bioflavonoides, en licopeno y tiene propiedades antioxidantes.
+                        </p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/tomate.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+            <div class="cosecha6">
+                <div class="abrirC-6">
+                    <button id="myBtnC6"><div class="productosCosecha6"></div></button>
+                </div>
+                <div id="myModalC6" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC6">&times;</span>
+                        <h1>Lulo</h1>
+                        <p>
+                            Aprovecha este mes de Julio que el Lulo se encuentra en cosecha y los precios bajan.
+                        </p>
+                        <p>
+                            Su nivel de hierro ayuda a la producción de glóbulos rojos y a la oxigenación del cuerpo. - Contiene pectina, un tipo de fibra de propiedades desintoxicantes, que permite la eliminación de toxinas y grasas, lo que nivela el colesterol malo en la sangre. - Es también fuente de vitamina A y E
+                        </p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/lulo.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+            <div class="cosecha7">
+                <div class="abrirC-7">
+                    <button id="myBtnC7"><div class="productosCosecha7"></div></button>
+                </div>
+                <div id="myModalC7" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC7">&times;</span>
+                        <h1>Naranja</h1>
+                        <p>
+                            Aprovecha este mes de Julio que la naranja se encuentra en cosecha y los precios bajan.
+                        </p>
+                        <p>
+                            La naranja es un poderoso antioxidante por la gran cantidad de Vitamina C que contiene, por ello favorece la cicatrización, y refuerza es sistema inmunológico de organismo. También contiene calcio, magnesio, beta caroteno, ácido fólico, fósforo, potasio, cobre, zinc, ácidos málico, oxálico, tartárico y cítrico.
+                        </p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/naranja.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+            <div class="cosecha8">
+                <div class="abrirC-8">
+                    <button id="myBtnC8"><div class="productosCosecha8"></div></button>
+                </div>
+                <div id="myModalC8" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC8">&times;</span>
+                        <h1>Yuca</h1>
+                        <p>
+                            Aprovecha este mes de Julio que la yuca se encuentra en cosecha y los precios bajan.
+                        </p>
+                        <p>
+                            El contenido en calcio de la yuca, unido al aporte de vitamina K, ayuda a mantener sanos los huesos y previene la presencia de osteoporosis. Asimismo, la vitamina B6 favorece el cuidado de la piel y el pelo. También contiene hierro, que ayuda a prevenir la presencia de anemia, aunque se trata de un contenido escaso.
+                        </p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/yuca.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+            <div class="cosecha9">
+                <div class="abrirC-9">
+                    <button id="myBtnC9"><div class="productosCosecha9"></div></button>
+                </div>
+                <div id="myModalC9" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC9">&times;</span>
+                        <h1>Mora</h1>
+                        <p>Aprovecha este mes de Julio que la mora se encuentra en cosecha y los precios bajan.</p>
+                       <p>
+                        Un ingrediente que se destaca por su baja aportación calórica y su contenido en vitamina C, vitamina E, provitamina A, fibra, folatos, pigmentos naturales y ácidos orgánicos, según señala un documento de la Fundación Española de la Nutrición (FEN). “Las moras poseen bajo contenido energético y un alto contenido de fibra, al igual que todas las bayas silvestres. En cuanto a las vitaminas, las moras también son fuente de vitamina C, folatos y de vitamina E.
+                       </p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/mora.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+            <div class="cosecha10">
+                <div class="abrirC-10">
+                    <button id="myBtnC10"><div class="productosCosecha10"></div></button>
+                </div>
+                <div id="myModalC10" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC10">&times;</span>
+                        <h1>Papa</h1>
+                        <p>
+                            Aprovecha este mes de Julio que la papa se encuentra en cosecha y los precios bajan.
+                        </p>
+                        <p>
+                            La papa tiene una gran cantidad de nutrientes como vitamina C, B, B3, B6, ácido fólico, magnesio, manganeso, potasio, hierro; además, contiene un 20 por ciento de almidón y poco más del 70 por ciento es agua, incluso la cascara contiene un 2 por ciento de fibra.
+                        </p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/papa.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+            <div class="cosecha11">
+                <div class="abrirC-11">
+                    <button id="myBtnC11"><div class="productosCosecha11"></div></button>
+                </div>
+                <div id="myModalC11" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC11">&times;</span>
+                        <h1>Mango</h1>
+                        <p>
+                            Aprovecha este mes de Julio que el mango se encuentra en cosecha y los precios bajan.
+                        </p>
+                        <p>
+                            La fruta del mango contiene carotenoides, ácido ascórbico, terpenoides y polifenoles: todos responsables de las propiedades preventivas del cáncer. Estas propiedades se atribuyen a la mangiferina, un compuesto que se encuentra en la fruta y que inhibe el crecimiento de células cancerígenas en colon y el hígado.
+                        </p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/mango.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+            <div class="cosecha12">
+                <div class="abrirC-12">
+                    <button id="myBtnC12"><div class="productosCosecha12"></div></button>
+                </div>
+                <div id="myModalC12" class="modal">
+                    <div class="modal-contentC">
+                        <span class="closeC12">&times;</span>
+                        <h1>Mazorca</h1>
+                        <p>Aprovecha este mes de Julio que la mazorca se encuentra en cosecha y los precios bajan.</p>
+                        <p>
+                            Es un cereal que contiene grandes cantidades de hidratos de carbono de fácil digestión lo que lo hace idóneo para alimentar a los niños y deportistas: Es muy rico en magnesio; es uno de los principales alimentos de las personas celíacas o las que sufren de alergia al gluten, ya que no contiene prolaminas tóxicas.
+                        </p>
+                        <div class="imageNoticeC">
+                            <img src="../../utils/images/Noticias/ModalesCosechas/mazorca.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN----------------------------------------------------->
+        </div> <!--FIN DE CONTENDIR DE CONTENEDOR DE COSECHAS-->
+            <div class="contenedorRecomendaciones">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../../utils/images/Noticias/recomendaciones/1.png" class="d-flex w-100" alt="1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../utils/images/Noticias/recomendaciones/2.png" class="d-flex w-100" alt="2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../utils/images/Noticias/recomendaciones/3.png" class="d-flex w-100" alt="3">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../utils/images/Noticias/recomendaciones/4.png" class="d-flex w-100" alt="4">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../utils/images/Noticias/recomendaciones/5.png" class="d-flex w-100" alt="5">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../utils/images/Noticias/recomendaciones/6.png" class="d-flex w-100" alt="6">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../utils/images/Noticias/recomendaciones/7.png" class="d-flex w-100" alt="7">
+                      </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
+<!--fin recomendaciones -->
+        </div>
+        <footer>
+            <div class="cajitafooter">
+              <img src="../../utils/images/Home/logosinfondo.png" alt="">
+                <div class="frase">
+                  El rincón del campo
+                </div>
+                </div>
+                <div class="RedesSociales">
+                    <a target="_blank" href="https://www.facebook.com/El-rincón-del-campo-110937981233266"><img src="../../utils/images/Home/redes/logotipo-de-instagram.svg" alt=""></a>
+                    <a target="_blank" href="https://www.instagram.com/el_rincon_del_campo/"><img src="../../utils/images/Home/redes/facebook.svg"></a>
+                </div>
+       </footer>   
     </div>  <!--ESTE ES EL FIN DE CONTENEDOR DE NOTICIAS-------------------------------->
  <script src="../../js/noticias/app.js"></script>
+ <script src="../../js/noticias/cosechas.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+ 
 </body>
 </html>

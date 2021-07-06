@@ -228,6 +228,11 @@ margin-top: 0;
 
 }
 
+.card{
+    margin-left: 45%;
+    margin-top: 5%
+    } 
+
 .contentCards .card{
     position: relative;
     height: 500px;

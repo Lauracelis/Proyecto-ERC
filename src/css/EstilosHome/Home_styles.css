@@ -2,9 +2,10 @@
 /*font-family: 'Playfair Display', serif;*/
 
 
-*{
+body,html{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* ESTILOS DEL HOME*/
 
@@ -48,8 +49,6 @@
 
 /* estilos del footer*/
 
-/*ESTILOS DEL FOOTERr*/
-
 footer{
     border-top: 5px solid rgb(145, 236, 145);
     background-color:#08110b;
@@ -88,9 +87,7 @@ justify-content: flex-end;
 .RedesSociales img{
     margin-right: 10px;
     width: 32px;
-    
 }
-
 
 .RedesSociales a{
     border-radius: none;
@@ -102,10 +99,9 @@ justify-content: flex-end;
     margin-left: 50%;
 }
   
-
   /* ESTILOS DE LOS PRODUCTOS*/
 
-  .contenidoProductos{
+.contenidoProductos{
     width: 100%;
     height: 100%;
 }
@@ -181,7 +177,217 @@ justify-content: flex-end;
     border: 2px solid #77E762;
 }
 
+#QuienesSomos{
+    height: 100%;
+    background-color: #041C0D;
+    padding: 5% 5% 5% 5%;
+}
 
+.visually-hidden{
+    width: 50px;
+    color: green;
+}
 
+/*----------------------------- RESPONSIVE------------------------------------------------*/
 
+@media only screen and (max-width:420px){
 
+    .ImagenFondo{
+        background-image: url("../../utils/images/Home/paisajeparacel.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .Logo img{
+        margin-top: 85px;
+        width: 310px;
+        justify-content: center;
+    }
+
+    .Scroll{
+        margin-top: 130px;
+        align-items: center;
+    }
+    .Scroll img{
+        display: flex;
+        justify-content: end;
+    }
+
+    .boxFotos{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    .boxFotos img{
+        width: 100%;
+    }
+
+    .titleBox{
+        width: 250px;
+        height: 60%;
+        left: 25;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+    .titleLleg{
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        margin:01% 2% 0 5%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .textLleg{
+        font-family: 'Alice', serif;
+        font-size: 12px;
+        margin: 2% 4% 0 4%;
+        letter-spacing: 1px;
+    }
+     
+    .botonLle{
+        display: flex;
+        justify-content: center;
+    }
+
+    .botonLle button{
+        font-size: 15px;
+    }
+}
+
+/* de 421 a 768*/
+
+@media only screen and (min-width:421px) and (max-width:768px){
+
+    .ImagenFondo{
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .Logo img {
+        margin-top: 15px;
+        width: 80%;
+        justify-content: center;
+    }
+    .boxFotos{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Scroll{
+        margin-top: 45px;
+       display: flex;
+        justify-content: center;
+    }
+    
+    .Scroll img{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .titleLleg{
+        font-family: 'Playfair Display', serif;
+        font-size: 22px;
+        margin:01% 2% 0 5%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .textLleg{
+        font-family: 'Alice', serif;
+        font-size: 17px;
+        margin: 2% 4% 0 4%;
+        letter-spacing: 1px;
+    }
+
+    .botonLle button{
+        font-size: 20px;
+    }
+}
+     /* de 421 a 768*/
+
+@media only screen and (min-width:769px) and (max-width:1100px){
+
+    .ImagenFondo{
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .Logo img {
+        margin-top: 15px;
+        width: 55%;
+        justify-content: center;
+    }
+    .boxFotos{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Scroll{
+        margin-top: 5px;
+       display: flex;
+        justify-content: center;
+    }
+    
+    .Scroll img{
+        display: flex;
+        justify-content: center;
+    }
+    .titleLleg{
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        margin:01% 2% 0 5%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .textLleg{
+        font-family: 'Alice', serif;
+        font-size: 30px;
+        margin: 2% 4% 0 4%;
+        letter-spacing: 1px;
+    }  
+}
+
+/*FOOTER*/
+
+@media  only screen and (max-width:1075px) {
+  
+ /*FOOTER*/
+ .cajitafooter .frase {
+     color: rgb(119, 231, 98);
+     font-size: 11pX;
+ }
+ 
+ .cajitafooter{
+     width: 50%;
+ }
+ 
+ .cajitafooter img{
+     margin-left: 3%;
+      width: 50px;
+ }
+ 
+ .RedesSociales{
+ margin-top: 2%;
+ width: 47%;
+ justify-content: flex-end;
+ display: flex;
+     }
+ 
+ .RedesSociales img{
+     margin-right: 10px;
+     width: 19px;  
+ }
+ 
+}

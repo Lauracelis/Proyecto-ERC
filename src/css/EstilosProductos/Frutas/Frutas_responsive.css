@@ -1,225 +1,255 @@
 
 @media (max-width:420px){
 
-    #frutas{
-        align-items: center;
-        background: #041c0d;
-        padding-top: 50px;
-        width: 100%;
-        height: 100;
-    }
+#frutas{
 
-    .titleFruit img {
-        margin-left: 10%;
-        background-size: 100% 100%;
-        width: 80%;
-        height: 70%;
-    }
+    align-items: center;
+    background: #041c0d;
+    padding-top: 50px;
+    width: 100%;
+    height: 100;
+}
 
-    .Logo img {
-        margin-top: 30%;
-        width: 40%;
-        display: flex;
-        justify-content: center;
-    }
+.titleFruit img {
 
-    .contentCards {
-        margin-top: 0;
-        margin: 0;
-        padding: 10px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 550px);
-        row-gap: 120px;
-        align-items: center;
-        margin-bottom: 8%;
-    }
+    margin-left: 10%;
+    background-size: 100% 100%;
+    width: 80%;
+    height: 70%;
+}
 
-    .containerProductos{
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+.Logo img {
 
-    .card{
-    margin-top: 5%;}
+    margin-top: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
 
-    .Familia1 p{
-        font-family: 'Playfair Display', serif;
-        font-size: 65px;
-        margin-top: 4%;
-        text-align: center;
-    }
+.contentCards {
 
-    .contentCards{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-top: 50px;
-         margin-left: 0%;
-    }
+    margin-top: 0;
+    margin: 0;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 550px);
+    row-gap: 120px;
+    align-items: center;
+    margin-bottom: 8%;
+}
 
-    .contentCards .card{
-        height: auto;
-        flex-direction: column;
-        background: transparent;
-        box-shadow: none;
-        margin: 10%;
-    }
+.containerProductos{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
-    .contentCards .card .imgBx{
-        left: 65px;
-        margin-top: 25%;
-        position: relative;
-    }
+.card{
+ margin-top: 5%;
+}
 
-    .contentCards .card .imgBx img {
-        max-width: 100px;
-        transition: 0.5s ease-in-out;
-    } 
+.Familia1 p{
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+    margin-top: 4%;
+    text-align: center;
+}
 
-    .contentCards .card .imgBx, 
-    .contentCards .card:hover .imgBx{
-       width:180px;
-       height: 120px;
-       top: 80px;
-    }
+.contentCards{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    margin-left: 0%;
+}
 
-    .contentCards .card:hover .imgBx{
-        top: 80px;
-     }
+.contentCards .card{
 
-     .card .imgBx img ,
-    .card:hover .imgBx img{
-       max-width:80px;
-    }
+    height: auto;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: none;
+    margin: 18%;
+}
 
-    .contentCards .card .content{
-        position: relative;
-        width: 230px;
-        background: #ffff;
-        box-shadow: none;
-        border-radius: 20px;
-        padding: 20px 20px 40px;
-        border-top: 100px solid white;
-    }
+.contentCards .card .imgBx{
+    left: 65px;
+    margin-top: 25%;
+    position: relative;
+}
 
+.contentCards .card .imgBx img {
+    max-width: 100px;
+    transition: 0.5s ease-in-out;
+} 
 
-    p{
-        font-size: 15px;
+.contentCards .card .imgBx, 
+.contentCards .card:hover .imgBx{
+     width:180px;
+    height: 120px;
+    top: 80px;
+}
+
+.contentCards .card:hover .imgBx{
+    top: 80px;
+}
+
+.card .imgBx img ,
+.card:hover .imgBx img{
+     max-width:80px;
+}
+
+.contentCards .card .content{
+    position: relative;
+    width: 230px;
+    background: #ffff;
+    box-shadow: none;
+    border-radius: 20px;
+    padding: 20px 20px 40px;
+    border-top: 100px solid white;
+}
+
+.content li{
+    font-size: 10px;
+}
+
+.contentCards .card .content h3{
+    margin-left: 38%;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.contentCards .card .content a{
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+p{
+    font-size: 10px;
     width: 80%;
     text-align: justify
-    }
+}
 
-    .title{
-        width: 55%;
-        padding-right: 15%;
-    }
+.title{
+    width: 55%;
+    padding-right: 15%;
+}
+
 /* SEGUNDA PARTE*/
 
-    .Familia1 p {
+.Familia1 p {
     font-size: 25px;
     margin-top: 4%;
     margin-left: 5px;
+}
 
-    }
-    .titleFamiliaQuelal{
-        margin-top: 200px;
-        background-color: #dee9e2;  
-    }
+.titleFamiliaQuelal{
 
-    .Familia1{
-        background-color: #dee9e2;
-    }
+    margin-top: 200px;
+    background-color: #dee9e2;  
+}
 
-    .text{ 
-        height: 250px;
-        align-items: center;
-        display: flex;
-    }
+.Familia1{
+    background-color: #dee9e2;
+}
+
+.text{ 
+    height: 250px;
+    align-items: center;
+    display: flex;
+}
+
+.text p{
+     color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-top: 4%;
+    text-align: center;
+}
     
-    .imagen{
-        border-radius: 50%;
-        background-color: #1a4d2d;;
-        margin-left:  12%;
-        width: 180px;
-    }
+.imagen{
+    border-radius: 50%;
+    background-color: #1a4d2d;;
+    margin-left:  12%;
+    width: 180px;
+}
 
-    .imagen img{
-        width: 200px;
-    }
+.imagen img{
+     width: 200px;
+}
 
-     /*ESTILOS DE LOS PRODUCTOS*/
-     .containerProductos{
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+/*---------------------ESTILOS DE LOS PRODUCTOS----------*/
+     
+.containerProductos{
+    height: auto;
+    display: grid;
+     grid-template-columns: 1fr;
+}
 
-    .card{
-        width: 150px;
-        height: 200px;
-        background-color: white;
-    }
+.card{
+    margin-left: 40%;
+    width: 150px;
+    height: 200px;
+    background-color: white;
+}
 
-    .card .details .content h2{
-        width: 80%;
-        text-align: center;
-        font-weight: 700;
-        line-height: 1em;
-        font-size: 15px;
-    }
+.card .details .content h2{
+    width: 80%;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+    font-size: 15px;
+}
     
-    .card .details .content h2 span{
-        color:#34df72;
-        font-size: 0.8em;
-    }
+.card .details .content h2 span{
+    color:#34df72;
+    font-size: 0.8em;
+}
     
-    p{  
-        font-size: 9px;
-        width: 80%;
-        text-align: justify;
-    }
+p{  
+    font-size: 9px;
+    width: 80%;
+    text-align: justify;
+}
 
-    /*ESTILOS DE BOTONES*/
+/*----------ESTILOS DE BOTONES----------*/
     .button-whastapp{
     width: 75px;
     height: 35px;
     margin-left: 35%;
     color: #fff; 
     font-size: 0.9em;
-
 }
-        /*FOOTER*/
-        .cajitafooter .frase {
-            color: rgb(119, 231, 98);
-            font-size: 11pX;
-        }
 
-        .cajitafooter{
-            width: 50%;
-        }
+/*-----------FOOTER------------------*/
+    .cajitafooter .frase {
+        color: rgb(119, 231, 98);
+        font-size: 11pX;
+    }
 
-        .cajitafooter img{
-            margin-left: 3%;
-            width: 50px;
-        }
+    .cajitafooter{
+        width: 50%;
+    }
 
-        .RedesSociales{
+    .cajitafooter img{
+      margin-left: 3%;
+        width: 50px;
+    }
+
+    .RedesSociales{
         margin-top: 2%;
         width: 47%;
         justify-content: flex-end;
         display: flex;
-        }
+    }
 
-        .RedesSociales img{
-            margin-right: 10px;
-            width: 19px;
-            
-        }        
+    .RedesSociales img{
+        margin-right: 10px;
+        width: 19px;    
+    }        
 }
-
-
-
 
 @media only screen and (min-width:421px) and (max-width:768px) {
 
@@ -247,7 +277,7 @@
 
     .contentCards {
         margin-top: 0;
-        margin: 0;
+        margin: 15px;
         padding: 10px;
         display: grid;
         grid-template-columns: 1fr;
@@ -301,9 +331,17 @@
 
     .contentCards .card .imgBx, 
     .contentCards .card:hover .imgBx{
+        margin-left: 45%;
        width:180px;
        height: 120px;
        top: 80px;
+    }
+
+    .contentCards .card .content h3{
+        margin-left: 35%;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        font-size: 25px;
     }
 
     .contentCards .card:hover .imgBx{
@@ -316,15 +354,15 @@
     }
 
     .contentCards .card .content{
+        margin-left: 45%;
         position: relative;
-        width: 300px;
+        width: 250px;
         background: #ffff;
         box-shadow: none;
         border-radius: 20px;
         padding: 20px 20px 40px;
         border-top: 100px solid white;
     }
-
 
     p{
         font-size: 15px;
@@ -354,7 +392,7 @@
     }
 
     .text{ 
-        height: 250px;
+        height: 320px;
         align-items: center;
         display: flex;
     }
@@ -370,238 +408,206 @@
         width: 200px;
     }
 
-    
     .button-whastapp{
         margin-left: 45%;
-    
     }
 
-
-        /*FOOTER*/
-        .cajitafooter .frase {
-            color: rgb(119, 231, 98);
-            font-size: 11pX;
-        }
-
-        .cajitafooter{
-            width: 50%;
-        }
-
-        .cajitafooter img{
-            margin-left: 3%;
-            width: 50px;
-        }
-
-        .RedesSociales{
-        margin-top: 2%;
-        width: 47%;
-        justify-content: flex-end;
-        display: flex;
-        }
-
-        .RedesSociales img{
-            margin-right: 10px;
-            width: 19px;
-            
-        }
-        .card{
-        width: 300px;
-        height: 400px;
-        margin-left: 35%;
-        margin-bottom: 15%;
-        }        
-     }
-
-
-
-
+ }
 
 @Media only screen and (min-width: 769px)and (max-width:1024px){
-    #frutas{
-        align-items: center;
-        background: #041c0d;
-        padding-top: 50px;
-        width: 100%;
-        height: 100;
-    }
+    #verduras{
+    align-items: center;
+    background: #041c0d;
+    padding-top: 50px;
+    width: 100%;
+    height: 100;
+}
+    
+.titleFruit img {
+    margin-left: 10%;
+    background-size: 100% 100%;
+    width: 80%;
+    height: 70%;
+}
+    
+.Logo img {
+    margin-top: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+    
+.contentCards {
+    margin-top: 0;
+    margin: 0;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: repeat(6, 550px);
+    row-gap: 120px;
+    align-items: center;
+    margin-bottom: 8%;
+}
+    
+.containerProductos{
+     height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+    
+.card{
+    margin-left: 45%;
+    margin-top: 5%
+}
+    
+.Familia1 p{
+    font-family: 'Playfair Display', serif;
+     font-size: 65px;
+    margin-top: 4%;
+    text-align: center;
+}
+    
+.contentCards{
+    margin-left: 25%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+    
+.contentCards .card{
+    height: auto;
+    flex-direction: column;
+     background: transparent;
+    box-shadow: none;
+    margin: 10%;
+}
+    
+.contentCards .card .imgBx{
 
-    .titleFruit img {
-        margin-left: 10%;
-        background-size: 100% 100%;
-        width: 80%;
-        height: 70%;
-    }
+    margin-left: 9%;
+    left: 65px;
+    margin-top: 25%;
+    position: relative;
+}
 
-    .Logo img {
-        margin-top: 30%;
-        width: 40%;
-        display: flex;
-        justify-content: center;
-    }
+.contentCards .card .content h3{
+    margin-left: 38%;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+    
+.text p{
 
-    .contentCards {
-        margin-top: 0;
-        margin: 0;
-        padding: 10px;
-        display: grid;
-        grid-template-columns: 2fr;
-        grid-template-rows: repeat(6, 550px);
-        row-gap: 120px;
-        align-items: center;
-        margin-bottom: 8%;
-    }
-
-    .containerProductos{
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .card{
-    margin-top: 5%;}
-
-    .Familia1 p{
-        font-family: 'Playfair Display', serif;
-        font-size: 65px;
-        margin-top: 4%;
-        text-align: center;
-    }
-
-    .contentCards{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-top: 50px;
-         margin-left: 0%;
-    }
-
-    .contentCards .card{
-        height: auto;
-        flex-direction: column;
-        background: transparent;
-        box-shadow: none;
-        margin: 10%;
-    }
-
-    .contentCards .card .imgBx{
-        left: 65px;
-        margin-top: 25%;
-        position: relative;
-    }
-
-    .contentCards .card .imgBx img {
-        max-width: 100px;
-        transition: 0.5s ease-in-out;
-    } 
-
-    .contentCards .card .imgBx, 
-    .contentCards .card:hover .imgBx{
-       width:180px;
-       height: 120px;
-       top: 80px;
-    }
-
-    .contentCards .card:hover .imgBx{
-        top: 80px;
-     }
-
-     .card .imgBx img ,
-    .card:hover .imgBx img{
-       max-width:80px;
-    }
-
-    .contentCards .card .content{
-        position: relative;
-        width: 300px;
-        background: #ffff;
-        box-shadow: none;
-        border-radius: 20px;
-        padding: 20px 20px 40px;
-        border-top: 100px solid white;
-    }
-
-
-    p{
-        font-size: 15px;
+    color:black;
+    font-family: 'Playfair Display', serif;
+    font-size: 78px;
+    text-align: center;
+}
+    
+.contentCards .card .imgBx img {
+     max-width: 100px;
+    transition: 0.5s ease-in-out;
+} 
+    
+.contentCards .card .imgBx, 
+.contentCards .card:hover .imgBx{
+    width:180px;
+    height: 120px;
+    top: 80px;
+}
+    
+.contentCards .card:hover .imgBx{
+    top: 80px;
+}
+    
+.card .imgBx img ,
+.card:hover .imgBx img{
+    max-width:80px;
+}
+    
+.contentCards .card .content{
+    position: relative;
+    width: 300px;
+    background: #ffff;
+    box-shadow: none;
+    border-radius: 20px;
+    padding: 20px 20px 40px;
+    border-top: 100px solid white;
+}
+    
+.social-icons p{
+    font-size: 18px;
     width: 80%;
     text-align: justify
-    }
-
-    .title{
-        width: 55%;
-        padding-right: 15%;
-    }
+}
+    
+.title{
+    width: 55%;
+    padding-right: 15%;
+}
+    
 /* SEGUNDA PARTE*/
-
-    .Familia1 p {
+    
+.Familia1 p {
     font-size: 55px;
     margin-top: 4%;
     margin-left: 5px;
+}
 
-    }
-    .titleFamiliaQuelal{
-        margin-top: 200px;
-        background-color: #dee9e2;  
-    }
-
-    .Familia1{
-        background-color: #dee9e2;
-    }
-
-    .text{ 
-        height: 250px;
-        align-items: center;
-        display: flex;
-    }
+.titleFamiliaQuelal{
+    margin-top: 200px;
+    background-color: #dee9e2;  
+}
     
-    .imagen{
-        border-radius: 50%;
-        background-color: #1a4d2d;;
-        margin-left:  12%;
-        width: 180px;
-    }
-
-    .imagen img{
-        width: 200px;
-    }
-
+.Familia1{
+     background-color: #dee9e2;
+}
     
-    .button-whastapp{
-        margin-left: 45%;
+.text{ 
+    height: 250px;
+    align-items: center;
+    display: flex;
+}
+        
+.imagen{
+    border-radius: 50%;
+    background-color: #1a4d2d;;
+    margin-left:  12%;
+    width: 180px;
+}
     
-    }
+.imagen img{
+    width: 200px;
+}
+    
+.button-whastapp{
+    margin-left: 45%;    
+}
+    
+/*FOOTER*/
+.cajitafooter .frase {
+    color: rgb(119, 231, 98);
+    font-size: 11pX;
+}
 
-
-        /*FOOTER*/
-        .cajitafooter .frase {
-            color: rgb(119, 231, 98);
-            font-size: 11pX;
-        }
-
-        .cajitafooter{
-            width: 50%;
-        }
-
-        .cajitafooter img{
-            margin-left: 3%;
-            width: 50px;
-        }
-
-        .RedesSociales{
-        margin-top: 2%;
-        width: 47%;
-        justify-content: flex-end;
-        display: flex;
-        }
-
-        .RedesSociales img{
-            margin-right: 10px;
-            width: 19px;
-            
-        }
-        .card{
-        width: 300px;
-        height: 400px;
-        margin-left: 35%;
-        margin-bottom: 15%;
-        }        
-     }
+.cajitafooter{
+    width: 50%;
+}
+    
+.cajitafooter img{
+    margin-left: 3%;
+    width: 50px;
+}
+    
+.RedesSociales{
+    margin-top: 2%;
+    width: 47%;
+    justify-content: flex-end;
+    display: flex;
+}
+    
+.RedesSociales img{
+margin-right: 10px;
+width: 19px;     
+}       
+}

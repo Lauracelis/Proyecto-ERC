@@ -6,7 +6,9 @@
 body,html{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 .ContainerProductores{
   width: 100%;
   height: 100%;
@@ -16,7 +18,6 @@ body,html{
 
 .container {
     padding:90px 80px 20px;
-    border: 1px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,12 +38,9 @@ body,html{
     position: relative;
   }
 
-
   .timeline .swiper-wrapper {
     transition: 2s cubic-bezier(0.68, -0.4, 0.27, 1.34) 0.2s;
   }
-
-
 
   .timeline .swiper-slide {
     width: auto;
@@ -54,7 +52,6 @@ body,html{
     background-repeat: no-repeat;
     background-position: center center;
   }
-
 
   .swiper-slide{
     width: 100%;
@@ -196,7 +193,7 @@ body,html{
   }
   .timeline .swiper-button-prev {
     left: 12%;
-    background-image: url("/src/utils/images/Productores/izquierdo.png");
+    background-image: url("../../utils/images/Productores/izquierdo.png");
   }
   .timeline .swiper-button-prev{
     -webkit-transform: translateX(-3px);
@@ -204,7 +201,7 @@ body,html{
   }
   .timeline .swiper-button-next {
     right: 8%;
-    background-image: url("/src/utils/images/Productores/derecho.png");
+    background-image: url("../../utils/images/Productores/derecho.png");
   }
   .timeline .swiper-button-next {
     -webkit-transform: translateX(3px);
@@ -238,7 +235,6 @@ body,html{
   }
 
 /* RESPONSIVE*/
-
 
   @media screen and (max-width: 1024px) {
 
@@ -375,26 +371,22 @@ body,html{
     }
     .timeline .swiper-button-prev {
       left: 12%;
-      background-image: url("/src/utils/images/Productores/derecho.png");
+      background-image: url("../../utils/images/Productores/derecho.png");
       transform: rotate(180deg) translate(0, 10px);
     }
    
     .timeline .swiper-button-next {
     
       right: 8%;
-      background-image: url("/src/utils/images/Productores/izquierdo.png");
+      background-image: url("../../utils/images/Productores/izquierdo.png");
       transform: rotate(180deg) translate(0, 10px);
 
     }
   }
 
-
-
   /* ESTILOS PARA LAS CARTAS DE CONTAINER CAMPESINOS*/
 
-
   .containerCampesinos{
-    border: 1px solid red;
     background-color: #7DAC4E;
     padding: 3%;
  }
@@ -402,7 +394,6 @@ body,html{
  .contentCampesinos{
    display: grid;
    grid-template-columns: 2fr 2fr;
-   border: 1px solid blue;
    padding: 1%;
    align-items: center;
  }
@@ -419,10 +410,9 @@ body,html{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.imagePerfil1{
+.imagePerfil1, .imagePerfil2, .imagePerfil3, .imagePerfil4 {
   width: 250px;
   height: 250px;
-  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/1.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -430,45 +420,23 @@ body,html{
   margin: 45px 5px 15px 10px;
   align-items: center;
   display: flex;
+}
 
+
+.imagePerfil1{
+  background-image: url(../../utils/images/Productores/Nuestroscampesinos/1.png);
 }
 
 .imagePerfil2{
-  width: 250px;
-  height: 250px;
-  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/2.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  margin: 45px 5px 15px 10px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  background-image: url(../../utils/images/Productores/Nuestroscampesinos/2.png);
 }
 
  .imagePerfil3{
-  width: 250px;
-  height: 250px;
-  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/3.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  margin: 45px 5px 15px 10px;
-  display: flex;
-  align-items: center;
-  
+  background-image: url(../../utils/images/Productores/Nuestroscampesinos/3.png);
 }
+
  .imagePerfil4{
-  width: 220px;
-  height: 220px;
-  background-image: url(/src/utils/images/Productores/Nuestroscampesinos/4.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  margin: 45px 5px 15px 10px;
-  justify-content: center;
-  display: flex;
-  
+  background-image: url(../../utils/images/Productores/Nuestroscampesinos/4.png);
 }
 
 .card .titleCamp h2{
@@ -514,10 +482,7 @@ body,html{
 }
 
 .titleAlgunasHis h1 {-webkit-animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both}
-
  @-webkit-keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
-
-
 
 
  /*RESPONSIVE*/
@@ -582,7 +547,7 @@ body,html{
 }
 }
 
-
+/*421 a 768*/ 
 
 @media screen and (min-width:421px) and (max-width:768px){
   .contentCampesinos{
@@ -629,7 +594,6 @@ body,html{
     padding: 1%;
     overflow: hidden;
 }
-
 
 .card .contentText p {
   padding: 1%;
@@ -696,8 +660,6 @@ body,html{
 }
 }
 
-
-
 @media screen and (min-width:769px) and (max-width:1300px){
   .contentCampesinos{
     grid-template-columns: 2fr;
@@ -750,58 +712,33 @@ body,html{
 }
 }
 
+@media  only screen and (max-width:1075px) {
 
-/* estilos del footer*/
-
-footer{
-  border-top: 5px solid rgb(145, 236, 145);
-  background-color:#08110b;
-  height: 12%;
-  width: 100%;
-  display: flex;
+/*FOOTER*/
+.cajitafooter .frase {
+   color: rgb(119, 231, 98);
+   font-size: 11pX;
 }
 
 .cajitafooter{
-  padding: 1%;
-  display: flex;
-  justify-content: flex-start;
+   width: 50%;
 }
 
 .cajitafooter img{
-margin-left: 3%;
-width: 4%;
-}
-
-.cajitafooter .frase{
-  color: #77e762;
-  font-size: 18px;
-  font-family: 'Playfair Display', serif;
-  text-transform: uppercase;
-  margin: 1.5% 0 0 2%;
-  width: 50%;
-
+   margin-left: 3%;
+    width: 50px;
 }
 
 .RedesSociales{
-margin-top: 1%;
-width: 40%;
+margin-top: 2%;
+width: 47%;
 justify-content: flex-end;
 display: flex;
-}
+   }
 
 .RedesSociales img{
-  margin-right: 10px;
-  width: 32px;
-  
+   margin-right: 10px;
+   width: 19px;
+   
 }
-
-.RedesSociales a{
-  border-radius: none;
-  color: none;
-  text-decoration: none;
 }
-
-.frase{
-  margin-left: 50%;
-}
-
