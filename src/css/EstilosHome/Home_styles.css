@@ -37,7 +37,7 @@ body,html{
 /* estilos del scroll */
 
 .Scroll{
-   margin-top:5%;
+  margin-top:1%;
   display: flex;
   justify-content: center;
   transition: all 0.5s;
@@ -124,7 +124,7 @@ justify-content: flex-end;
 }
 
 .titleBox{
-    margin-top: 12%;
+    margin-top: 5%;
     margin-right: 5%;
     position: absolute;
     background-color: rgba(2, 37, 15, 0.80);
