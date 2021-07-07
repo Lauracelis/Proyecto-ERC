@@ -23,7 +23,7 @@ body,html{
 /* estilos de la iamgen del logo*/
 
 .Logo{
-    padding-top: 8%;
+    padding-top: 7%;
     display: flex;
     justify-content: center;
 }
@@ -37,7 +37,7 @@ body,html{
 /* estilos del scroll */
 
 .Scroll{
-   margin-top:5%;
+  margin-top:1%;
   display: flex;
   justify-content: center;
   transition: all 0.5s;
@@ -124,13 +124,14 @@ justify-content: flex-end;
 }
 
 .titleBox{
+    margin-top: 7%;
+    margin-right: 5%;
     position: absolute;
     background-color: rgba(2, 37, 15, 0.80);
     padding:20px;
     display: flex;
     flex-direction: column;
     width: 58%;
-    margin: 5% 5% 0 0;
     height: auto;
     right: 67px;
     right: 15px;
@@ -264,13 +265,16 @@ justify-content: flex-end;
 @media only screen and (min-width:421px) and (max-width:768px){
 
     .ImagenFondo{
-        display: block;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+        background-image: url("../../utils/images/Home/paisaje.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }  
+
     .Logo img {
-        margin-top: 15px;
-        width: 80%;
+        margin-top: 15%;
+        width: 55%;
         justify-content: center;
     }
     .boxFotos{
@@ -281,7 +285,7 @@ justify-content: flex-end;
     }
 
     .Scroll{
-        margin-top: 45px;
+        margin-top: 4%;
        display: flex;
         justify-content: center;
     }
@@ -316,13 +320,15 @@ justify-content: flex-end;
 @media only screen and (min-width:769px) and (max-width:1100px){
 
     .ImagenFondo{
-        display: block;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+        background-image: url("../../utils/images/Home/paisaje.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+    } 
+
     .Logo img {
-        margin-top: 15px;
-        width: 55%;
+        width: 45%;
         justify-content: center;
     }
     .boxFotos{
@@ -333,7 +339,7 @@ justify-content: flex-end;
     }
 
     .Scroll{
-        margin-top: 5px;
+       margin-top: 3%;
        display: flex;
         justify-content: center;
     }
@@ -357,6 +363,20 @@ justify-content: flex-end;
         margin: 2% 4% 0 4%;
         letter-spacing: 1px;
     }  
+
+    .titleBox{
+        margin-top: 10%;
+        position: absolute;
+        background-color: rgba(2, 37, 15, 0.80);
+        padding:20px;
+        display: flex;
+        flex-direction: column;
+        width: 58%;
+        height: auto;
+        right: 67px;
+        right: 15px;
+        border-radius: 20px;
+    }
 }
 
 /*FOOTER*/
