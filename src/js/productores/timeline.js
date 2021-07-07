@@ -1,3 +1,7 @@
+
+/*FUNCIONES DE LA LINEA DEL TIEMPO*/
+
+/* DEFINICIONES DE VARIABLES */
 var timelineSwiper = new Swiper ('.timeline .swiper-container', {
     direction: 'vertical', //Para establecer la dirección del texto
     loop: false,

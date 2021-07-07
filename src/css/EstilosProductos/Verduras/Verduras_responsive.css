@@ -203,36 +203,38 @@
 
 
 
-/*FOOTER*/
-.cajitafooter .frase {
-color: rgb(119, 231, 98);
-font-size: 11pX;
-        }
-
-.cajitafooter{
-width: 50%;
-        }
-
-.cajitafooter img{
-margin-left: 3%;
-width: 50px;
-        }
-
-.RedesSociales{
-margin-top: 2%;
-width: 47%;
-justify-content: flex-end;
-display: flex;
+    /*FOOTER*/
+    .cajitafooter .frase {
+    color: rgb(119, 231, 98);
+    font-size: 11pX;
             }
 
-.RedesSociales img{
-margin-right: 10px;
-width: 19px;
-            
-        }
+    .cajitafooter{
+    width: 50%;
+            }
+
+    .cajitafooter img{
+    margin-left: 3%;
+    width: 50px;
+            }
+
+    .RedesSociales{
+    margin-top: 2%;
+    width: 47%;
+    justify-content: flex-end;
+    display: flex;
+                }
+
+    .RedesSociales img{
+    margin-right: 10px;
+    width: 19px;
+                
+            }
 
 
 }
+
+/*RESPONSIVIDAD DE LOS 421 PX A 768PX */
 
 @media only screen and (min-width:421px) and (max-width:768px) {
 
@@ -373,7 +375,7 @@ width: 19px;
         width: 55%;
         padding-right: 15%;
     }
-/* SEGUNDA PARTE*/
+/* PARTE DE LOS PRODUCTOS*/
 
     .Familia1 p {
     font-size: 55px;
@@ -626,31 +628,31 @@ width: 19px;
     }
 
 
-/*FOOTER*/
-.cajitafooter .frase {
-    color: rgb(119, 231, 98);
-     font-size: 11pX;
-}
+    /*FOOTER*/
+    .cajitafooter .frase {
+        color: rgb(119, 231, 98);
+        font-size: 11pX;
+    }
 
-.cajitafooter{
-    width: 50%;
-}
+    .cajitafooter{
+        width: 50%;
+    }
 
-.cajitafooter img{
-    margin-left: 3%;
-    width: 50px;
-}
+    .cajitafooter img{
+        margin-left: 3%;
+        width: 50px;
+    }
 
-.RedesSociales{
-    margin-top: 2%;
-    width: 47%;
-    justify-content: flex-end;
-    display: flex;
-}
+    .RedesSociales{
+        margin-top: 2%;
+        width: 47%;
+        justify-content: flex-end;
+        display: flex;
+    }
 
-.RedesSociales img{
-    margin-right: 10px;
-    width: 19px;     
-}     
+    .RedesSociales img{
+        margin-right: 10px;
+        width: 19px;     
+    }     
 
 }
