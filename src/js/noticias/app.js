@@ -1,4 +1,5 @@
 
+/*FUNCIONES DEL MODAL*/
 
 let modal = document.getElementById("myModal");
 
@@ -52,7 +53,7 @@ window.onclick = function(event) {
   }
 }
 
-////////////////////////////////////////////////////////////////////////////
+/*------------------------------------------------------------------------------------------------------------*/
 
 let modal3= document.getElementById("myModal3");
 
