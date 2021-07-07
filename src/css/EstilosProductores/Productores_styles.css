@@ -392,6 +392,7 @@ body,html{
  }
 
  .contentCampesinos{
+   margin-left: 8%;
    display: grid;
    grid-template-columns: 2fr 2fr;
    padding: 1%;
@@ -662,7 +663,8 @@ body,html{
 
 @media screen and (min-width:769px) and (max-width:1300px){
   .contentCampesinos{
-    grid-template-columns: 2fr;
+    margin-left: 0%;
+    grid-template-columns: 1fr;
     row-gap: 10px;
     column-gap: 30px
   }
@@ -678,29 +680,16 @@ body,html{
     font-size: 20px;
   }
 
-  .imagePerfil1{
-    width: 150px;
-    height: 150px;
+  .imagePerfil1, .imagePerfil2 , .imagePerfil3 ,.imagePerfil4{
+    margin: 8%;
+    margin-left: 9%;
+    width: 200px;
+    height: 200px;
   
   }
-  
-  .imagePerfil2{
-    width: 150px;
-    height: 150px;
-  }
-  
-   .imagePerfil3{
-    width: 150px;
-    height: 150px;
-    
-  }
-   .imagePerfil4{
-    width: 150px;
-    height: 150px;
-    
-  }
+
   .card .contentText {
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 1%;
     overflow: hidden;
 }
