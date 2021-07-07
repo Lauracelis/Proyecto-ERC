@@ -162,10 +162,11 @@ p{
 }
 
 .text p{
-     color: black;
+    color: black;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     margin-top: 4%;
+    margin-left: 0%;
     text-align: center;
 }
     
@@ -497,7 +498,7 @@ p{
 }
     
 .text p{
-
+    margin-left: 25%;
     color:black;
     font-family: 'Playfair Display', serif;
     font-size: 78px;
@@ -545,7 +546,7 @@ p{
 .Familia1 p {
     font-size: 55px;
     margin-top: 4%;
-    margin-left: 5px;
+    margin-left: 15%;
 }
 
 .titleFamiliaQuelal{
