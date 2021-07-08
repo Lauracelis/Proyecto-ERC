@@ -1,12 +1,7 @@
 
 /*FUNCIONES DEL MODAL INCIAL */
-
 let modalC1 = document.getElementById("myModalC1");
-
-
 let btnC1 = document.getElementById("myBtnC1");
-
-
 let spanc1= document.getElementsByClassName("closeC1")[0];
 
 
@@ -14,11 +9,9 @@ btnC1.onclick = function() {
   modalC1.style.display = "block";
 }
 
-
 spanc1.onclick = function() {
   modalC1.style.display = "none";
 }
-
 
 window.onclick = function(event) {
   if (event.target == modalC1) {
@@ -31,9 +24,13 @@ window.onclick = function(event) {
 
 /*FUNCIONES DEL MODAL 2*/
 let modalC2 = document.getElementById("myModalC2");
+<<<<<<< HEAD
+=======
 
 let btnC2 = document.getElementById("myBtnC2");
+>>>>>>> origin/main
 
+let btnC2 = document.getElementById("myBtnC2");
 
 let spanc2= document.getElementsByClassName("closeC2")[0];
 
@@ -209,11 +206,9 @@ btnC8.onclick = function() {
   modalC8.style.display = "block";
 }
 
-
 spanc8.onclick = function() {
   modalC8.style.display = "none";
 }
-
 
 window.onclick = function(event) {
   if (event.target == modalC8) {
@@ -228,20 +223,15 @@ window.onclick = function(event) {
 let modalC9 = document.getElementById("myModalC9");
 
 let btnC9 = document.getElementById("myBtnC9");
-
-
 let spanc9= document.getElementsByClassName("closeC9")[0];
-
 
 btnC9.onclick = function() {
   modalC9.style.display = "block";
 }
 
-
 spanc9.onclick = function() {
   modalC9.style.display = "none";
 }
-
 
 window.onclick = function(event) {
   if (event.target == modalC9) {
@@ -264,12 +254,14 @@ btnC10.onclick = function() {
   modalC10.style.display = "block";
 }
 
-
 spanc10.onclick = function() {
   modalC10.style.display = "none";
 }
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/main
 window.onclick = function(event) {
   if (event.target == modalC10) {
     modalC10.style.display = "none";
@@ -293,11 +285,9 @@ btnC11.onclick = function() {
   modalC11.style.display = "block";
 }
 
-
 spanc11.onclick = function() {
   modalC11.style.display = "none";
 }
-
 
 window.onclick = function(event) {
   if (event.target == modalC11) {
@@ -321,15 +311,15 @@ btnC12.onclick = function() {
   modalC12.style.display = "block";
 }
 
-
 spanc12.onclick = function() {
   modalC12.style.display = "none";
 }
 
-
-window.onclick = function(event) {
+window.onclick = function(event){
   if (event.target == modalC12) {
+
     modalC12.style.display = "none";
+
   }
 }
 
