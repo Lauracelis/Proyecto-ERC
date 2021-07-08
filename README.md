@@ -28,10 +28,10 @@ https://dianalondon.github.io/ERC/
 
 Código para clonar con protocoló SSH:
 
-
+git@github.com:DianaLondon/ERC.git
 
 
 Código para clonar con protocoló Github CLI:
 
-
+gh repo clone DianaLondon/ERC
 
