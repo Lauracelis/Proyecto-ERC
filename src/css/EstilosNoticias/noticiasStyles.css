@@ -13,7 +13,7 @@ body,html{
     padding-top: 50px;
     width: 100%;
     height: 100%;
-    background-color: #7DAC4E;
+    background-color: #4C7638;
 }
 
 .noticiasTitle{
@@ -79,10 +79,11 @@ body,html{
 {
     color: #02250f;
     float: right;
+    display: flex;
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
-  }
+}
   
   .close:hover, .close2:hover, .close2:focus,
   .close:focus, .close3:hover, .close3:focus,
@@ -145,7 +146,7 @@ body,html{
     font-family: 'Playfair Display', serif;
     letter-spacing: 2px;
     font-size: 27px;
-    color: #fff;
+    color: #F7EDFF;
     text-transform: uppercase;
 }
 
@@ -181,8 +182,16 @@ body,html{
     text-align: justify;
     font-family: 'Alice', serif;
     font-size: 20px;
+    color: white;
 }
 
+.textNoticia-2{
+    margin: 15px 7px 7px 0;
+    text-align: justify;
+    font-family: 'Alice', serif;
+    font-size: 20px;
+    color: black;
+}
 .masInfo a{
     color: #fff;
     font-size: 20px;
@@ -864,7 +873,7 @@ justify-content: flex-end;
 
 /* PARA TABLET*/
 
-@media only screen and (min-width:769px) and (max-width:1024) {
+@media only screen and (min-width:769px) and (max-width:1024px) {
 
     .cardsNoticias{
         grid-template-columns: repeat(1, 1fr);

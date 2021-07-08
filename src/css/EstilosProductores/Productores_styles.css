@@ -389,10 +389,12 @@ body,html{
   .containerCampesinos{
     background-color: #7DAC4E;
     padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
  }
 
  .contentCampesinos{
-   margin-left: 8%;
    display: grid;
    grid-template-columns: 2fr 2fr;
    padding: 1%;
@@ -405,7 +407,7 @@ body,html{
   display: grid;
   grid-template-columns: 1.3fr 2fr;
   grid-template-rows: 251px 251px;
-  margin: 5%;
+  margin: 3%;
   background-color: #02250F;
   border-radius: 10px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -478,9 +480,9 @@ body,html{
 .containerCampesinos .titleAlgunasHis h1{
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
+  text-align: center;
   letter-spacing: 2px;
   font-weight: 200px;
-  
 }
 
 .titleAlgunasHis h1 {-webkit-animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both}

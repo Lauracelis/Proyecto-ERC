@@ -22,6 +22,7 @@ window.onclick = function(event) {
 /*-------------------------------------------------------------------------------------------*/
 
 /*FUNCIONES DEL MODAL 2*/
+let modalC2 = document.getElementById("myModalC2");
 
 let modalC2 = document.getElementById("myModalC2");
 let btnC2 = document.getElementById("myBtnC2");
