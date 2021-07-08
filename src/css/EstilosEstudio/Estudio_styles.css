@@ -149,8 +149,8 @@ body,html{
 /*----------------------------------------------FIN SECCIÓN DEL FORMULARIO------------------------------------*/
 
 
-/*ESTILOS DE LAS ESTADISTICAS*/
-
+/*----------------------------------------------ESTILOS DE LAS ESTADISTICAS------------------------------------*/
+/* ESTILOS DE TITULOS Y GRÁFICAS DE PORCENTAJE*/
 .estudioTitle{
   height: 5%;
   text-align: justify;
@@ -294,12 +294,11 @@ svg circle{
   transform: translate(5px, 5px);
 }
 
-/*Claculo para simular el porcent*/
+/*CÁLCULO PARA SIMULAR EL PORCENTAJE*/
 svg circle:nth-child(2){
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
 }
-
 
 .card:nth-child(1) svg circle:nth-child(2){
   stroke-dashoffset: calc(440 - (440 * 80)/100);
@@ -323,15 +322,16 @@ svg circle:nth-child(2){
   background-color: #7DAC4E;
 }
 
+/*EFECTO 3D DE LA CARD*/
 .flip-card {
   background-color: transparent;
   width: 500px;
   height: 350px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
   
 }
 
-/* This container is needed to position the front and back side */
+/* ESTE CONTENEDOR ES NECESARIO PARA COLOCAR EL ANVERSO Y EL REVERSO */
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -342,12 +342,12 @@ svg circle:nth-child(2){
   flex-direction: row;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+/* HACER EL GIRO HORIZONTAL AL MOMENTO DE PONER EL CURSOR ENCIMA DEL CARD */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+/* POSICIÓN DE LA CARD DE FRENTE Y DETRÁS */
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -356,7 +356,7 @@ svg circle:nth-child(2){
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
+/* ESTILOS DE LA PARTE DELANTERA */
 .flip-card-front {
   width: 500px;
   height: 350px;
@@ -369,7 +369,7 @@ svg circle:nth-child(2){
   height: 350px;
 }
 
-/* Style the back side */
+/* ESTILOS DE LA PARTE DE ATRÁS */
 .flip-card-back {
   width: 100%;
   font-size: 25px;
@@ -385,7 +385,6 @@ svg circle:nth-child(2){
   width: 80%;
   margin-left: 9%;
 }
-/*-----------------------------------------------------------------------*/
 
 /*ESTILOS DE ESTADISTICAS*/
 
@@ -486,7 +485,7 @@ svg circle:nth-child(2){
   white-space:nowrap;
 }
 
-/*ESTILOS DEL FOOTERr*/
+/*ESTILOS DEL FOOTER*/
 
 footer{
   border-top: 5px solid rgb(145, 236, 145);
