@@ -30,8 +30,8 @@ window.onclick = function(event) {
 
 
 /*FUNCIONES DEL MODAL 2*/
-let modalC2 = document.getElementById("myModalC2");2
-l
+let modalC2 = document.getElementById("myModalC2");
+
 let btnC2 = document.getElementById("myBtnC2");
 
 
@@ -59,7 +59,7 @@ window.onclick = function(event) {
 
 /*FUNCIONES DEL MODAL 3*/
 
-let modalC3 = document.getElementById("myModalC3");2
+let modalC3 = document.getElementById("myModalC3");
 
 let btnC3 = document.getElementById("myBtnC3");
 
@@ -269,7 +269,7 @@ spanc10.onclick = function() {
   modalC10.style.display = "none";
 }
 
-t
+
 window.onclick = function(event) {
   if (event.target == modalC10) {
     modalC10.style.display = "none";
