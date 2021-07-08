@@ -1,6 +1,248 @@
+@media only screen and (max-width:420px){
+  .MenuNav label{
+    display: block;
+}
+
+.NavBar{
+    position: absolute;
+    background: #041C0D;
+    width: 60%;
+    margin-left: -80%;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+.NavBar .List{
+    flex-direction: column;
+}
+
+.NavBar .LiMenu{
+    margin: 0;
+    padding: 15px;
+    border: 1px solid #77e762;
+}
+
+#btn-menu:checked ~ .NavBar{
+    margin: 0;
+}
+
+  .container{
+    width: 50%;
+    display: grid;
+    flex-direction: row;
+    margin-top: 20px;
+    padding-bottom: 15%;
+}
+
+.porcentaje{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background: rgb(3, 88, 21);
+}
+
+.card-father{
+  padding-left: 18%;
+  background-color: #7DAC4E;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+}
 
 
-@media only screen and (max-width: 1024px) {
+.estudioTitle{
+  height: 5%;
+  text-align: justify;
+  justify-content: center;
+  padding-left: 0rem;
+  margin: 3%;
+}
+
+
+.estudioTitle h1{
+  margin-top: 5%;
+  text-align: center;
+  background-color: #02250F;
+  padding: 2%;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.estudioTitle p{
+  display: flex;
+  text-align: justify;
+  font-family: 'Alice', serif;
+  font-size: 15px;
+  justify-content: center;
+}
+
+
+.left {
+  width: 50%;
+  height: 530px;
+  background: url('../../utils/images/Estudio/fondo.jpg')
+  no-repeat center / cover;
+  border-radius: 9px;
+}
+
+.right {
+  width: 50%;
+  min-height: 200px;
+  background-color: #055209;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 35px;
+  color: white;
+  margin-left: -150px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+  font-family: 'Playfair Display', serif;
+}
+
+
+.right h1 {
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.right p {
+  font-family: 'Alice', serif;
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.right a {
+  margin-left: 15%;
+  padding: 20px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  
+}
+
+.flip-card-front {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(138, 228, 135);
+  color: black;
+}
+
+.flip-card-front img{
+  width: 250px;
+  height: 250px;
+}
+
+.flip-card-back {
+  width: 100%;
+  font-size: 15px;
+  font-family: 'Alice', serif;
+  background-color: rgb(0, 133, 77);
+  color: white;
+  transform: rotateY(180deg);
+  text-align: justify;
+}
+
+
+.flip-card-back p{
+  margin-top: 3%;
+  width: 80%;
+  margin-left: 9%;
+}
+
+.d-flex  .w-100{
+width: 500px;
+}
+
+.container_formulario {
+  background-color: #7DAC4E;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 3%;
+}
+
+.container .card{
+  position: relative;
+  width: 200px;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 330px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
+  margin-top: 23px;
+}
+}
+
+  @media screen and (min-width:421px) and (max-width:769px){
+    .container .card {
+      position: relative;
+      width: 200px;
+      background-color: rgba(0,0,0,0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 330px;
+      border-radius: 10px;
+      cursor: pointer;
+      text-align: center;
+      transition: 0.3s;
+      margin-top: 23px;
+  }
+
+  .card-father {
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #7DAC4E;
+}
+
+.card-father img{
+  width: 250px;
+  height: 5px;
+}
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:769px)and (max-width: 1024px) {
 
   .MenuNav label{
     display: block;
@@ -177,6 +419,7 @@
 width: 500px;
 }
 }
+
 
 @media  only screen and (max-width:1075px) {
   

@@ -264,7 +264,6 @@ justify-content: flex-end;
   @media screen and (max-width:420px){
 
     .ladoizquierdo {
-        width: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
@@ -304,7 +303,6 @@ justify-content: flex-end;
         grid-template-rows: 1fr;
         justify-content: center;
         padding-top: 2rem;
-        margin: 10px;
     }
 
     .container {
@@ -315,7 +313,7 @@ justify-content: flex-end;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4,1fr);
-        margin: 0px 5px 5px 0;
+        margin-left: 10%;
         background-color: #02250F;
     }
 
