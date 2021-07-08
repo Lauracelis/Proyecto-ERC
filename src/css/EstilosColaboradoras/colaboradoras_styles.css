@@ -76,7 +76,7 @@ body,html{
 }
 
 .container{
-    margin-left: 25%;
+    margin-left: 20%;
     padding-top: 10rem;
     background-color: #fff;
     display: grid ;
@@ -91,7 +91,7 @@ body,html{
     flex-direction: column;
     align-items: center;
     width: 280px;
-    margin: 5rem 2rem;
+    margin: 8rem 2rem;
     border-radius: 50px;
     background: #8bb85c;
    
@@ -313,7 +313,7 @@ justify-content: flex-end;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4,1fr);
-        margin-left: 10%;
+        margin-left: 8%;
         background-color: #02250F;
     }
 
