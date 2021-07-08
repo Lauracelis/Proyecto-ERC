@@ -2,8 +2,6 @@
 /*FUNCIONES DEL MODAL INCIAL */
 
 let modal = document.getElementById("myModal");
-
-
 let btn = document.getElementById("myBtn");
 let span = document.getElementsByClassName("close")[0];
 
@@ -81,7 +79,6 @@ window.onclick = function(event) {
 /*FUNCIONES DEL MODAL 4*/
 
 let modal4= document.getElementById("myModal4");
-
 let btn4 = document.getElementById("myBtn4");
 let span4 = document.getElementsByClassName("close4")[0];
 
