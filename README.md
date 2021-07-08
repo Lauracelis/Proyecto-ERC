@@ -22,16 +22,19 @@ Encaso de que querer copiar o usar esta información y código te recomiendo lo 
 
 Código para clonar con protocoló https:
 
-
+```
 https://dianalondon.github.io/ERC/
-
+```
 
 Código para clonar con protocoló SSH:
 
-git@github.com:DianaLondon/ERC.git
 
+```
+git@github.com:DianaLondon/ERC.git
+```
 
 Código para clonar con protocoló Github CLI:
 
+```
 gh repo clone DianaLondon/ERC
-
+```
