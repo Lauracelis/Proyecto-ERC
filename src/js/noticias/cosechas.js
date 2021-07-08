@@ -24,6 +24,11 @@ window.onclick = function(event) {
 
 /*FUNCIONES DEL MODAL 2*/
 let modalC2 = document.getElementById("myModalC2");
+<<<<<<< HEAD
+=======
+
+let btnC2 = document.getElementById("myBtnC2");
+>>>>>>> origin/main
 
 let btnC2 = document.getElementById("myBtnC2");
 
@@ -253,6 +258,10 @@ spanc10.onclick = function() {
   modalC10.style.display = "none";
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 window.onclick = function(event) {
   if (event.target == modalC10) {
     modalC10.style.display = "none";
