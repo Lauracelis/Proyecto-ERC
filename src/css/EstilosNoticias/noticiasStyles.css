@@ -79,6 +79,7 @@ body,html{
 {
     color: #02250f;
     float: right;
+    display: flex;
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
